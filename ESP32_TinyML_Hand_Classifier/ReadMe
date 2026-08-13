@@ -1,0 +1,91 @@
+# ESP32-CAM TinyML Carrier Board
+
+A custom dual-layer PCB designed in KiCad to carry an ESP32-CAM module for real-time, edge-deployed TinyML inference — built for a hand-sign classifier project.
+
+<img width="733" height="514" alt="image" src="https://github.com/user-attachments/assets/7e9800ad-2e21-45c1-b05f-389bf89d0604" />
+
+## Overview
+
+Breadboards work fine for early prototyping, but they fall short once you need stable power delivery and reliable RF performance for a camera-based inference workload running at the edge. This board was designed from scratch — schematic, custom footprints, routing, and manufacturing outputs — to solve that.
+
+## Features
+
+- **Fully custom schematic**, built from the ground up
+- **Custom-built footprints** for most components, including the ESP32-CAM module itself
+- **AMS1117 3.3V regulator** with dedicated 0.8mm high-current power traces for stable camera power under inference load
+- **0.4mm signal traces** for data/control lines
+- **Onboard reset pushbuttons** and I2C expansion headers
+- **Antenna keepout zone** to protect Wi-Fi RF performance
+- **Final DRC: 0 errors**
+
+## Hardware Summary
+
+| Component | Function |
+|---|---|
+| U2 (ESP32-CAM) | Main compute + camera module |
+| U1 (AMS1117-3.3V) | Voltage regulation |
+| J1 | Power input (terminal block) |
+| J2, J3 | I2C / expansion headers |
+| SW1, SW2 | Pushbuttons (e.g. reset / user input) |
+| D1 | Status LED |
+| R1–R5, C1–C4 | Supporting passives (pull-ups, decoupling, filtering) |
+
+## Repository Structure
+
+```
+.
+├── hardware/
+│   ├── project.kicad_pro       # KiCad project file
+│   ├── project.kicad_sch       # Schematic
+│   ├── project.kicad_pcb       # PCB layout
+│   └── libs/
+│       ├── esp32cam.pretty/    # Custom footprint library (required)
+│       └── symbols/            # Custom symbol library (if any)
+├── gerbers/                    # Fabrication outputs (Gerber + Excellon drill files)
+├── docs/
+│   └── images/                 # Renders, screenshots for documentation
+└── README.md
+```
+
+## Getting Started
+
+### Requirements
+- [KiCad](https://www.kicad.org/) 6.0 or later
+
+### Opening the project
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   ```
+2. **Register the custom footprint library** before opening the PCB:
+   - In KiCad, go to **Preferences → Manage Footprint Libraries**
+   - Add `hardware/libs/esp32cam.pretty` as a project-specific library
+   - This step is required — without it, KiCad will report `footprint 'esp32cam:esp32' not found` when loading the board.
+3. Open `hardware/project.kicad_pro`.
+
+### Manufacturing
+Gerber and Excellon drill files are pre-generated in `/gerbers` and are ready to submit to a fab house (e.g. JLCPCB, PCBWay).
+
+## Design Notes
+
+**Power delivery:** The ESP32-CAM's onboard regulation isn't rated for sustained current draw during camera inference. A dedicated AMS1117 3.3V regulator with 0.8mm traces was added to ensure clean, stable power under load.
+
+**Antenna keepout:** A Rule Area is defined over the ESP32-CAM's antenna region to block copper pours, tracks, and vias in that zone, protecting Wi-Fi performance. When editing this Rule Area, always explicitly select target layers (F.Cu / B.Cu) in its properties — leaving the layer selection empty while keepout rules are enabled causes KiCad to apply the block inconsistently, which can silently prevent routing across the entire board rather than just the intended region.
+
+## Status
+
+- [x] Schematic complete
+- [x] Custom footprints created
+- [x] Routing complete
+- [x] DRC clean (0 errors)
+- [x] Gerbers generated
+- [ ] Assembly & bring-up testing
+- [ ] Firmware integration
+
+## License
+
+Open sourced.
+
+## Acknowledgments
+
+Built using [KiCad](https://www.kicad.org/), an open-source EDA suite.
