@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "ESP32-WROOM-32U")(type "Legacy")(uri "${KIPRJMOD}/ESP32-WROOM-32U.lib")(options "")(descr ""))
+  (lib (name "AP63203WU-7")(type "Legacy")(uri "${KIPRJMOD}/AP63203WU-7.lib")(options "")(descr ""))
+  (lib (name "BMP390L")(type "Legacy")(uri "${KIPRJMOD}/BMP390L.lib")(options "")(descr ""))
+  (lib (name "LSM6DSOX")(type "Legacy")(uri "${KIPRJMOD}/LSM6DSOX.lib")(options "")(descr ""))
+  (lib (name "L86")(type "Legacy")(uri "${KIPRJMOD}/L86.lib")(options "")(descr ""))
+  (lib (name "W25Q128JVSIQ")(type "Legacy")(uri "${KIPRJMOD}/W25Q128JVSIQ.lib")(options "")(descr ""))
+  (lib (name "M20-9990646")(type "Legacy")(uri "${KIPRJMOD}/M20-9990646.lib")(options "")(descr ""))
+)
