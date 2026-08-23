@@ -125,7 +125,7 @@ RF-LNA
 4. Jump into the **PCB Editor** (via eSim's KiCad integration) to see the 4-layer layout.
 5. `View → 3D Viewer` for the render you saw at the top of this page.
 
-Full step-by-step verification instructions (including how to check individual nets) are in [`docs/Task7_RF_LNA_Report.docx`](docs/Task7_RF_LNA_Report.docx).
+Full step-by-step verification instructions (including how to check individual nets) are in [`docs/Task7_RF_LNA_Report.docx`](docs/Task7_RF_LNA_Report.pdf).
 
 ---
 
