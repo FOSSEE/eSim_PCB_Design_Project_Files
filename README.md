@@ -76,6 +76,11 @@ Transient analysis was performed using **Ngspice 35** integrated within eSim wit
 
 ---
 
+## 2-Layer PCB Layout & 3D Visualization
+
+![3D PCB Layout](./battery_comparator_3d.png)
+*Figure 3: Rendered 2-Layer PCB in KiCad 3D Viewer.*
+
 ## 2-Layer PCB Layout & Design Rules
 - **Stackup:** 2 Copper Layers (Top F.Cu in **Red**, Bottom B.Cu in **Green**).
 - **Track Width:** 0.250 mm (9.84 mils) signal traces with 45 mitered bends.
