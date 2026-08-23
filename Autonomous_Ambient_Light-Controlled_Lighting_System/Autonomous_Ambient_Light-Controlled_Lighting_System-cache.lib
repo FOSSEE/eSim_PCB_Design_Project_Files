@@ -1,0 +1,244 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BC547
+#
+DEF BC547 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "BC547" 200 0 50 H V L CNN
+F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS BC546 BC548 BC549 BC550 BC337 BC338
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 200 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LDR03
+#
+DEF LDR03 R 0 0 N Y 1 F N
+F0 "R" -200 0 50 V V C CNN
+F1 "LDR03" 75 0 50 V V C TNN
+F2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" 175 0 50 V I C CNN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ Resistor*LDR*10x8.5*RM7.6*
+$ENDFPLIST
+DRAW
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -60 -90 -160 10 N
+P 2 0 1 0 -60 -90 -90 -90 N
+P 2 0 1 0 -60 -90 -60 -60 N
+P 2 0 1 0 -60 -30 -160 70 N
+P 2 0 1 0 -60 -30 -90 -30 N
+P 2 0 1 0 -60 -30 -60 0 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pwr 1 0 0 0 U 50 50 0 0 w
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# eSim_2PinConn
+#
+DEF eSim_2PinConn J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "eSim_2PinConn" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eSim_3PinConn
+#
+DEF eSim_3PinConn J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "eSim_3PinConn" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eSim_C
+#
+DEF eSim_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "eSim_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+ALIAS capacitor
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 40 40 1 1 P
+X ~ 2 0 -150 110 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eSim_Diode
+#
+DEF eSim_Diode D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "eSim_Diode" 0 -100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+T 0 -100 50 60 0 0 0 A Normal 0 C C
+T 0 100 50 60 0 0 0 K Normal 0 C C
+P 2 0 1 6 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+X A 1 -150 0 100 R 40 40 1 1 P
+X K 2 150 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eSim_GND
+#
+DEF eSim_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "eSim_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# eSim_LED
+#
+DEF eSim_LED D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "eSim_LED" 50 -100 31 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X A 1 150 0 100 L 50 50 1 1 P
+X K 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eSim_R
+#
+DEF eSim_R R 0 0 N Y 1 F N
+F0 "R" 50 130 50 H V C CNN
+F1 "eSim_R" 50 -50 50 H V C CNN
+F2 "" 50 -20 30 H V C CNN
+F3 "" 50 50 30 V V C CNN
+ALIAS resistor
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S 150 10 -50 90 0 1 10 N
+X ~ 1 -100 50 50 R 60 60 1 1 P
+X ~ 2 200 50 50 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# eSim_VCC
+#
+DEF eSim_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "eSim_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# lm_741
+#
+DEF lm_741 X 0 40 Y Y 1 F N
+F0 "X" -200 0 60 H V C CNN
+F1 "lm_741" -100 -250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 0 -350 350 350 0 -350 -350 -350 350 N
+X off_null 1 -50 400 200 D 50 38 1 1 I
+X inv 2 -550 150 200 R 50 38 1 1 I
+X non_inv 3 -550 -100 200 R 50 38 1 1 I
+X v_neg 4 -150 -450 200 U 50 38 1 1 I
+X off_null 5 50 350 200 D 50 38 1 1 I
+X out 6 550 0 200 L 50 38 1 1 O
+X v_pos 7 -150 450 200 D 50 38 1 1 I
+X NC 8 150 -300 200 U 50 38 1 1 N
+ENDDRAW
+ENDDEF
+#
+#End Library
