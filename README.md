@@ -1,6 +1,6 @@
 # 📡 RF-LNA
 
-**A 2.4 GHz low-noise amplifier front-end board — designed schematic-to-Gerber in eSim + KiCad, for the FOSSEE Autumn Internship 2026 Screening Task 7.**
+**A 2.4 GHz low-noise amplifier front-end board designed in eSim + KiCad, for the FOSSEE Autumn Internship 2026 Screening Task 7.**
 
 ![eSim](https://img.shields.io/badge/eSim-2.3%20%2F%202.5-orange?style=flat-square)
 ![KiCad](https://img.shields.io/badge/KiCad-6.0.11-2E8B57?style=flat-square)
@@ -125,7 +125,7 @@ RF-LNA
 4. Jump into the **PCB Editor** (via eSim's KiCad integration) to see the 4-layer layout.
 5. `View → 3D Viewer` for the render you saw at the top of this page.
 
-Full step-by-step verification instructions (including how to check individual nets) are in [`docs/Task7_RF_LNA_Report.docx`](docs/Task7_RF_LNA_Report.pdf).
+Full step-by-step verification instructions (including how to check individual nets) are in [`docs/Task7_RF_LNA_Report.docx`](Task7_RF_LNA_Report.pdf).
 
 ---
 
