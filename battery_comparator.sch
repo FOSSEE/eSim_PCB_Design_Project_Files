@@ -1,0 +1,365 @@
+EESchema Schematic File Version 2
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:power
+LIBS:eSim_Plot
+LIBS:transistors
+LIBS:conn
+LIBS:eSim_User
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:eSim_Analog
+LIBS:eSim_Devices
+LIBS:eSim_Digital
+LIBS:eSim_Hybrid
+LIBS:eSim_Miscellaneous
+LIBS:eSim_Power
+LIBS:eSim_Sources
+LIBS:eSim_Subckt
+LIBS:eSim_Nghdl
+LIBS:eSim_Ngveri
+LIBS:eSim_SKY130
+LIBS:eSim_SKY130_Subckts
+LIBS:battery_comparator-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lm_741 X1
+U 1 1 6A8ADF4B
+P 5000 2500
+F 0 "X1" H 4800 2500 60  0000 C CNN
+F 1 "lm_741" H 4900 2250 60  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 5000 2500 60  0001 C CNN
+F 3 "" H 5000 2500 60  0000 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor R5
+U 1 1 6A8ADFA8
+P 3350 4750
+F 0 "R5" H 3400 4880 50  0000 C CNN
+F 1 "10k" H 3400 4700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3400 4730 30  0001 C CNN
+F 3 "" V 3400 4800 30  0000 C CNN
+	1    3350 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor R4
+U 1 1 6A8ADFDF
+P 3350 4150
+F 0 "R4" H 3400 4280 50  0000 C CNN
+F 1 "10k" H 3400 4100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3400 4130 30  0001 C CNN
+F 3 "" V 3400 4200 30  0000 C CNN
+	1    3350 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor R6
+U 1 1 6A8AE030
+P 5900 4500
+F 0 "R6" H 5950 4630 50  0000 C CNN
+F 1 "330" H 5950 4450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5950 4480 30  0001 C CNN
+F 3 "" V 5950 4550 30  0000 C CNN
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L capacitor C1
+U 1 1 6A8AE057
+P 1500 1800
+F 0 "C1" H 1525 1900 50  0000 L CNN
+F 1 "100n" H 1525 1700 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1538 1650 30  0001 C CNN
+F 3 "" H 1500 1800 60  0000 C CNN
+	1    1500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_LED D2
+U 1 1 6A8AE0C9
+P 6500 4450
+F 0 "D2" H 6500 4550 50  0000 C CNN
+F 1 "eSim_LED" H 6550 4350 31  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6500 4450 50  0001 C CNN
+F 3 "" H 6500 4450 50  0001 C CNN
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_LED D1
+U 1 1 6A8AE112
+P 6500 2500
+F 0 "D1" H 6500 2600 50  0000 C CNN
+F 1 "eSim_LED" H 6550 2400 31  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6500 2500 50  0001 C CNN
+F 3 "" H 6500 2500 50  0001 C CNN
+	1    6500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_GND #PWR01
+U 1 1 6A8AE153
+P 2400 5400
+F 0 "#PWR01" H 2400 5150 50  0001 C CNN
+F 1 "eSim_GND" H 2400 5250 50  0000 C CNN
+F 2 "" H 2400 5400 50  0001 C CNN
+F 3 "" H 2400 5400 50  0001 C CNN
+	1    2400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_GND #PWR02
+U 1 1 6A8AE177
+P 2350 3150
+F 0 "#PWR02" H 2350 2900 50  0001 C CNN
+F 1 "eSim_GND" H 2350 3000 50  0000 C CNN
+F 2 "" H 2350 3150 50  0001 C CNN
+F 3 "" H 2350 3150 50  0001 C CNN
+	1    2350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lm_741 X2
+U 1 1 6A8AE22D
+P 5050 4450
+F 0 "X2" H 4850 4450 60  0000 C CNN
+F 1 "lm_741" H 4950 4200 60  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 5050 4450 60  0001 C CNN
+F 3 "" H 5050 4450 60  0000 C CNN
+	1    5050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor R1
+U 1 1 6A8AE26A
+P 3300 1500
+F 0 "R1" H 3350 1630 50  0000 C CNN
+F 1 "4.7k" H 3350 1450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3350 1480 30  0001 C CNN
+F 3 "" V 3350 1550 30  0000 C CNN
+	1    3300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor R2
+U 1 1 6A8AE2B2
+P 3300 2100
+F 0 "R2" H 3350 2230 50  0000 C CNN
+F 1 "3.3k" H 3350 2050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3350 2080 30  0001 C CNN
+F 3 "" V 3350 2150 30  0000 C CNN
+	1    3300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor R3
+U 1 1 6A8AE2E7
+P 3300 2700
+F 0 "R3" H 3350 2830 50  0000 C CNN
+F 1 "2.2k" H 3350 2650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3350 2680 30  0001 C CNN
+F 3 "" V 3350 2750 30  0000 C CNN
+	1    3300 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor R7
+U 1 1 6A8AE329
+P 6050 2450
+F 0 "R7" H 6100 2580 50  0000 C CNN
+F 1 "330" H 6100 2400 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6100 2430 30  0001 C CNN
+F 3 "" V 6100 2500 30  0000 C CNN
+	1    6050 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L eSim_GND #PWR03
+U 1 1 6A8AE49D
+P 3350 3250
+F 0 "#PWR03" H 3350 3000 50  0001 C CNN
+F 1 "eSim_GND" H 3350 3100 50  0000 C CNN
+F 2 "" H 3350 3250 50  0001 C CNN
+F 3 "" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_GND #PWR04
+U 1 1 6A8AE4CC
+P 3400 5150
+F 0 "#PWR04" H 3400 4900 50  0001 C CNN
+F 1 "eSim_GND" H 3400 5000 50  0000 C CNN
+F 2 "" H 3400 5150 50  0001 C CNN
+F 3 "" H 3400 5150 50  0001 C CNN
+	1    3400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC v1
+U 1 1 6A8AEB6B
+P 2350 2350
+F 0 "v1" H 2150 2450 60  0000 C CNN
+F 1 "12" H 2150 2300 60  0000 C CNN
+F 2 "R1" H 2050 2350 60  0000 C CNN
+F 3 "" H 2350 2350 60  0000 C CNN
+	1    2350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC v2
+U 1 1 6A8AEBF0
+P 2400 4850
+F 0 "v2" H 2200 4950 60  0000 C CNN
+F 1 "12" H 2200 4800 60  0000 C CNN
+F 2 "R1" H 2100 4850 60  0000 C CNN
+F 3 "" H 2400 4850 60  0000 C CNN
+	1    2400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1400 4850 1400
+Wire Wire Line
+	3350 1700 3350 2000
+Wire Wire Line
+	3350 2300 3350 2600
+Wire Wire Line
+	2350 2800 2350 3150
+Wire Wire Line
+	2400 4000 2400 4400
+Wire Wire Line
+	3400 4350 3400 4650
+Wire Wire Line
+	2400 5300 2400 5400
+Wire Wire Line
+	3400 4950 3400 5150
+Wire Wire Line
+	4850 1400 4850 2050
+Connection ~ 3350 1400
+Wire Wire Line
+	3400 4050 3400 4000
+Wire Wire Line
+	4900 4900 4900 5050
+Wire Wire Line
+	4900 5050 3400 5050
+Connection ~ 3400 5050
+Wire Wire Line
+	3350 2900 3350 3250
+Wire Wire Line
+	4850 2950 4850 3100
+Wire Wire Line
+	4850 3100 3350 3100
+Connection ~ 3350 3100
+Wire Wire Line
+	3350 2500 4450 2500
+Wire Wire Line
+	4450 2500 4450 2600
+Connection ~ 3350 2500
+Wire Wire Line
+	4450 2350 4450 4450
+Wire Wire Line
+	4450 4450 3400 4450
+Connection ~ 3400 4450
+Wire Wire Line
+	4500 4550 3400 4550
+Connection ~ 3400 4550
+Wire Wire Line
+	4500 4300 3900 4300
+Wire Wire Line
+	3900 4300 3900 1850
+Wire Wire Line
+	3900 1850 3350 1850
+Connection ~ 3350 1850
+Wire Wire Line
+	5550 2500 5850 2500
+Wire Wire Line
+	6150 2500 6350 2500
+$Comp
+L eSim_GND #PWR05
+U 1 1 6A8AFDEC
+P 6950 2500
+F 0 "#PWR05" H 6950 2250 50  0001 C CNN
+F 1 "eSim_GND" H 6950 2350 50  0000 C CNN
+F 2 "" H 6950 2500 50  0001 C CNN
+F 3 "" H 6950 2500 50  0001 C CNN
+	1    6950 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L eSim_GND #PWR06
+U 1 1 6A8AFE21
+P 6900 4450
+F 0 "#PWR06" H 6900 4200 50  0001 C CNN
+F 1 "eSim_GND" H 6900 4300 50  0000 C CNN
+F 2 "" H 6900 4450 50  0001 C CNN
+F 3 "" H 6900 4450 50  0001 C CNN
+	1    6900 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4450 5800 4450
+Wire Wire Line
+	6100 4450 6350 4450
+Wire Wire Line
+	6650 4450 6900 4450
+Wire Wire Line
+	1500 1650 1500 1550
+Wire Wire Line
+	1500 1550 2350 1550
+Connection ~ 2350 1550
+Wire Wire Line
+	1500 1950 1500 2900
+Connection ~ 2350 2900
+Wire Wire Line
+	6650 2500 6950 2500
+Wire Wire Line
+	2400 4000 4900 4000
+Connection ~ 3400 4000
+Connection ~ 2350 1400
+Wire Wire Line
+	2350 1400 2350 1900
+Wire Wire Line
+	1500 2900 2350 2900
+NoConn ~ 4950 2100
+NoConn ~ 5050 2150
+NoConn ~ 5000 4050
+NoConn ~ 5100 4100
+NoConn ~ 5200 4750
+NoConn ~ 5150 2800
+NoConn ~ 8300 2950
+$EndSCHEMATC

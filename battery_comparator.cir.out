@@ -1,0 +1,27 @@
+* c:\users\admin\esim-workspace\battery_comparator\battery_comparator.cir
+
+.include lm_741.sub
+.include LED.lib
+x1 ? net-_r4-pad2_ net-_r2-pad2_ gnd ? net-_r7-pad2_ net-_c1-pad1_ ? lm_741
+r5  net-_r4-pad2_ gnd 10k
+r4  net-_r4-pad1_ net-_r4-pad2_ 10k
+r6  net-_r6-pad1_ net-_d2-pad2_ 330
+c1  net-_c1-pad1_ gnd 100n
+d2 gnd net-_d2-pad2_ LED
+d1 gnd net-_d1-pad2_ LED
+x2 ? net-_r1-pad2_ net-_r4-pad2_ gnd ? net-_r6-pad1_ net-_r4-pad1_ ? lm_741
+r1  net-_c1-pad1_ net-_r1-pad2_ 4.7k
+r2  net-_r1-pad2_ net-_r2-pad2_ 3.3k
+r3  net-_r2-pad2_ gnd 2.2k
+r7  net-_d1-pad2_ net-_r7-pad2_ 330
+v1  net-_c1-pad1_ gnd 12
+v2  net-_r4-pad1_ gnd 12
+.tran 10e-06 20e-03 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
