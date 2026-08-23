@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "1N4148W-7-F")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/1N4148W-7-F.pretty/1N4148W-7-F.kicad_sym")(options "")(descr ""))
+  (lib (name "1N5711")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/1N5711.pretty/1N5711.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS1114IDGSR")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/ADS1114IDGSR.pretty/ADS1114IDGSR.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-C3-DEVKITC-02")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/ESP32-C3-DEVKITC-02.pretty/ESP32-C3-DEVKITC-02.kicad_sym")(options "")(descr ""))
+  (lib (name "IRLML6401")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/IRLML6401.pretty/IRLML6401.kicad_sym")(options "")(descr ""))
+  (lib (name "MISM7R1015")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/MISM7R1015.pretty/MISM7R1015.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP1402SN50T1G")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/NCP1402SN50T1G.pretty/NCP1402SN50T1G.kicad_sym")(options "")(descr ""))
+  (lib (name "ZXTN04120HFFTA")(type "KiCad")(uri "C:/Users/Administrator/Documents/KiCad/6.0/symbols/hari/ZXTN04120HFFTA/ZXTN04120HFFTA.kicad_sym")(options "")(descr ""))
+  (lib (name "61300411121")(type "KiCad")(uri "${KICAD6_3DMODEL_DIR}/61300411121/61300411121.kicad_sym")(options "")(descr ""))
+)
