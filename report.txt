@@ -1,0 +1,11 @@
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-Front.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-Back.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-F_Paste.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-B_Paste.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-F_Silkscreen.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-B_Silkscreen.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-F_Mask.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-B_Mask.gbr'.
+Plotted to 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\SPB_Data\eSim-Workspace\pcb_1altered\pcb_1\pcb_1_new-job.gbrjob'.
+Info: Done.
