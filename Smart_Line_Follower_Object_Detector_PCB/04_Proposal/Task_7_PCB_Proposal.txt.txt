@@ -1,0 +1,94 @@
+eSim Semester Long Internship - Autumn 2026
+Screening Task 7: PCB Design Using eSim
+
+PROJECT TITLE
+
+Smart Line-Following and Object-Detection Robot Controller PCB
+
+
+CANDIDATE DETAILS
+
+Candidate Name:
+BrajBhushan Sah
+
+College:
+Techno Main Salt Lake, Kolkata
+
+Department:
+Electronics and Communication Engineering
+
+Academic Year:
+Second Year
+
+
+PROJECT OBJECTIVE
+
+The objective of this project is to design a two-layer controller PCB
+for a smart line-following and object-detection robot using eSim
+Version 2.5.
+
+The robot will use six IR sensors for accurate line-position detection.
+It will use an HC-SR04 ultrasonic sensor for object detection. The
+ultrasonic sensor will be mounted on a servo motor to allow directional
+distance measurement.
+
+
+PROJECT DESCRIPTION
+
+The PCB will act as the central controller and connection board for the
+robot. It will support an Arduino Nano, six IR sensor modules, one
+HC-SR04 ultrasonic sensor, one servo motor, two external L298N
+motor-driver modules, and four DC motors.
+
+The six IR sensor signals will allow the Arduino Nano to determine the
+position of the line more accurately than a basic two-sensor system.
+
+The Arduino Nano will process the sensor information and send control
+signals to the two L298N motor-driver modules. These motor-driver
+modules will control the four motors.
+
+The PCB will also contain power connectors, protection components,
+decoupling capacitors, indicator LEDs, clearly labelled connectors,
+mounting holes, and debugging test points.
+
+
+MAJOR CIRCUIT BLOCKS
+
+1. Battery input connector
+2. Input protection section
+3. Regulated logic-power section
+4. Arduino Nano interface
+5. Six IR sensor connectors
+6. HC-SR04 ultrasonic sensor connector
+7. Servo motor connector
+8. Two L298N motor-driver control interfaces
+9. Indicator LEDs
+10. Power and signal test points
+11. Mounting holes
+
+
+PLANNED PCB FEATURES
+
+1. Two copper layers
+2. Bottom-layer ground plane
+3. Wider tracks for battery and motor power
+4. Separate routing consideration for sensor and motor signals
+5. Clearly labelled connectors
+6. Six individually labelled IR sensor inputs
+7. Test points for important signals
+8. Mounting holes
+9. Design Rule Check verification
+10. Three-dimensional PCB visualization
+
+
+SOFTWARE
+
+eSim Version 2.5 with the integrated KiCad schematic and PCB tools.
+
+
+EXPECTED RESULT
+
+The final submission will contain a complete schematic, assigned
+footprints, two-layer PCB layout, routed connections, successful DRC
+results, three-dimensional PCB views, bill of materials, project files,
+and a detailed design report.
