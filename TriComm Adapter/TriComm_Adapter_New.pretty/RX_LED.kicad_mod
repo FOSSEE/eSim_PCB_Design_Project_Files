@@ -1,0 +1,60 @@
+
+(footprint LED_0603 (layer F.Cu) (tedit 6A78B5BD)
+  (descr "LED - 0603 Package")
+  (attr smd)
+  (fp_text reference REF** (at 4.4408920985e-16 -1.6002 0) (layer F.SilkS)
+    (effects (font (size 0.68 0.68) (thickness 0.15)))
+  )
+  (fp_text value LED_0603 (at 1.143 2.794 0) (layer F.Fab)
+    (effects (font (size 0.68 0.68) (thickness 0.15)))
+  )
+  (pad C smd rect (at -0.85 0.0) (size 1.1 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad A smd rect (at 0.85 0.0) (size 1.1 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start -0.4318 1.0668) (end -1.6764 1.8034) (layer F.SilkS) (width 0.1905))
+  (fp_poly
+    (pts
+      (xy -1.27 1.27)
+      (xy -0.9906 1.7272)
+      (xy -1.778 1.8542)
+    ) (layer F.SilkS) (width 0.1905)
+  )
+  (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer F.Fab) (width 0.1016))
+  (fp_line (start -0.356 0.419) (end 0.356 0.419) (layer F.Fab) (width 0.1016))
+  (fp_poly
+    (pts
+      (xy -0.8382 -0.4801)
+      (xy -0.3381 -0.4801)
+      (xy -0.3381 0.4699)
+      (xy -0.8382 0.4699)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.3302 -0.4801)
+      (xy 0.8303 -0.4801)
+      (xy 0.8303 0.4699)
+      (xy 0.3302 0.4699)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_line (start 1.0 -0.75) (end 1.75 -0.75) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.75 -0.75) (end 1.75 0.75) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.75 0.75) (end 1.0 0.75) (layer F.SilkS) (width 0.127))
+  (fp_line (start -1.0 -0.75) (end -1.75 -0.75) (layer F.SilkS) (width 0.127))
+  (fp_line (start -1.75 0.75) (end -1.0 0.75) (layer F.SilkS) (width 0.127))
+  (fp_poly
+    (pts
+      (xy -1.75 -0.75)
+      (xy -1.75 0.75)
+      (xy -2.25 0.75)
+      (xy -2.25 -0.75)
+    ) (layer F.SilkS) (width 0.127)
+  )
+  (fp_line (start 0.8382 1.0668) (end -0.4064 1.8034) (layer F.SilkS) (width 0.1905))
+  (fp_poly
+    (pts
+      (xy 0.0 1.27)
+      (xy 0.2794 1.7272)
+      (xy -0.508 1.8542)
+    ) (layer F.SilkS) (width 0.1905)
+  )
+)
