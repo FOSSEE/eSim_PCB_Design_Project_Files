@@ -1,0 +1,39 @@
+﻿Item No.,Reference,Component,Value,Quantity,Footprint,Purpose
+1,Arduino_Nano1,Arduino Nano module,Arduino_Nano_v2.x,1,Module:Arduino_Nano,Main microcontroller and robot-control unit
+2,C1,Ceramic disc capacitor,100nF,1,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,IR sensor supply decoupling
+3,C2,Ceramic disc capacitor,100nF,1,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,IR sensor supply decoupling
+4,C3,Radial polarized capacitor,100uF,1,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Buck-converter input bulk filtering
+5,C4,Radial polarized capacitor,470uF,1,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,Buck-converter output bulk filtering
+6,C5,Radial polarized capacitor,10uF,1,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Arduino Nano local supply filtering
+7,C6,Ceramic disc capacitor,100nF,1,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Buck-converter input high-frequency bypass
+8,C7,Ceramic disc capacitor,100nF,1,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Arduino Nano local decoupling
+9,C8,Ceramic disc capacitor,100nF,1,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,HC-SR04 supply decoupling
+10,C9,Ceramic disc capacitor,100nF,1,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Servo supply high-frequency bypass
+11,C10,Radial polarized capacitor,470uF,1,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,Servo supply bulk filtering
+12,D_Schottky1,Schottky diode,SS34,1,Diode_SMD:D_SMA,Reverse-polarity protection
+13,F1,Resettable polyfuse,2A_POLYFUSE,1,Fuse:Fuse_Bourns_MF-RG300,Battery-input overcurrent protection
+14,J1,2-pin battery input terminal,BATTERY_INPUT,1,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,Protected battery-pack input
+15,J2,2-pin pin header,MAIN_POWER_SWITCH,1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,External main power-switch connection
+16,J3,4-pin pin header,5V_BUCK_MODULE,1,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,External 5 V buck-converter interface
+17,J4,7-pin pin header,L298N_LEFT_CONTROL,1,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,Left-side L298N motor-driver control interface
+18,J5,7-pin pin header,L298N_RIGHT_CONTROL,1,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,Right-side L298N motor-driver control interface
+19,J6,4-pin pin header,HC_SR04,1,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,HC-SR04 ultrasonic object-detection interface
+20,J7,3-pin pin header,ULTRASONIC_SERVO,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Servo interface for rotating the ultrasonic sensor
+21,J_IR1,3-pin pin header,IR_SENSOR_1,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Far-left line-sensor interface
+22,J_IR2,3-pin pin header,IR_SENSOR_2,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Left-middle line-sensor interface
+23,J_IR3,3-pin pin header,IR_SENSOR_3,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Left-centre line-sensor interface
+24,J_IR4,3-pin pin header,IR_SENSOR_4,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Right-centre line-sensor interface
+25,J_IR5,3-pin pin header,IR_SENSOR_5,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Right-middle line-sensor interface
+26,J_IR6,3-pin pin header,IR_SENSOR_6,1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Far-right line-sensor interface
+27,LED1,5 mm through-hole LED,POWER_ON,1,LED_THT:LED_D5.0mm,Regulated-power indicator
+28,LED2,5 mm through-hole LED,STATUS,1,LED_THT:LED_D5.0mm,System-status indicator
+29,LED3,5 mm through-hole LED,OBJECT_DETECTED,1,LED_THT:LED_D5.0mm,Object-detection indicator
+30,R1,Axial through-hole resistor,1k,1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,POWER_ON LED current limiting
+31,R2,Axial through-hole resistor,1k,1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,STATUS LED current limiting
+32,R3,Axial through-hole resistor,1k,1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,OBJECT_DETECTED LED current limiting
+33,R4,Axial through-hole zero-ohm link,0R_SERVO_LINK,1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Isolatable jumper between +5 V and SERVO_5V
+34,TP1,Through-hole test point,TP_BAT_RAW,1,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,Battery raw-voltage measurement
+35,TP2,Through-hole test point,TP_VIN_PROTECTED,1,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,Protected input-voltage measurement
+36,TP3,Through-hole test point,TP_5V,1,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,Regulated +5 V measurement
+37,TP4,Through-hole test point,TP_SERVO_5V,1,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,Servo-supply voltage measurement
+38,TP5,Through-hole test point,TP_GND,1,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,Ground reference for measurements

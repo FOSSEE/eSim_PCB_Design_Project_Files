@@ -1,0 +1,14 @@
+eSim Internship Task 7 Software Setup
+
+Candidate Name: BrajBhushan Sah
+College: Techno Main Salt Lake
+Department: Electronics & Communication Engineering
+Operating System: Windows 11
+Operating System Architecture: 64-bit operating system
+Installed eSim Version: eSim-2.5
+Installation Date: 20-08-2026
+Schematic Editor Status: Working
+PCB Editor Status: Working
+3D Viewer Status: Working
+Installation Problems: No major problems
+Additional Notes: A temporary project was created successfully.
