@@ -1,0 +1,22 @@
+2
+5
+.op
+0
+9
+.tran 1m 10m
+5
+2
+R1
+I
+2
+V1
+I
+2
+D1
+Id
+1
+Net-(D1-Pad1)
+V
+1
+Net-(R1-Pad2)
+V
