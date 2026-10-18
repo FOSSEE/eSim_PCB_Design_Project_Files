@@ -1,0 +1,187 @@
+EESchema Schematic File Version 2
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:power
+LIBS:eSim_Plot
+LIBS:transistors
+LIBS:conn
+LIBS:eSim_User
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:eSim_Analog
+LIBS:eSim_Devices
+LIBS:eSim_Digital
+LIBS:eSim_Hybrid
+LIBS:eSim_Miscellaneous
+LIBS:eSim_Power
+LIBS:eSim_Sources
+LIBS:eSim_Subckt
+LIBS:eSim_Nghdl
+LIBS:eSim_Ngveri
+LIBS:eSim_SKY130
+LIBS:eSim_SKY130_Subckts
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x02 J1
+U 1 1 6A893EDE
+P 4950 3600
+F 0 "J1" H 4950 3700 50  0000 C CNN
+F 1 "Conn_01x02" H 4950 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4950 3600 50  0001 C CNN
+F 3 "" H 4950 3600 50  0001 C CNN
+	1    4950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_CP1 C2
+U 1 1 6A893F37
+P 5250 3650
+F 0 "C2" H 5275 3750 50  0000 L CNN
+F 1 "eSim_CP1" H 5275 3550 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 5250 3650 50  0001 C CNN
+F 3 "" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_C C1
+U 1 1 6A89400C
+P 5650 3650
+F 0 "C1" H 5675 3750 50  0000 L CNN
+F 1 "eSim_C" H 5675 3550 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5688 3500 30  0001 C CNN
+F 3 "" H 5650 3650 60  0000 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L L7805 U1
+U 1 1 6A894156
+P 6200 3600
+F 0 "U1" H 6050 3725 50  0000 C CNN
+F 1 "L7805" H 6200 3725 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 6225 3450 50  0001 L CIN
+F 3 "" H 6200 3550 50  0001 C CNN
+	1    6200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_C C3
+U 1 1 6A8941CB
+P 6600 3650
+F 0 "C3" H 6625 3750 50  0000 L CNN
+F 1 "eSim_C" H 6625 3550 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6638 3500 30  0001 C CNN
+F 3 "" H 6600 3650 60  0000 C CNN
+	1    6600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_R R1
+U 1 1 6A89426C
+P 7050 3700
+F 0 "R1" H 7100 3830 50  0000 C CNN
+F 1 "eSim_R" H 7100 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7100 3680 30  0001 C CNN
+F 3 "" V 7100 3750 30  0000 C CNN
+	1    7050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L eSim_LED D1
+U 1 1 6A8942FF
+P 7600 3650
+F 0 "D1" H 7600 3750 50  0000 C CNN
+F 1 "eSim_LED" H 7650 3550 31  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7600 3650 50  0001 C CNN
+F 3 "" H 7600 3650 50  0001 C CNN
+	1    7600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J2
+U 1 1 6A89452E
+P 8100 3600
+F 0 "J2" H 8100 3700 50  0000 C CNN
+F 1 "Conn_01x02" H 8100 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3500 5900 3500
+Wire Wire Line
+	6500 3600 6500 3500
+Wire Wire Line
+	6500 3500 7900 3500
+Connection ~ 6950 3500
+Connection ~ 7550 3500
+Wire Wire Line
+	4750 3850 5900 3850
+Wire Wire Line
+	5900 3500 5900 3600
+Wire Wire Line
+	5900 3850 5900 3900
+Wire Wire Line
+	5900 3900 7900 3900
+Connection ~ 6200 3900
+Wire Wire Line
+	5650 3800 5650 3850
+Connection ~ 5650 3850
+Wire Wire Line
+	5250 3800 5250 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	4750 3600 4750 3500
+Wire Wire Line
+	4750 3700 4750 3850
+Wire Wire Line
+	6600 3800 6600 3900
+Connection ~ 6600 3900
+Wire Wire Line
+	6950 3500 6950 3650
+Wire Wire Line
+	7250 3650 7450 3650
+Wire Wire Line
+	7750 3650 7750 3900
+Connection ~ 7750 3900
+Wire Wire Line
+	7900 3500 7900 3600
+Connection ~ 7900 3500
+Wire Wire Line
+	7900 3900 7900 3700
+Connection ~ 7900 3900
+$EndSCHEMATC
