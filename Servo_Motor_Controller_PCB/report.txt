@@ -1,0 +1,18 @@
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-F_Cu.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-B_Cu.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-F_Mask.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-B_Mask.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\pcb-job.gbrjob'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-F_Cu.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-B_Cu.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-F_Mask.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-B_Mask.gbr'.
+Plotted to 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\HP\Documents\Desktop\esim_SANTHOSH_Test\pcb\gerber\pcb-job.gbrjob'.
+Info: Done.
+Info: Done.
