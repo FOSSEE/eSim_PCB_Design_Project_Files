@@ -1,0 +1,503 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d1af2020-1120-4395-bd20-9b647265e1d7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 229.235 14.605)
+		(size 53.34 47.625)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "103fee73-ad3a-4b6e-938b-628f2ebe6ade")
+		(property "Sheetname" "Battery Monitor"
+			(at 229.235 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_Battery_Monitor.kicad_sch"
+			(at 229.235 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 14.605)
+		(size 66.675 47.625)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "151a9285-7f97-47b9-a66d-30cec23a4118")
+		(property "Sheetname" "Power Regulator"
+			(at 161.29 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_Power_Regulator.kicad_sch"
+			(at 161.29 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.335 140.97)
+		(size 55.245 52.705)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27e9c819-7550-48fd-9d4d-617ed932bee0")
+		(property "Sheetname" "Status LEDs"
+			(at 13.335 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10_Status_LEDs.kicad_sch"
+			(at 13.335 194.2596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.695 14.605)
+		(size 59.055 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b38db50-7d72-4ba5-b95f-1d57c095ed37")
+		(property "Sheetname" "Battery Charger"
+			(at 99.695 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_Battery_Charger.kicad_sch"
+			(at 99.695 63.4496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 67.945)
+		(size 60.325 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b4ee185-d060-44ff-a5c0-fb2eca8120b0")
+		(property "Sheetname" "QSPI Flash"
+			(at 134.62 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_QSPI_Flash.kicad_sch"
+			(at 134.62 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 116.205)
+		(size 74.93 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c83be4c-14fd-44bd-b3c5-3da2eae73ff0")
+		(property "Sheetname" "Debug Interface"
+			(at 134.62 115.4934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "08_Debug_Interface.kicad_sch"
+			(at 134.62 161.2396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.335 14.605)
+		(size 85.09 47.625)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63009c34-5e8c-4588-afe3-a1a8e294a79b")
+		(property "Sheetname" "Power Input"
+			(at 13.335 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_Power_Input.kicad_sch"
+			(at 13.335 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 13.335 14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field3" ""
+			(at 13.335 14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 13.335 14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 67.945)
+		(size 85.09 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67fb7add-3958-4e97-a330-ba1c56e170e7")
+		(property "Sheetname" "USB Interface"
+			(at 196.85 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_USB_Interface.kicad_sch"
+			(at 196.85 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.335 67.945)
+		(size 120.015 65.405)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6add5144-2b53-4450-9afd-aaa191ae2fcf")
+		(property "Sheetname" "RP2040 Core"
+			(at 13.335 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_RP2040_Core.kicad_sch"
+			(at 13.335 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 70.485 140.97)
+		(size 62.23 52.705)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd48b447-8bd3-4d4f-a0cb-6cc7bbecb80d")
+		(property "Sheetname" "Battery_Protection"
+			(at 70.485 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "11_Battery_Protection.kicad_sch"
+			(at 70.485 194.2596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.725 115.57)
+		(size 68.58 43.815)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9000ab6-395c-4585-b96c-8d6f680d62b9")
+		(property "Sheetname" "GPIO Headers"
+			(at 212.725 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "09_GPIO_Headers.kicad_sch"
+			(at 212.725 159.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2040_4Layer"
+				(path "/d1af2020-1120-4395-bd20-9b647265e1d7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

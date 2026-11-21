@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS63070RNMR")(type "KiCad")(uri "${KIPRJMOD}/Custom_Footprints.pretty")(options "")(descr ""))
+  (lib (name "MAX17048")(type "KiCad")(uri "${KIPRJMOD}/Custom_Footprints1.pretty")(options "")(descr ""))
+  (lib (name "custom footprint2")(type "KiCad")(uri "${KIPRJMOD}/custom footprint2.pretty")(options "")(descr ""))
+  (lib (name "SW_SPDT_PCM12")(type "KiCad")(uri "${KIPRJMOD}/custom footprint3.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)
