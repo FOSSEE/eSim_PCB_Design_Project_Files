@@ -1,0 +1,8 @@
+ERC report (2026-11-21T18:09:40+0530, Encoding UTF8)
+
+***** Sheet /
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(6800 mils, 4600 mils): Horizontal Wire, length 50 mils
+
+ ** ERC messages: 1  Errors 0  Warnings 1
