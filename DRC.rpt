@@ -1,19 +1,10 @@
-** Drc report for esim.kicad_pcb **
-** Created on 2026-08-17T20:16:13 **
-** Report includes: Errors, Warnings **
+** Drc report for C:/Users/Hazijul/eSim-Workspace/Transmitter_task7/Transmitter_task7.kicad_pcb **
+** Created on 2026-11-23 00:29:57 **
 
 ** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
-
-** Ignored checks **
-    - Footprint has no courtyard defined
-    - Track endpoint not centered on via
-    - Tuning profile track geometries
-    - Footprint doesn't match symbol's footprint filters
-    - PTH inside courtyard
-    - NPTH inside courtyard
 
 ** End of Report **
