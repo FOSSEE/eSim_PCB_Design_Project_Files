@@ -1,0 +1,16 @@
+* TB5: 0-10V Voltage Input Conditioning (4:1 Precision Divider 30k/10k) with Behavioural VCVS Buffer
+* NOTE: Behavioural VCVS clipping buffer; does not simulate physical LMV358 op-amp silicon parasitics.
+Vin v_in 0 DC 5.0
+Rtop v_in v_div 30.0k
+Rbot v_div 0 10.0k
+Rfilt v_div filt_node 1k
+Cfilt filt_node 0 100n
+Ebuf buf_out 0 VALUE = { min(5.0, max(0.0, v(filt_node))) }
+Rout buf_out 0 100k
+.dc Vin 0 12 0.5
+.control
+run
+wrdata tb5_out.txt v(buf_out)
+quit
+.endc
+.end

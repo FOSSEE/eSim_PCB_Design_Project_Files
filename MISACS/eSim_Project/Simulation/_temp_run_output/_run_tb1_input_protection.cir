@@ -1,0 +1,20 @@
+* TB1: 24V Input TVS Clamping and Reverse Protection (Littelfuse SMBJ30A & SS56)
+* Static DC sweep across -30V to +50V with Rsrc=0.5 ohm
+Vin in_src 0 DC 24
+Rsrc in_src v24_in 0.5
+D14 0 v24_in DSS56
+.model DSS56 D(Is=1e-7 Rs=0.02 N=1.05 Bv=60)
+Rfuse v24_in fused_logic 0.15
+D_tvs 0 fused_logic DSMBJ30A
+.model DSMBJ30A D(Is=1e-12 Bv=34.5 Ibv=1m Rs=1.12)
+D2 fused_logic prot_logic DSS36
+.model DSS36 D(Is=1e-7 Rs=0.03 N=1.05 Bv=60)
+Cbulk prot_logic 0 110uF
+Rload prot_logic 0 48
+.dc Vin -30 50 1
+.control
+run
+wrdata C:/ESIM_I~1/MIDB3C~1/SUBMIS~1/MISACS~1/ESIM_P~1/SIMULA~1/_TEMP_~1/tb1_out.txt v(v24_in) v(fused_logic) v(prot_logic)
+quit
+.endc
+.end

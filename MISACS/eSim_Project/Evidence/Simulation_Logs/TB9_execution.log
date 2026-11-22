@@ -1,0 +1,48 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB9 ===
+Error opening code model "../lib/ngspice/spice2poly.cm": An Application Control policy has blocked this file.
+
+
+Error: Library ../lib/ngspice/spice2poly.cm couldn't be loaded!
+
+No compatibility mode selected!
+
+
+Circuit: * tb9: inductive load turn-off with vishay ss56 catch diode macro and generic nmos switch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vgate: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+v24_rail                                    24
+g                                            5
+drain_node                             0.13789
+mid_node                                    24
+lload#branch                           4.97127
+vgate#branch                                 0
+v24#branch                            -4.97127
+
+
+No. of Data Rows : 1073
+ngspice-35 done
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB9 ===
+Timestamp UTC : 2026-11-19 11:25:25 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : Inductive Load Turn-off Flyback Clamping
+Model Type    : Inductive Load Turn-off with Vishay SS56 Catch Diode Macro and Generic NMOS Switch
+Model Scope   : Inductive energy recirculation and clamping (10mH, 4.8 ohm load switched off at 5.0A) with Vishay SS56 Schottky diode macro and generic NMOS switch. Evaluates diode forward recovery and voltage clamping; distinguishes catch diode simulation from vendor-specific MOSFET models.
+Source Netlist: tb9_flyback_clamp.cir (SHA-256: 1a68977648471f02d08a4930d20c829a047914df016acb8bfbaeb0a1f523165c)
+Raw Output    : tb9_out.txt (SHA-256: 0a6669235932683a54b313fc722a2e77945af67136ba6d01107d36a6e755f8f6, 1073 rows)
+Plot Vector   : tb9_plot.svg (SHA-256: 7d00904a90aa09984caaa7ee8cedf0dc393064468899f2be8677058a3c2263bd)
+Duration      : 0.659 s
+Verdict       : PASS
+Quantitative Checks:
+  * SS56 Flyback Clamp Peak Vdrain=24.629V (acceptance limit 24.50-25.00V)
+  * MOSFET Breakdown Margin: 35.37V below 60V Vds rating (target >= 35.0V)
+=== END WRAPPER AUDIT SUMMARY ===

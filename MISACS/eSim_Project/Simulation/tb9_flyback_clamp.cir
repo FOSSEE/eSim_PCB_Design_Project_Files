@@ -1,0 +1,18 @@
+* TB9: Inductive Load Turn-off with Vishay SS56 Catch Diode Macro and Generic NMOS Switch
+* Evaluates diode forward clamping (10mH, 4.8R load switched off at 5A).
+* NOTE: Models diode forward clamp recovery; distinguishes catch diode from vendor-specific MOSFET models.
+V24 v24_rail 0 DC 24
+Vgate g 0 PWL(0 5 2.0m 5 2.0001m 0 4m 0)
+M1 drain_node g 0 0 MNOM
+.model MNOM NMOS(Vto=1.7 Kp=40 Rs=0.01 Rd=0.01)
+Lload v24_rail mid_node 10m
+Rload mid_node drain_node 4.8
+Dfly drain_node v24_rail DSS56
+.model DSS56 D(Is=1e-7 Rs=0.02 N=1.05 Bv=60)
+.tran 2u 4m 1.9m
+.control
+run
+wrdata tb9_out.txt v(drain_node)
+quit
+.endc
+.end

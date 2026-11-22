@@ -1,0 +1,15 @@
+* TB6: ADS1115 Overvoltage Clamp Simulation (BAT54S Schottky Rail Clamps)
+Vrail_33 vcc33 0 DC 3.3
+Vin in_fault 0 DC 0
+Rin in_fault adc_pin 1k
+Dclamp_hi adc_pin vcc33 DBAT54
+Dclamp_lo 0 adc_pin DBAT54
+.model DBAT54 D(Is=2e-7 Rs=1.5 N=1.05 Bv=30)
+Radc_in adc_pin 0 10Meg
+.dc Vin -5 10 0.2
+.control
+run
+wrdata tb6_out.txt v(adc_pin)
+quit
+.endc
+.end

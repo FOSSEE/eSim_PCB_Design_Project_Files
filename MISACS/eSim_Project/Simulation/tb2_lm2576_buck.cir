@@ -1,0 +1,23 @@
+* TB2: LM2576-5.0 Buck Step-Down Open-Loop Power Stage Simulation (52kHz)
+* Open-loop switching power stage model with Bourns SRR1260-101M (100uH, 1.70A sat, 180mR worst-case DCR)
+* NOTE: Open-loop power stage; does not model internal LM2576 error amplifier or closed-loop regulation.
+Vin in_rail 0 DC 24
+Vctrl sw_gate 0 PULSE(0 1 0 10n 10n 4.45u 19.23u)
+S1 in_rail sw_node sw_gate 0 MYSW
+.model MYSW SW(Ron=0.2 Roff=1e6 Vt=0.5)
+Dcatch 0 sw_node DSS56
+.model DSS56 D(Is=1e-7 Rs=0.02 N=1.05 Bv=60)
+L1 sw_node l_out 100u
+RL1 l_out vout5 0.18
+C14 vout5 c_esr 220u
+Resr c_esr 0 0.08
+C3 vout5 0 10u
+Rload vout5 0 5.0
+.ic v(vout5)=5.0
+.tran 0.5u 2.0m 1.5m uic
+.control
+run
+wrdata tb2_out.txt v(vout5)
+quit
+.endc
+.end

@@ -1,0 +1,23 @@
+# ==============================================================================
+# Git Attributes for MISACS — FOSSEE eSim Winter Internship 2026 Task 7
+# ==============================================================================
+
+# Default to LF line endings for all text files across platforms
+* text=auto eol=lf
+
+# Hardware Baseline Files: preserve Windows CRLF line endings for exact hash preservation
+MISACS.kicad_sch text eol=crlf
+MISACS.kicad_pcb text eol=crlf
+
+# Binary file types - prevent any line ending translation or text conversions
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.gbr binary
+*.drl binary

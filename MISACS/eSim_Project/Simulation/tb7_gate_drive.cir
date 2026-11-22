@@ -1,0 +1,20 @@
+* TB7: Generic Level 1 NMOS Model Dynamic Switching with Ideal 5V Pulse Generator
+* Lumped parasitic capacitances: Ciss = 3.68nF, Crss = 80pF.
+* NOTE: Generic NMOS/ideal pulse source; does not model internal UCC27524 driver IC or vendor Infineon macro.
+Vdrv drv_out 0 PULSE(0 5.0 0 20n 20n 25u 50u)
+Rdrv drv_out gate_drv 1.0
+Rgate gate_drv gate_node 10
+Rpd gate_node 0 10k
+Ciss gate_node 0 3.68n
+Crss gate_node drain_node 80p
+M1 drain_node gate_node 0 0 MNOM
+.model MNOM NMOS(Vto=1.7 Kp=40 Rs=0.01 Rd=0.01)
+Vbat v24_rail 0 DC 24
+Rload v24_rail drain_node 4.8
+.tran 0.2u 60u
+.control
+run
+wrdata tb7_out.txt v(gate_node) v(drain_node)
+quit
+.endc
+.end

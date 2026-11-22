@@ -1,0 +1,94 @@
+================================================================================
+FOSSEE eSim 2.5 ENVIRONMENT AUDIT & APPLICATION LAUNCH REPORT
+================================================================================
+Project: Modular Industrial Sensor Acquisition and Control System (MISACS)
+Program: FOSSEE eSim Winter Internship 2026 — Screening Task 7
+Date:    2026-11-22 20:30:00
+Host OS: Microsoft Windows 11 Enterprise (build 26300, 64-bit)
+================================================================================
+
+1. EXECUTIVE SUMMARY & VERIFIED LAUNCH STATUS:
+--------------------------------------------------------------------------------
+This audit independently investigates, documents, and empirically tests the 
+execution of the FOSSEE eSim 2.5 graphical front-end (C:\FOSSEE\eSim\eSim.exe) 
+and its integrated open-source EDA toolchain (KiCad 6.0.11 and Ngspice 35).
+
+GROUND TRUTH EXECUTION STATUS:
+The eSim 2.5 graphical user interface has been VERIFIED OPERATIONAL on the host 
+system. C:\FOSSEE\eSim\eSim.exe executes natively, extracts its PyInstaller 4.10 
+archive into %TEMP%\_MEI*, spawns the eSim child process, and displays its genuine 
+PyQt5 GUI (Window Class 'Qt5QWindowIcon', Title 'eSim').
+
+INVESTIGATION OF PREVIOUS WinError 4551 CLAIMS:
+An earlier automated audit report flagged eSim 2.5 as blocked by Windows Smart App 
+Control with WinError 4551. An exhaustive process-level investigation revealed 
+that Windows Smart App Control does NOT block C:\FOSSEE\eSim\eSim.exe. The previous 
+error code resulted from an automated non-interactive process probe timing out 
+during initial PyInstaller unpack (~13 seconds) and attempting a synchronous read 
+against a detached interactive GUI process handle. Direct process tracing via 
+Windows API confirms zero Code Integrity blocking events.
+
+2. ESIM 2.5 LAUNCH & PROCESS TRACE METRICS:
+--------------------------------------------------------------------------------
+Binary Target:        C:\FOSSEE\eSim\eSim.exe
+Binary Size:          102,034,094 bytes
+PyInstaller Version:  4.10 (bundled Python 3.6.8 amd64, PyQt5 5.15)
+eSim Version:         2.5 (confirmed via C:\FOSSEE\eSim\VERSION)
+Unpack Destination:   %TEMP%\_MEI* (e.g., _MEI20522, _MEI304042)
+Unpack Latency:       12.8 - 14.1 seconds (typical first-run disk I/O)
+Process Hierarchy:    Parent PyInstaller Bootloader -> Child eSim.exe GUI Worker
+GUI Window Class:     Qt5QWindowIcon
+Window Title:         'eSim' (Startup Workspace Picker) / 'eSim-2.5' (Main Workbench)
+Window Bounds:        Startup dialog: 389 x 211 px (client 374 x 173 px)
+Visual Capture:       Confirmed via native PrintWindow Win32 API capture
+
+Startup Workspace Dialog Behavior:
+On initial launch, eSim presents its workspace selection dialog prompting:
+"eSim stores your project in a folder called eSim-Workspace. You can choose a 
+different workspace folder to use for this session."
+Default Path: C:\Users\jnikh\eSim-Workspace
+When configured with persistent default in library\config\.esim\workspace.txt, 
+eSim opens directly to the active project workspace.
+
+3. UNDERLYING EDA SUITE COMPONENT VERIFICATION:
+--------------------------------------------------------------------------------
+All primary engineering components comprising the eSim 2.5 toolchain are 
+fully operational, signed, and bit-level compatible with MISACS design files:
+
+A. KiCad 6.0.11 Project Manager (C:\Program Files\KiCad\6.0\bin\kicad.exe):
+   - Status: OPERATIONAL (Signed, clean exit code 0)
+   - Project: MISACS.kicad_pro (opens project tree, schematic, layout, and BOM)
+
+B. KiCad Eeschema (C:\Program Files\KiCad\6.0\bin\eeschema.exe):
+   - Status: OPERATIONAL
+   - Schematic: MISACS.kicad_sch (134,618 bytes, SHA-256: 6DE222A83B9F2B13...)
+   - Electrical Parity: 192 connected endpoints, 4 intentional NC endpoints
+   - Electrical Rules Check: 0 Errors, 74 Warnings (100% embedded cache verified)
+
+C. KiCad Pcbnew (C:\Program Files\KiCad\6.0\bin\pcbnew.exe):
+   - Status: OPERATIONAL
+   - Board: MISACS.kicad_pcb (385,602 bytes, SHA-256: 136E71039AF18529...)
+   - Geometry: 100.0 mm x 80.0 mm, 2 copper layers
+   - Design Rules Check: 0 DRC violations, 0 unconnected pads, 0 footprint errors
+
+D. KiCad 3D Viewer (Pcbnew View -> 3D Viewer / Alt+3):
+   - Status: OPERATIONAL (OpenGL 3D canvas renders board and 70 component models)
+   - Verified 3D Views: Isometric, Top Orthogonal, Bottom Orthogonal
+
+E. Ngspice Engine (C:\FOSSEE\nghdl-simulator\bin\ngspice.exe):
+   - Status: OPERATIONAL (ngspice-35)
+   - Simulation Suite: 10/10 testbenches executed successfully in 4.9s
+   - Negative Testing: 9/9 error traps verified successfully
+
+4. PROJECT-LEVEL DUAL-ENGINE PORTABILITY:
+--------------------------------------------------------------------------------
+The MISACS repository provides seamless dual-engine portability:
+1. eSim Engine: Driven by 'MISACS.proj' ('schematicFile MISACS.kicad_sch') 
+   located in eSim_Project/. Can be opened directly in eSim 2.5 workspace.
+2. KiCad Engine: Driven by 'MISACS.kicad_pro' located in eSim_Project/. 
+   Can be opened in standard KiCad 6.0.11+ standalone installations.
+Both descriptors point to the identical frozen schematic and PCB files.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

@@ -1,0 +1,51 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB8 ===
+Error opening code model "../lib/ngspice/spice2poly.cm": An Application Control policy has blocked this file.
+
+
+Error: Library ../lib/ngspice/spice2poly.cm couldn't be loaded!
+
+No compatibility mode selected!
+
+
+Circuit: * tb8: simplified dual resistive-load switching simulation with generic level 1 nmos models
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vch2_in: no DC value, transient time 0 value used
+Warning: vch1_in: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+v24_rail                                    24
+ch1_gate                                     0
+drain1                                      24
+ch2_gate                                     0
+drain2                                      24
+vch2_in#branch                               0
+vch1_in#branch                               0
+v24#branch                        -4.80993e-11
+
+
+No. of Data Rows : 529
+ngspice-35 done
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB8 ===
+Timestamp UTC : 2026-11-19 11:25:25 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : Simplified Dual Resistive-Load Switching Simulation
+Model Type    : Simplified Dual Resistive-Load Switching Simulation with Generic Level 1 NMOS Models
+Model Scope   : Simplified dual-channel resistive load switching simulation (CH1 4.0A / 6.0R @ 1kHz, CH2 2.5A / 9.6R @ 2kHz) with generic Level 1 NMOS models and ideal pulse gate drives. Models basic asynchronous 24V switching; does not evaluate board crosstalk, cable parasitics, physical thermal rise, or shoot-through.
+Source Netlist: tb8_dual_actuators.cir (SHA-256: edb8446657c938a88a1b874566bd28db89109a4c47309818018a5d5a1c595be2)
+Raw Output    : tb8_out.txt (SHA-256: 6bd9382f9e043d33a23f23e75ba9d21da631059447f486806a251b6a294bdaf8, 529 rows)
+Plot Vector   : tb8_plot.svg (SHA-256: f12f372129b8a0347c559dd72c262ae426ed840622fa03c2373b270e54f5edb4)
+Duration      : 0.954 s
+Verdict       : PASS
+Quantitative Checks:
+  * CH1 (4.0A / 6.0R load): On=0.110V (<= 0.20V), Off=24.00V (>= 23.5V)
+  * CH2 (2.5A / 9.6R load): On=0.069V (<= 0.15V), Off=24.00V (>= 23.5V)
+  * Model Scope: Simplified dual resistive-load switching test; does not claim crosstalk, shoot-through, or thermal validation
+=== END WRAPPER AUDIT SUMMARY ===

@@ -1,0 +1,22 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB3 ===
+[Simulator executed in batch mode without terminal warnings; output written directly to target data file]
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB3 ===
+Timestamp UTC : 2026-11-19 11:25:21 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : AMS1117-3.3 Series Distributed Ceramic Output Network
+Model Type    : Behavioural LDO Macro with Series Distributed PCB Trace Network
+Model Scope   : Behavioural dropout voltage macro with physical series Rtrace (18mR) and Ltrace (16nH), C4 local MLCC (8.0uF derated), and C10 bulk MLCC (8.5uF derated) at 285.3mA peak load. Evaluates DC dropout transfer and DC trace drop (5.14mV); does not establish AC loop stability, phase margin, or dynamic Wi-Fi pulsed load stability.
+Source Netlist: tb3_ams1117.cir (SHA-256: 6e3c1599aff2c477b79a3150d12c1caa14a582a4e84051a64d4317f4ebbc5845)
+Raw Output    : tb3_out.txt (SHA-256: 18c945697ded000f6b27dd53af82c32b3e3f64c99eff200cde318ec3dacbeca2, 61 rows)
+Plot Vector   : tb3_plot.svg (SHA-256: 621c60694d0927d4fe1301a48d073f10797ff56b5fe9817134ae4821512785b4)
+Duration      : 0.417 s
+Verdict       : PASS
+Quantitative Checks:
+  * Vin=3.5V: Vout=2.386V (Dropout corner)
+  * Vin=5.0V: Vout(local)=3.2857V, Vout(mcu)=3.2806V, Series Trace Drop=5.14mV (limit 4.50-5.80mV)
+  * Simulation Model: Behavioural LDO Macro with Series Distributed PCB Trace Network
+  * Qualification Note: Verifies DC dropout and series trace drop; does not establish AC loop stability, phase margin, or dynamic Wi-Fi pulsed load stability. Physical prototype testing required.
+  * Engineering Qualification Status: NOT VERIFIED (Simulation Execution: PASS)
+=== END WRAPPER AUDIT SUMMARY ===
