@@ -1,0 +1,67 @@
+* AquaGuard4_Sim (eSim netlist via kicad-cli kicadxml)
+* Sheet Name: /
+cf_1 net__x1_3 0 100n
+cf_2 net__x3_3 0 100n
+cf_3 net__x4_3 0 100n
+cf_4 net__x2_3 0 100n
+cref1 vref 0 100n
+crst1 5v reset 10u
+d1 net__d1_a 0 eSim_LED
+d2 net__d2_a 0 eSim_LED
+d3 net__d3_a 0 eSim_LED
+d4 net__d4_a 0 eSim_LED
+d5 q1 fault eSim_Diode
+d6 q2 fault eSim_Diode
+d7 q3 fault eSim_Diode
+d8 q4 fault eSim_Diode
+d9 drain 12v eSim_Diode
+d10 buzzer 5v eSim_Diode
+m1 drain net__m1_g 0 0 eSim_MOS_N
+q2 buzzer net__q2_b 0 eSim_NPN
+q_pump1 gate net__q_pump1_b 0 eSim_NPN
+r1 net__d1_a q1 2.2k
+r2 net__d2_a q2 2.2k
+r3 net__d3_a q3 2.2k
+r4 net__d4_a q4 2.2k
+r5 fault net__q_pump1_b 10k
+r6 fault net__q2_b 10k
+rbuzzer1 buzzer 5v 100
+rd_1 0 net__x1_3 100k
+rd_2 0 net__x3_3 100k
+rd_3 0 net__x4_3 100k
+rd_4 0 net__x2_3 100k
+rf1 0 fault 10k
+rg1 gate net__m1_g 100
+rg_pd1 0 net__m1_g 100k
+rg_pu1 gate 5v 10k
+rpump1 12v drain 12
+rp_1 5v s1 10k
+rp_2 5v s2 10k
+rp_3 5v s3 10k
+rp_4 5v s4 10k
+rr1 vref 5v 10k
+rr2 0 vref 10k
+rrst1 0 reset 100k
+rs_1 net__v3 net__x1_3 1k
+rs_2 net__v4 net__x3_3 1k
+rs_3 net__v5 net__x4_3 1k
+rs_4 net__v6 net__x2_3 1k
+u_nor1 reset net__u_nor1_in2 q1 d_nor
+u_nor2 q1 s1 net__u_nor1_in2 d_nor
+u_nor3 reset net__u_nor3_in2 q2 d_nor
+u_nor4 q2 s2 net__u_nor3_in2 d_nor
+u_nor5 reset net__u_nor5_in2 q3 d_nor
+u_nor6 q3 s3 net__u_nor5_in2 d_nor
+u_nor7 reset net__u_nor7_in2 q4 d_nor
+u_nor8 q4 s4 net__u_nor7_in2 d_nor
+v1 5v 0 pulse
+v2 12v 0 12V
+v3 net__v3 0 pulse
+v4 net__v4 0 pulse
+v5 net__v5 0 pulse
+v6 net__v6 0 pulse
+x1 5v net__x1_3 vref s1 0 unconnected__x1_5_pad6 unconnected__x1_6_pad7 unconnected__x1_7_pad8 LM393
+x2 5v net__x2_3 vref s4 0 unconnected__x2_5_pad6 unconnected__x2_6_pad7 unconnected__x2_7_pad8 LM393
+x3 5v net__x3_3 vref s2 0 unconnected__x3_5_pad6 unconnected__x3_6_pad7 unconnected__x3_7_pad8 LM393
+x4 5v net__x4_3 vref s3 0 unconnected__x4_5_pad6 unconnected__x4_6_pad7 unconnected__x4_7_pad8 LM393
+.end

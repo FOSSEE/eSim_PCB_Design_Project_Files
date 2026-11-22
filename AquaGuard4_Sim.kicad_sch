@@ -1,0 +1,9810 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "540b3f50-2814-413e-ad89-3cd8bd5ff064")
+	(paper "A3")
+	(lib_symbols
+		(symbol "eSim_Devices:capacitor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "capacitor"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "capacitor_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "capacitor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Devices:eSim_Diode"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "eSim_Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *SingleDiode *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "eSim_Diode_0_0"
+				(text "A"
+					(at -2.54 1.27 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "K"
+					(at 2.54 1.27 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "eSim_Diode_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "eSim_Diode_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Devices:eSim_LED"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "eSim_LED"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 0.7874 0.7874)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "eSim_LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "eSim_LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Devices:eSim_MOS_N"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "eSim_MOS_N"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 7.62 -7.62 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "eSim_MOS_N_0_1"
+				(polyline
+					(pts
+						(xy 2.794 -6.985) (xy 2.794 -3.175) (xy 2.794 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -3.302) (xy 5.08 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -3.81) (xy 3.302 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -5.588) (xy 3.302 -4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -6.858) (xy 5.08 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.366) (xy 3.302 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -5.08) (xy 4.572 -5.461) (xy 4.572 -4.699) (xy 3.556 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 -5.08)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.302) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.62 -5.08) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "eSim_MOS_N_1_1"
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 90)
+					(length 2.4892)
+					(name "B"
+						(effects
+							(font
+								(size 1.1938 1.1938)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.1938 1.1938)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Devices:eSim_NPN"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "eSim_NPN"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "eSim_NPN_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "eSim_NPN_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Devices:resistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "resistor"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -0.508 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 1.27 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* Resistor_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "resistor_0_1"
+				(rectangle
+					(start 3.81 0.254)
+					(end -1.27 2.286)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "resistor_1_1"
+				(pin passive line
+					(at -2.54 1.27 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Digital:d_nor"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "d_nor"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "d_nor_0_1"
+				(arc
+					(start -6.35 3.81)
+					(mid -5.7504 1.27)
+					(end -6.35 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 3.81)
+					(mid 5.2225 2.6825)
+					(end 6.35 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 1.27)
+					(mid 5.319 -0.239)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "d_nor_1_1"
+				(pin input line
+					(at -11.43 2.54 0)
+					(length 5.461)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 5.461)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 11.43 1.27 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Power:eSim_GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "eSim_GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "eSim_GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "eSim_GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Sources:DC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "v"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DC"
+				(at -5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "R1"
+				(at -7.62 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "1_pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DC_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DC_1_1"
+				(pin power_out line
+					(at 0 11.43 270)
+					(length 7.62)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -11.43 90)
+					(length 7.62)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Sources:pulse"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "v"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "pulse"
+				(at -5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "R1"
+				(at -7.62 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "1_pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "pulse_0_1"
+				(arc
+					(start -1.27 1.27)
+					(mid -0.635 1.2859)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 0.635 -1.2876)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.27)
+					(mid 1.905 1.2556)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -1.3491 0)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid -0.0703 0)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 1.2124 0)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "pulse_1_1"
+				(pin passive line
+					(at 0 11.43 270)
+					(length 7.62)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 90)
+					(length 7.62)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eSim_Subckt:LM393"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM393"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM393_0_0"
+				(text "1"
+					(at -7.62 5.08 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "2"
+					(at -7.62 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "3"
+					(at -7.62 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "4"
+					(at -7.62 -2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "8"
+					(at 6.35 5.08 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "7"
+					(at 6.35 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "6"
+					(at 6.35 0 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "5"
+					(at 6.35 -2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "LM393_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 5.08)
+					(mid 0 3.8155)
+					(end -1.27 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM393_1_1"
+				(pin output line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 115.57 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04b8909a-65ff-4c91-b74f-15ac2316adbd")
+	)
+	(junction
+		(at 109.22 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5ac91d-d309-4eb9-b646-44c5384e73b0")
+	)
+	(junction
+		(at 226.06 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be50724-c628-4fed-a9f6-35fe7f24f7a0")
+	)
+	(junction
+		(at 123.19 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c95f936-f4bc-4569-a800-8d3ecfd3864d")
+	)
+	(junction
+		(at 213.36 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e93a7f3-2ae0-490c-84d6-f7623c5dc887")
+	)
+	(junction
+		(at 106.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2198d332-171d-4224-81d4-43a1a6dca16d")
+	)
+	(junction
+		(at 101.6 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c20213f-1f8d-406e-a9c9-cf9e168af7f4")
+	)
+	(junction
+		(at 90.17 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "391b58c3-01aa-475d-9ff9-40adfb3bc1d5")
+	)
+	(junction
+		(at 77.47 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a528d6f-c0e8-4ecb-9f0f-6765d409ba79")
+	)
+	(junction
+		(at 238.76 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a94ff17-0aac-4221-82da-e2c492fe381d")
+	)
+	(junction
+		(at 123.19 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d014fd3-231e-4aa2-bec8-0bb7b85ae622")
+	)
+	(junction
+		(at 99.06 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e28bea4-7501-4766-8ea4-c74f83bebc6c")
+	)
+	(junction
+		(at 88.9 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fa42229-d18a-427f-87c8-36559dcacbfb")
+	)
+	(junction
+		(at 86.36 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c139e14-5f1e-4690-a541-92170c8d6558")
+	)
+	(junction
+		(at 236.22 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d3d18ad-dd39-4c05-a41e-8c8c0686da4a")
+	)
+	(junction
+		(at 123.19 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "596cf29d-75aa-4cf1-9269-ac863b3e15d9")
+	)
+	(junction
+		(at 91.44 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bc6876a-dd04-4f56-9acf-518083abf133")
+	)
+	(junction
+		(at 217.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e3a036c-91ef-464e-844e-226021cf26f9")
+	)
+	(junction
+		(at 238.76 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6245b093-ba74-4842-8b67-1554d93d12ae")
+	)
+	(junction
+		(at 104.14 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63e78c94-9663-4a37-98da-f165769b6a4f")
+	)
+	(junction
+		(at 231.14 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "705d3a9f-d030-4682-82e5-722e09401d3b")
+	)
+	(junction
+		(at 160.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f66a12-07a2-4ea0-b4bf-51e23747edfe")
+	)
+	(junction
+		(at 144.78 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7253d609-33e0-4226-ab52-8692f8e9776f")
+	)
+	(junction
+		(at 104.14 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79f592ce-d1ee-4105-8635-8d394c7058c7")
+	)
+	(junction
+		(at 109.22 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f7acf0-f7ff-411e-9bf5-b0bad353c382")
+	)
+	(junction
+		(at 62.23 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c3cdb1-c27b-4f57-9c69-e2fa770fc728")
+	)
+	(junction
+		(at 233.68 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97cbc5c4-9c46-4896-bc50-527b04ddaacd")
+	)
+	(junction
+		(at 190.5 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0822d66-3434-4170-b344-c5ed2a69d367")
+	)
+	(junction
+		(at 106.68 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af5bb402-b4b8-4faa-a793-8c2e0ee5158a")
+	)
+	(junction
+		(at 226.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb63c92f-f5e9-4d9f-aaca-784c5131c102")
+	)
+	(junction
+		(at 231.14 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbb8dd9-2f06-40ec-a691-65684d46dbb7")
+	)
+	(junction
+		(at 160.02 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc3343d6-c195-4d25-b352-0d72c9e3aa28")
+	)
+	(junction
+		(at 110.49 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bffa55bd-7645-4a5c-9fcd-e683631b563c")
+	)
+	(junction
+		(at 209.55 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d146acf3-1977-4f9a-8f3c-41e5a5a6b256")
+	)
+	(junction
+		(at 231.14 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2e7d446-8de0-4b20-98b8-c5cc0fbf7213")
+	)
+	(junction
+		(at 218.44 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4eab029-98c5-4b09-835a-b65e5aa777ad")
+	)
+	(junction
+		(at 233.68 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d559ff75-5b65-4ed4-af53-eb2b29b1f8e3")
+	)
+	(junction
+		(at 177.8 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d74e4d47-f36b-4fb0-9c94-d1d4793de364")
+	)
+	(junction
+		(at 106.68 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8d330cf-e290-4918-9f0c-b297ab9e7b15")
+	)
+	(junction
+		(at 231.14 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1541ec1-3da6-4b61-863c-8d98a77c449f")
+	)
+	(junction
+		(at 110.49 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee96c95f-45df-4b2b-ac60-09d54395c4f3")
+	)
+	(junction
+		(at 160.02 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eee93b40-77f4-4573-b1e4-d965f81bb72a")
+	)
+	(junction
+		(at 236.22 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef4ce146-519c-4ea7-afdc-ec2067f1343f")
+	)
+	(junction
+		(at 106.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f027ba98-55d3-4c50-b221-13158612dc64")
+	)
+	(junction
+		(at 127 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f2a494-4901-4a6b-8515-772be7aec7e8")
+	)
+	(junction
+		(at 127 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4873169-3120-41ec-951e-e09b5455a9cf")
+	)
+	(junction
+		(at 99.06 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5601235-e8c1-4f80-b5fb-b6af791dba65")
+	)
+	(junction
+		(at 101.6 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f59eb393-8b13-40ef-a0d9-2cb1356e4701")
+	)
+	(junction
+		(at 142.24 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64b1f1e-f4a0-4b2b-8939-825c2f9392ee")
+	)
+	(junction
+		(at 160.02 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f71df056-3b0d-4b0a-9f88-5a6f1dff4848")
+	)
+	(junction
+		(at 78.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffcdb96e-8894-4462-8cee-0aece1cc211e")
+	)
+	(no_connect
+		(at 129.54 29.21)
+		(uuid "0fd87e40-eead-4339-bb17-2b9392a1e355")
+	)
+	(no_connect
+		(at 127 96.52)
+		(uuid "25c20d50-e6d5-4b46-921e-8ceed08393f3")
+	)
+	(no_connect
+		(at 127 93.98)
+		(uuid "27a85bec-be33-48c5-9881-4d336ec5d327")
+	)
+	(no_connect
+		(at 259.08 97.79)
+		(uuid "36d3357d-cf96-43d3-aa37-3675df320159")
+	)
+	(no_connect
+		(at 254 27.94)
+		(uuid "45893d75-4360-4e94-b563-28254e63c9ce")
+	)
+	(no_connect
+		(at 129.54 24.13)
+		(uuid "4ae6c33c-8380-465d-80c8-7001ddcbe33b")
+	)
+	(no_connect
+		(at 259.08 92.71)
+		(uuid "4e4f9c55-056c-4fae-8d80-2fa6feb89c82")
+	)
+	(no_connect
+		(at 129.54 26.67)
+		(uuid "777225c8-5d4b-4e7b-b099-bd881cbf2a05")
+	)
+	(no_connect
+		(at 127 91.44)
+		(uuid "823bb9de-c809-4f88-8082-e2a703d34dea")
+	)
+	(no_connect
+		(at 254 25.4)
+		(uuid "d2402d52-8804-433e-aa21-b17d643e54ad")
+	)
+	(no_connect
+		(at 259.08 95.25)
+		(uuid "f0d32799-6049-40ad-a186-f07c066c88fc")
+	)
+	(no_connect
+		(at 254 30.48)
+		(uuid "f545ac70-4792-4500-b82a-82a7acfc4de3")
+	)
+	(wire
+		(pts
+			(xy 40.64 102.87) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00402fe7-2f16-4da4-955b-e8eaa4c36f94")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006e4c3b-3f61-4aab-8c63-947ada9f57d4")
+	)
+	(wire
+		(pts
+			(xy 236.22 138.43) (xy 236.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007f3836-2daa-499d-8a87-1c5d5736e079")
+	)
+	(wire
+		(pts
+			(xy 49.53 96.52) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a1c17f-0902-4404-8063-fd27c4d9d88d")
+	)
+	(wire
+		(pts
+			(xy 62.23 138.43) (xy 62.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f44f89-75d7-4af4-aaa9-59d986044936")
+	)
+	(wire
+		(pts
+			(xy 50.8 31.75) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0153b6da-f5d3-4d78-b545-b1f60eb6a145")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b0b1f8-466b-4541-9dc8-7a27096f505f")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051d9c12-fd5d-4cdc-be63-f0ddfaa5de91")
+	)
+	(wire
+		(pts
+			(xy 86.36 146.05) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055e2388-c5ba-48a8-988e-5d417fbee6da")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bdcf5d-c190-4059-add7-ea25b4d5612d")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06dba9b8-567b-4d80-82fb-14c685f15fbf")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a4fcc2-fe8f-4da9-a569-5d262a3fa87e")
+	)
+	(wire
+		(pts
+			(xy 91.44 195.58) (xy 91.44 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c9ab31-9116-4e0f-bb22-c5ad3f4a92fb")
+	)
+	(wire
+		(pts
+			(xy 91.44 181.61) (xy 91.44 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092b64c9-8df0-40d8-9fc6-f1e914230480")
+	)
+	(wire
+		(pts
+			(xy 115.57 182.88) (xy 115.57 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a419e3a-8ac8-4644-b9b9-cdc9b725a6ea")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3097e8-47a1-48f2-843c-51fd3db96be1")
+	)
+	(wire
+		(pts
+			(xy 189.23 97.79) (xy 212.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dff9f04-829c-4303-af38-32577aa1b3d4")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6e56d9-e9e0-4248-814f-c426d4587182")
+	)
+	(wire
+		(pts
+			(xy 226.06 62.23) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f01486-982b-4aa3-8633-cd6e665eb1e5")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c90e63-68d4-49ef-8317-10c8d4322fc0")
+	)
+	(wire
+		(pts
+			(xy 226.06 90.17) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cd6120-95fd-4ef1-a6cd-1f8d8f239cd7")
+	)
+	(wire
+		(pts
+			(xy 193.04 170.18) (xy 189.23 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136c375e-db6f-46da-b0d7-5e00e321a49e")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e7ee0b-6870-48ed-9b40-086d80e08ce0")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151d525e-f3cd-46b6-94a1-4bc473e4399c")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158e7587-bcef-4e2f-ba95-80507705a5aa")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e29a9b-f083-40de-b5f2-051ef1920a1f")
+	)
+	(wire
+		(pts
+			(xy 184.15 107.95) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179e57e1-8112-42cd-95f8-44bb63382816")
+	)
+	(wire
+		(pts
+			(xy 91.44 165.1) (xy 91.44 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8b6752-7787-47fc-9a93-728cc3e62750")
+	)
+	(wire
+		(pts
+			(xy 109.22 29.21) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b0c6bc-f0e8-437a-bd0e-22713b0ac31c")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222f1ef5-6acf-42c7-abe3-1ba8bb28de93")
+	)
+	(wire
+		(pts
+			(xy 181.61 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fef5fc-ffe0-453f-b106-eabcf7fe2e6c")
+	)
+	(wire
+		(pts
+			(xy 220.98 22.86) (xy 217.17 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27183957-7824-4aca-9c2c-663a0cd52487")
+	)
+	(wire
+		(pts
+			(xy 233.68 30.48) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273c8014-7c07-4dca-b2b1-44db7e23f036")
+	)
+	(wire
+		(pts
+			(xy 46.99 127) (xy 46.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d4e460-31b2-43a8-bb29-224d04575a04")
+	)
+	(wire
+		(pts
+			(xy 129.54 21.59) (xy 139.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2881945f-0e39-4208-b6c7-62502040ca30")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c80e6b-3ff9-4939-9289-d3929e718a56")
+	)
+	(wire
+		(pts
+			(xy 194.31 179.07) (xy 190.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a47830e-8523-4015-985c-0c2a2d2675e5")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 231.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba483cf-f9fc-4664-b2f6-3e2f455023a3")
+	)
+	(wire
+		(pts
+			(xy 45.72 39.37) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7d7ef2-676b-4730-9d32-31bd5180a534")
+	)
+	(wire
+		(pts
+			(xy 231.14 129.54) (xy 231.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6096eb-ade2-4321-b4de-b7681be781e9")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcec4cc-72b9-4a14-8be7-429c4e60ffbc")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd5e4a6-9e99-4f59-bdd8-27355c52a864")
+	)
+	(wire
+		(pts
+			(xy 209.55 44.45) (xy 209.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ce8038-9907-4581-bc0f-184cb95e4a5a")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31805821-d26c-420a-b6cf-2f769ad3082d")
+	)
+	(wire
+		(pts
+			(xy 113.03 182.88) (xy 115.57 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3296d44b-4017-4b72-8c18-5efd7dc4f8a7")
+	)
+	(wire
+		(pts
+			(xy 218.44 147.32) (xy 231.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d78d4f-90ec-44d0-8fb1-29b337e19af9")
+	)
+	(wire
+		(pts
+			(xy 142.24 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e698de-b5ba-4122-80f0-334edac2ba0e")
+	)
+	(wire
+		(pts
+			(xy 231.14 80.01) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3411a89b-e033-4df6-bd6e-ae0c865afc8e")
+	)
+	(wire
+		(pts
+			(xy 95.25 24.13) (xy 109.22 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3532f3d6-7d35-4a87-b125-96fb413159cc")
+	)
+	(wire
+		(pts
+			(xy 134.62 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369f6544-b072-4ab3-9bf5-a6cfe5f9ebc9")
+	)
+	(wire
+		(pts
+			(xy 217.17 22.86) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385892f5-d011-4148-8f07-f34ba717cca8")
+	)
+	(wire
+		(pts
+			(xy 171.45 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dd762d-bab8-4a2d-a978-f601ee74a7db")
+	)
+	(wire
+		(pts
+			(xy 127 146.05) (xy 142.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393eeedb-4e3f-4707-b965-a58a857a5707")
+	)
+	(wire
+		(pts
+			(xy 123.19 187.96) (xy 123.19 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3978abad-4369-4351-a9c4-ae6bf944468f")
+	)
+	(wire
+		(pts
+			(xy 106.68 96.52) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b336591-c55c-4a3a-97bf-a07fb1ab780b")
+	)
+	(wire
+		(pts
+			(xy 220.98 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5b6bfe-76a6-4ba4-a751-b1d1ef9ed978")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d897680-5657-4770-8f91-fe653f9619ac")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd42f45-3604-4fe2-9def-26d37e36999d")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 27.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c00c7c-2d50-4508-adbf-08789aa0f653")
+	)
+	(wire
+		(pts
+			(xy 160.02 54.61) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440e08d7-8898-4726-a71f-db1cee6fe4f7")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459bb641-4d8a-4958-9a74-4705826ca326")
+	)
+	(wire
+		(pts
+			(xy 91.44 182.88) (xy 91.44 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475d8751-09a4-44af-b4ca-e1b7de23c82c")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 45.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1c088c-8370-46db-a981-054a05f7e548")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8368c3-f638-4973-bae4-1af4b1a262c4")
+	)
+	(wire
+		(pts
+			(xy 209.55 50.8) (xy 172.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd18b4b-e86e-4f09-b4f7-7a969ff9f2fd")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f768802-1f16-4cc7-9cda-acd3ce8d010b")
+	)
+	(wire
+		(pts
+			(xy 231.14 27.94) (xy 231.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506bc190-16f1-4018-9e48-b6d4d2e337ce")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 181.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d5fc1f-8bd9-49a1-a215-a96bedb95424")
+	)
+	(wire
+		(pts
+			(xy 171.45 135.89) (xy 171.45 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536c4fff-d14c-4c55-ad16-872e4c3c04bd")
+	)
+	(wire
+		(pts
+			(xy 213.36 73.66) (xy 213.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a80e3c-e255-4fde-8c60-2cda7f3d47ac")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5801b503-9d66-4bae-81a3-e722589cd4cd")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58446d6f-798a-41bf-9338-3f47a1865ad6")
+	)
+	(wire
+		(pts
+			(xy 177.8 176.53) (xy 177.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8f0849-e0c1-4c3d-8a59-dcfeee38381f")
+	)
+	(wire
+		(pts
+			(xy 62.23 190.5) (xy 69.85 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be39e44-3f41-4e89-a695-abf7f0e0be75")
+	)
+	(wire
+		(pts
+			(xy 222.25 114.3) (xy 242.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f10e422-2d76-4ea1-9feb-785ddde7a636")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faa945c-0af0-4b53-a938-99004a6f756d")
+	)
+	(wire
+		(pts
+			(xy 125.73 190.5) (xy 123.19 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff579a4-945d-4c71-ac3f-8f40c64ae3b5")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6190ded8-878f-4c84-a452-50583cc989a4")
+	)
+	(wire
+		(pts
+			(xy 238.76 90.17) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640caf76-73d4-4f9b-b63a-9a059e009b1d")
+	)
+	(wire
+		(pts
+			(xy 231.14 71.12) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640faacd-77bd-469a-a9e2-fb0f66f1bb84")
+	)
+	(wire
+		(pts
+			(xy 190.5 193.04) (xy 190.5 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c2b2b3-55b5-4241-830b-7e58269727c3")
+	)
+	(wire
+		(pts
+			(xy 109.22 21.59) (xy 109.22 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6904d127-a552-47d5-934c-dab6452e7efb")
+	)
+	(wire
+		(pts
+			(xy 106.68 146.05) (xy 110.49 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a049e73-5ed3-4847-818d-5349fb89cfed")
+	)
+	(wire
+		(pts
+			(xy 181.61 34.29) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac6f5c9-97aa-43be-8d68-47b3a752ff46")
+	)
+	(wire
+		(pts
+			(xy 41.91 15.24) (xy 41.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6acbfef0-2a34-4ace-8919-2e33825ea44d")
+	)
+	(wire
+		(pts
+			(xy 106.68 26.67) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c09622c-a59b-4aec-847a-8d17c17dd3e4")
+	)
+	(wire
+		(pts
+			(xy 180.34 104.14) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddb98e2-3dee-4515-8ba7-0ec43019f197")
+	)
+	(wire
+		(pts
+			(xy 91.44 182.88) (xy 105.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee7ab53-7fda-4a7d-8e3d-bce73b7d3cab")
+	)
+	(wire
+		(pts
+			(xy 236.22 95.25) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4e3274-67e2-4c37-b38c-6cce0aa4c375")
+	)
+	(wire
+		(pts
+			(xy 236.22 147.32) (xy 238.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710337f3-0881-4cf5-bb30-8c4a23c6e5d8")
+	)
+	(wire
+		(pts
+			(xy 269.24 107.95) (xy 242.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710ee6ff-b8a5-470c-84e0-9a2db561fe1f")
+	)
+	(wire
+		(pts
+			(xy 208.28 170.18) (xy 208.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ce7aa6-f49a-471b-9685-74da13642e09")
+	)
+	(wire
+		(pts
+			(xy 77.47 190.5) (xy 83.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bed114-b777-4122-bd7f-91abc95fefbd")
+	)
+	(wire
+		(pts
+			(xy 99.06 128.27) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764a7714-c943-4056-ae4a-dd466e99aa81")
+	)
+	(wire
+		(pts
+			(xy 99.06 146.05) (xy 104.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7777c40e-285d-4fc0-b0bf-49bb5944c3a4")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 210.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7953d5f6-934e-4001-b2bf-dad881f20bc7")
+	)
+	(wire
+		(pts
+			(xy 269.24 90.17) (xy 269.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b95489b-b96f-47dc-ba40-7dd394c5ddeb")
+	)
+	(wire
+		(pts
+			(xy 101.6 60.96) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c37c8af-4ada-4794-8db7-260ab83ef627")
+	)
+	(wire
+		(pts
+			(xy 189.23 170.18) (xy 189.23 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c93e091-498e-4ee4-8e1b-f55c41250d74")
+	)
+	(wire
+		(pts
+			(xy 96.52 21.59) (xy 92.71 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1e8f38-3957-4d5f-bd4f-e401a09a83c7")
+	)
+	(wire
+		(pts
+			(xy 226.06 118.11) (xy 231.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e825f48-c3fb-4541-9b19-c1d0a6081231")
+	)
+	(wire
+		(pts
+			(xy 138.43 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec907f1-62f3-423e-90ee-bfc41120cd09")
+	)
+	(wire
+		(pts
+			(xy 104.14 116.84) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81770c20-276a-4e23-9fdc-d7046fba85e6")
+	)
+	(wire
+		(pts
+			(xy 228.6 22.86) (xy 233.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8365a0d5-d366-4fb6-8e50-48f4a657bf8b")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845378e2-3a08-4510-9819-dffba119fd7f")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8527de54-3505-4e26-bd0a-306ed1fb04c6")
+	)
+	(wire
+		(pts
+			(xy 242.57 107.95) (xy 242.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868ce71d-4e7a-4f82-a84d-8eb63268228a")
+	)
+	(wire
+		(pts
+			(xy 104.14 21.59) (xy 109.22 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b031d4-8c85-490d-ab2e-f2c8fbb18209")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 217.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894af2a3-ba0a-498b-ac9b-d3983bd09c0c")
+	)
+	(wire
+		(pts
+			(xy 27.94 111.76) (xy 27.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbfb5ed-7add-46ac-a00b-285d88f8b884")
+	)
+	(wire
+		(pts
+			(xy 104.14 137.16) (xy 104.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7a8d35-9695-4d7e-b060-f3ac3f38db7f")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8069ee-fca4-49d9-a7cd-f408faf8f90b")
+	)
+	(wire
+		(pts
+			(xy 218.44 140.97) (xy 218.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f22c5b4-41c1-4ec0-b0c7-67e9488f6b42")
+	)
+	(wire
+		(pts
+			(xy 233.68 22.86) (xy 233.68 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc9c5c7-1abd-47e5-992e-1dcb8364476e")
+	)
+	(wire
+		(pts
+			(xy 213.36 80.01) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9005e566-6982-4a3a-937b-ec10274aa2eb")
+	)
+	(wire
+		(pts
+			(xy 78.74 57.15) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9041ddcc-8dd2-4529-9362-c19a6cddb7b1")
+	)
+	(wire
+		(pts
+			(xy 123.19 176.53) (xy 156.21 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91592f95-8655-4480-badc-1704c861a5bb")
+	)
+	(wire
+		(pts
+			(xy 219.71 25.4) (xy 233.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92211bc6-d04f-48c3-94d6-126f56899a57")
+	)
+	(wire
+		(pts
+			(xy 171.45 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923a0ca9-651c-4f54-9f3b-50024c82a625")
+	)
+	(wire
+		(pts
+			(xy 264.16 22.86) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ed1bf4-f8ca-436d-b7b6-78d4ffd61b40")
+	)
+	(wire
+		(pts
+			(xy 35.56 127) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dadd12-e751-425a-a3e2-51b1b1208858")
+	)
+	(wire
+		(pts
+			(xy 125.73 186.69) (xy 125.73 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9568e21a-50ef-485a-90b6-20b1a597a459")
+	)
+	(wire
+		(pts
+			(xy 210.82 147.32) (xy 218.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95da1878-09f6-493b-aa6b-48914463999f")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 226.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c44755-6a54-4852-a439-51870da4b0f3")
+	)
+	(wire
+		(pts
+			(xy 217.17 46.99) (xy 237.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99474ff8-d1c8-42f6-86dd-856746aae1db")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e58d11-f15e-43ef-9b53-4f53dd4be2fe")
+	)
+	(wire
+		(pts
+			(xy 45.72 45.72) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a437870-69f8-413a-82c5-f7c542f8fd24")
+	)
+	(wire
+		(pts
+			(xy 62.23 125.73) (xy 62.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9fec81-dcb1-438e-a518-0595074df89d")
+	)
+	(wire
+		(pts
+			(xy 115.57 199.39) (xy 123.19 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aff8cef-e43f-4cc1-b554-7db93490b645")
+	)
+	(wire
+		(pts
+			(xy 237.49 40.64) (xy 237.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd77f40-860c-4c67-9b86-d6ab1a22f401")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf7e270-edf5-47cf-8e40-d633d7707bd7")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eec2894-34a6-4a06-aa02-24616338b723")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff988ed-241b-49ad-a7cb-61c7b2d25d63")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cc0c24-94d2-433c-88e4-d2ec871179ee")
+	)
+	(wire
+		(pts
+			(xy 238.76 95.25) (xy 236.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20dc370-3e65-452c-89ca-0dfd8443c3c9")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c65d3-8300-474a-8d8d-b326dad9dfa5")
+	)
+	(wire
+		(pts
+			(xy 139.7 21.59) (xy 139.7 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c18d73-5f25-4f9c-8581-bbb6dd3ec9f4")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d6c2a3-c162-4afb-a852-dc38b24efff9")
+	)
+	(wire
+		(pts
+			(xy 109.22 15.24) (xy 41.91 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a904d004-55d7-493b-a0c1-ce22bb41028e")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 213.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4761a1-4eb8-4828-bfb1-47fda96d2fcf")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d8cdb3-e579-4f9b-b9a3-ec17f6ecdf3c")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b198f8b5-6818-4f7c-aa82-85bb51d6daa2")
+	)
+	(wire
+		(pts
+			(xy 90.17 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2328d5b-4cba-412b-b371-3a5163029b56")
+	)
+	(wire
+		(pts
+			(xy 44.45 100.33) (xy 44.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32faf57-c126-48b9-89ad-8d8939895c54")
+	)
+	(wire
+		(pts
+			(xy 109.22 26.67) (xy 106.68 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e5a043-d91b-411f-b4ad-4ce5a19be3a3")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e6bb8c-1a99-4a35-abb0-07ac2acc0eb0")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81e3df2-fb83-4777-9a90-01e5920cace8")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87ac964-9f7b-4eac-af7c-234ddc34162e")
+	)
+	(wire
+		(pts
+			(xy 189.23 179.07) (xy 190.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b894f80b-5761-41af-bfee-bc041bbb9fa3")
+	)
+	(wire
+		(pts
+			(xy 78.74 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e40c31-afd2-4f70-8217-606609e92ec9")
+	)
+	(wire
+		(pts
+			(xy 176.53 187.96) (xy 182.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7b7803-5a2f-4123-8868-7df811fa568f")
+	)
+	(wire
+		(pts
+			(xy 181.61 30.48) (xy 181.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa5b7bc-07ff-4ab0-aa29-3ff1f6cf74f7")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 189.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae268bd-06fa-47f8-b0a4-a7ac5b8d7429")
+	)
+	(wire
+		(pts
+			(xy 115.57 193.04) (xy 115.57 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0bed8b-3006-44b5-9fda-8008a49bd001")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdae57b3-e923-446a-b66c-21189fadd453")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 110.49 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7fc3f4-de96-4159-b941-89166b055f16")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 189.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe8d65c-df26-4adc-a7ee-02960573fffd")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0127d83-c7f1-47e3-9411-62274f46ffd2")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bedc2f-6e4b-4702-920c-dc2b88ab7d81")
+	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 271.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2126f4d-7e75-4b9a-a127-e5b89bd5b158")
+	)
+	(wire
+		(pts
+			(xy 259.08 90.17) (xy 269.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22e83f9-3f92-4d1a-8065-338ba6f66656")
+	)
+	(wire
+		(pts
+			(xy 40.64 82.55) (xy 40.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c258049a-9fc2-4b78-97f6-a174545589f0")
+	)
+	(wire
+		(pts
+			(xy 176.53 44.45) (xy 209.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c059ae-2886-4b31-81d8-e0d6f12f1c9c")
+	)
+	(wire
+		(pts
+			(xy 49.53 100.33) (xy 44.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a89ef8-bd37-45c6-8d22-71500b67c8ac")
+	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 191.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41c027d-9477-49f7-b014-336975dbe3aa")
+	)
+	(wire
+		(pts
+			(xy 199.39 127) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c7689c-6355-40c7-ae0b-6db8226cf43f")
+	)
+	(wire
+		(pts
+			(xy 110.49 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c637f45a-97c4-4d3e-858c-6d860882a5af")
+	)
+	(wire
+		(pts
+			(xy 123.19 190.5) (xy 123.19 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cfdf4d-ad08-40d3-9dce-8330df0371f7")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c815cb3e-2590-45b2-80e2-874ee6a5b7ae")
+	)
+	(wire
+		(pts
+			(xy 238.76 147.32) (xy 276.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbda323b-1c8f-43e4-bf4f-f3fa50a02030")
+	)
+	(wire
+		(pts
+			(xy 231.14 118.11) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1ae84d-c767-492b-b02f-ffe4a037e883")
+	)
+	(wire
+		(pts
+			(xy 106.68 69.85) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccefeed7-9e14-4fb6-822f-30cb85185df0")
+	)
+	(wire
+		(pts
+			(xy 161.29 187.96) (xy 168.91 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4e6f0c-4074-4619-bd65-4cdc5cc7d6f4")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0583e81-2f4c-463b-828a-ac5c13ed4e62")
+	)
+	(wire
+		(pts
+			(xy 222.25 90.17) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a2cd03-adf5-4cef-af5f-c1b79d6c51aa")
+	)
+	(wire
+		(pts
+			(xy 236.22 118.11) (xy 236.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c410e-63a1-49ba-bcf6-af38f09c1e0f")
+	)
+	(wire
+		(pts
+			(xy 104.14 146.05) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52f3dee-3d4e-458b-b734-776ea0813ea4")
+	)
+	(wire
+		(pts
+			(xy 217.17 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d19921-9f48-4f9f-936c-4ecdabf97e57")
+	)
+	(wire
+		(pts
+			(xy 160.02 80.01) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61e2df0-b36a-41dd-9ddb-182c87020319")
+	)
+	(wire
+		(pts
+			(xy 160.02 48.26) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62338c0-d279-484d-9fe7-9a1047985e3f")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89c0d22-2911-4425-8ac2-defc6ab7b723")
+	)
+	(wire
+		(pts
+			(xy 177.8 167.64) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91a9f70-01eb-4ca5-9369-8150fb222dbb")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 40.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da291787-8442-4dfb-b755-4c99f6687761")
+	)
+	(wire
+		(pts
+			(xy 231.14 50.8) (xy 231.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db59de45-366d-41d4-aaab-f7813aed1569")
+	)
+	(wire
+		(pts
+			(xy 123.19 176.53) (xy 123.19 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde2800c-08fe-4a52-9f07-2e2fda485ad0")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de83126b-70d1-4be4-b54f-2ca2ab20e7f0")
+	)
+	(wire
+		(pts
+			(xy 172.72 50.8) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e084c1a4-a226-47d5-96f8-4428f1ad9a4f")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e107acfe-5301-461e-8e4a-10efde01f0da")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 212.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1858003-0cd1-458f-8a16-d688af8f3ffe")
+	)
+	(wire
+		(pts
+			(xy 200.66 170.18) (xy 208.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18edfc2-2e0d-4b95-bffb-82f410680319")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 50.8 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c84d99-261a-44c2-9cd1-b064b9ab41da")
+	)
+	(wire
+		(pts
+			(xy 201.93 179.07) (xy 208.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37bc943-635c-458b-b2de-a9d0b57283c3")
+	)
+	(wire
+		(pts
+			(xy 264.16 40.64) (xy 237.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4810802-da66-4a98-af69-5c392d1bf944")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a29895-8f09-4e30-86a0-4453939f9733")
+	)
+	(wire
+		(pts
+			(xy 46.99 146.05) (xy 62.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6307abc-387e-4758-a161-5d8c117f88c1")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e661da8f-58a7-49af-b0b7-837405bcd8f8")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b941f3-81ed-4ad4-aae2-499c4bb1eb98")
+	)
+	(wire
+		(pts
+			(xy 209.55 29.21) (xy 204.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79da35d-eea0-41a9-9989-a053ba0ea550")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 184.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98191b1-3607-4cb9-888d-21d96f728ef2")
+	)
+	(wire
+		(pts
+			(xy 110.49 106.68) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9969dcc-d512-4f64-beff-91f221efba6d")
+	)
+	(wire
+		(pts
+			(xy 186.69 118.11) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a5b182-5bf6-4c6e-87ac-e0fa5819dc1c")
+	)
+	(wire
+		(pts
+			(xy 96.52 49.53) (xy 101.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab308c4-558c-4006-932d-884f09d5e34b")
+	)
+	(wire
+		(pts
+			(xy 163.83 176.53) (xy 177.8 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb20bba8-1810-4815-9ba6-5690ff680e72")
+	)
+	(wire
+		(pts
+			(xy 62.23 146.05) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8e2465-9ca2-4794-833f-23f421c7fef6")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebad478d-8b3d-4cb0-94a2-955430919be0")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee31eca7-7994-4fc9-a3f8-3705779a6e2f")
+	)
+	(wire
+		(pts
+			(xy 204.47 34.29) (xy 204.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee351e1d-6e0d-433c-8d1c-39c9b2469baa")
+	)
+	(wire
+		(pts
+			(xy 86.36 139.7) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee88acb3-29fa-493f-ba93-2f1200a117f8")
+	)
+	(wire
+		(pts
+			(xy 224.79 92.71) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef889aae-c555-44f0-97eb-625c4ad7b63d")
+	)
+	(wire
+		(pts
+			(xy 92.71 21.59) (xy 92.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0305acc-a801-43b6-abb4-7c89c5d49ace")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 177.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0421478-4580-420b-acf3-417ee4e5eb55")
+	)
+	(wire
+		(pts
+			(xy 123.19 167.64) (xy 123.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2014b8e-940a-42e4-8999-9c78146725c8")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f289651d-035e-426b-b158-d189707d4793")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ff0b6f-9321-482b-a142-575dcdc65bdd")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30d0a41-8452-4189-892b-77e349d430ec")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3399f77-144b-4dcb-97a7-6cb8229c13e5")
+	)
+	(wire
+		(pts
+			(xy 90.17 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a06732-5103-45fc-9a65-0b688eb1482f")
+	)
+	(wire
+		(pts
+			(xy 172.72 16.51) (xy 172.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f596ea3f-623a-4ebf-bc24-477903be69b1")
+	)
+	(wire
+		(pts
+			(xy 231.14 118.11) (xy 231.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c19f10-4b21-4d86-a765-e7e7f8353331")
+	)
+	(wire
+		(pts
+			(xy 238.76 97.79) (xy 238.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f47462-ce6d-4719-9e0f-9ac7a72a6ea5")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6854f82-f916-4f44-a557-161e77094e31")
+	)
+	(wire
+		(pts
+			(xy 233.68 90.17) (xy 238.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74d1eeb-6226-415a-88d3-076303137e68")
+	)
+	(wire
+		(pts
+			(xy 233.68 27.94) (xy 231.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a461b8-ed67-4518-a91a-b81b5e0e7988")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0a7aba-2416-4470-96a5-6b65e2b5e26f")
+	)
+	(wire
+		(pts
+			(xy 209.55 44.45) (xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6d4640-498e-44b6-bc54-d57db3adefce")
+	)
+	(wire
+		(pts
+			(xy 226.06 80.01) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb801c6f-8944-48be-9eea-dc6b5ce5b3c1")
+	)
+	(wire
+		(pts
+			(xy 254 22.86) (xy 264.16 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb254a9-0aa6-41a0-9d5c-372577db8271")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd946b7a-dea8-4a94-8e34-269645a30d11")
+	)
+	(wire
+		(pts
+			(xy 233.68 16.51) (xy 172.72 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda80082-9cb2-4040-a021-85b6fc09e70a")
+	)
+	(wire
+		(pts
+			(xy 190.5 179.07) (xy 190.5 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc7eb90-6a53-4dea-aa1f-278271c6094e")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.98) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe25e746-a936-4597-9073-b010a932499a")
+	)
+	(wire
+		(pts
+			(xy 212.09 97.79) (xy 212.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaddc48-d6b5-4398-b5b0-6eae4cb72979")
+	)
+	(wire
+		(pts
+			(xy 231.14 147.32) (xy 236.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefadada-5ce8-4354-a66d-daa453d12317")
+	)
+	(label "Vref"
+		(at 95.25 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03bad15b-a583-45dc-ac82-997d85248975")
+	)
+	(label "Q4"
+		(at 212.09 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08eb6b16-80d6-41b6-8ac8-977f1fb85b6f")
+	)
+	(label "drain"
+		(at 123.19 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "139e9baa-4536-4229-b2e7-c0e156fee12b")
+	)
+	(label "s2"
+		(at 109.22 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2064b526-b45d-45cb-8117-6e0d60f58049")
+	)
+	(label "Q3"
+		(at 134.62 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "291e3810-7edb-42ba-bba9-41051192c6bb")
+	)
+	(label "fault"
+		(at 62.23 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34dbacc6-1486-43ac-8bd6-3f1482f3a595")
+	)
+	(label "fault"
+		(at 161.29 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35e1cbfa-58ad-4505-b1ae-d3e406aba45b")
+	)
+	(label "Q4"
+		(at 134.62 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48bd1426-724c-4119-99c6-8ea18626b69c")
+	)
+	(label "5V"
+		(at 113.03 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b72ce17-8afe-4983-8faf-ab2d5fb156c0")
+	)
+	(label "gate"
+		(at 100.33 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cee0bd2-6861-496f-900e-851af4825f99")
+	)
+	(label "Vref"
+		(at 224.79 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51b2bd52-60be-48bd-a0df-6bc4c67fe4eb")
+	)
+	(label "reset"
+		(at 181.61 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a32b715-121e-459a-a7ca-3360c596a91d")
+	)
+	(label "Q1"
+		(at 72.39 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eff0cc0-aeb6-4643-999b-520981cdefd3")
+	)
+	(label "12V"
+		(at 171.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634c11ab-1a22-4dca-ba71-06d3e82c1beb")
+	)
+	(label "Q1"
+		(at 134.62 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "669262bd-64a7-49d3-abc1-5789d5ef54f8")
+	)
+	(label "reset"
+		(at 50.8 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77de0879-9843-4c3a-8c89-6dbfe742a86d")
+	)
+	(label "reset"
+		(at 189.23 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f9dc4df-369a-454b-b17c-453288a9ac1b")
+	)
+	(label "s3"
+		(at 233.68 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809c6ded-5ba9-42c7-98ae-51499afce087")
+	)
+	(label "reset"
+		(at 49.53 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "892ab3e3-6a62-46b6-b8b2-18e0f8712caa")
+	)
+	(label "Q2"
+		(at 134.62 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bd8d9d3-5b74-4256-87ca-1942bee998dd")
+	)
+	(label "Q3"
+		(at 204.47 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90d1d3e4-9f6b-4f2f-a652-99f83c3f0386")
+	)
+	(label "s1"
+		(at 106.68 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91f78430-b2c4-4e39-97df-1c4145994ea5")
+	)
+	(label "Q2"
+		(at 73.66 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93c72503-de9a-4f0b-8aca-8d2e6b1567d1")
+	)
+	(label "buzzer"
+		(at 190.5 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bb45018-89b7-4dce-a4e3-87d91c7c88b8")
+	)
+	(label "5V"
+		(at 208.28 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cae7b70-b3c5-42e8-8d4d-2745dc87731b")
+	)
+	(label "s4"
+		(at 238.76 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dd4b48c-0c4a-49c6-904f-a43f199303fb")
+	)
+	(label "reset"
+		(at 62.23 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a643777e-0d0e-48e3-b1e7-06af25b3ad64")
+	)
+	(label "5V"
+		(at 242.57 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7002434-ff3e-454f-9bc4-1631df5630ed")
+	)
+	(label "5V"
+		(at 110.49 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae9f4d5b-d841-4acc-9eb6-3df7b8397aa0")
+	)
+	(label "Vref"
+		(at 127 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3a1375c-606b-4e57-8442-73ed0a39e80d")
+	)
+	(label "fault"
+		(at 168.91 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7b74718-2716-4bf3-b3f3-7d3e3e134ab2")
+	)
+	(label "Vref"
+		(at 219.71 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3f8ba1b-0666-4e03-98ca-d27a3e8c5636")
+	)
+	(label "5V"
+		(at 237.49 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f75808b6-3ff0-4f28-a3a1-6dd695904c01")
+	)
+	(label "5V"
+		(at 91.44 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f893376a-dca2-4fbe-b318-aa2eb4ae3387")
+	)
+	(label "Vref"
+		(at 92.71 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbc64677-b612-44d8-9798-b06f67a8cc5a")
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 107.95 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fd2f1c-9f43-48ef-abb8-67140ab698d3")
+		(property "Reference" "Rg1"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 184.658 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 182.88 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aac82e12-27b0-4d2d-bbba-452f051273fd")
+		)
+		(pin "2"
+			(uuid "10967e45-8c8c-472e-b1bf-5bccb9822113")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rg1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 171.45 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d115b4a-d074-412c-abda-04754f455244")
+		(property "Reference" "R6"
+			(at 172.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 172.72 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 189.738 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 187.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e17cc28-80e2-42eb-a691-0c70925ef6ed")
+		)
+		(pin "2"
+			(uuid "1905baf8-179c-41f4-9db9-1afa44e76af3")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_Diode")
+		(at 147.32 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0de56939-f9aa-45c6-9292-d303ebeae3a9")
+		(property "Reference" "D7"
+			(at 147.3744 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_Diode"
+			(at 147.3744 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e025b1e-32ca-42cd-be42-afedf706aa7f")
+		)
+		(pin "1"
+			(uuid "145a5fd5-e944-40f9-84ff-717305bc2be5")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 200.66 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128da237-cd05-4794-ae1a-5164f59ce0b6")
+		(property "Reference" "U_NOR8"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "364ab3df-1db4-4f66-b92c-30ee743b5556")
+		)
+		(pin "2"
+			(uuid "122f5f9e-ff28-4f7b-8739-947a6a1b035a")
+		)
+		(pin "3"
+			(uuid "3bcc28d6-0e7c-46fc-9b59-da2f7bb36326")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 200.66 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1326b875-e68f-46c8-a0b2-1c14bb3516e4")
+		(property "Reference" "U_NOR7"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 200.66 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "705a821d-740a-4bd1-91a7-25aee5aaa5c0")
+		)
+		(pin "2"
+			(uuid "5663d2d4-cedf-42f5-813c-e68662fb29b1")
+		)
+		(pin "3"
+			(uuid "1a5c9ee8-871f-4bbc-9656-091864963857")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 276.86 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1479015e-4e60-4bd0-8654-9aec6bbbbd55")
+		(property "Reference" "#PWR04"
+			(at 276.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 276.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c376a649-16e7-42af-9009-124a3e9c6df9")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Sources:pulse")
+		(at 88.9 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171bfd22-22b7-4ae2-8342-a8e5a1e6e4b4")
+		(property "Reference" "v4"
+			(at 93.98 58.4199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "pulse"
+			(at 93.98 60.9599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R1"
+			(at 93.98 63.4999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2708d30-629c-4103-88a8-f7e59960dcd9")
+		)
+		(pin "2"
+			(uuid "0d1aff18-d97e-4cc9-9f0d-e0bc7e6f06ca")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "v4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 123.19 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d116fb-300b-445c-ad44-35484fdbaaba")
+		(property "Reference" "#PWR07"
+			(at 123.19 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 123.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3faa778d-9ee1-4d21-ada4-cf4bd63a193c")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:capacitor")
+		(at 231.14 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19502445-a413-4489-aa92-8f3b7b456393")
+		(property "Reference" "Cf_3"
+			(at 234.95 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 234.95 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.1052 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1418ed0d-35e8-42a1-9950-750d3956e8d8")
+		)
+		(pin "2"
+			(uuid "3358374a-5c69-4254-8987-7188e719fa37")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Cf_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Subckt:LM393")
+		(at 116.84 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6ba31b-1dc4-4d5a-bbce-cfa51dae436d")
+		(property "Reference" "X1"
+			(at 116.205 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 116.205 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7f10c0ca-6aee-43ad-9608-f2b322310d59")
+		)
+		(pin "4"
+			(uuid "f0a94ac3-bdb4-4fb9-8c01-37258740ff60")
+		)
+		(pin "2"
+			(uuid "ad14be86-ec33-4521-af7e-fe682baf7fc8")
+		)
+		(pin "7"
+			(uuid "e4fc1167-fa96-4e27-a024-61daa7faa6d3")
+		)
+		(pin "8"
+			(uuid "46a3d24d-ca1c-4cec-96b6-3e5d6ae81d9e")
+		)
+		(pin "5"
+			(uuid "31c17b28-3286-436f-b053-064be115970f")
+		)
+		(pin "6"
+			(uuid "f02c30d9-a572-4906-a964-96fa50af0cf3")
+		)
+		(pin "1"
+			(uuid "642e2294-6766-4a60-af64-01f8ffefeae9")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 96.52 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d5853b8-441e-4b75-ba94-646ba31efa7b")
+		(property "Reference" "Rp_1"
+			(at 97.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 90.678 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 88.9 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df908872-d7cc-4ac4-8018-9c81641eb451")
+		)
+		(pin "2"
+			(uuid "29021f9b-3644-477a-abf0-f4195c21cfa6")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rp_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Sources:pulse")
+		(at 218.44 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20c53758-e35e-4633-b0a7-21181435947c")
+		(property "Reference" "v6"
+			(at 223.52 126.9999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "pulse"
+			(at 223.52 129.5399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R1"
+			(at 223.52 132.0799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88c01fb4-fe78-4c0d-b069-859353cebc99")
+		)
+		(pin "2"
+			(uuid "b8491420-92a0-499d-8650-88246fd15e15")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "v6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 60.96 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25559946-deab-43ae-aa10-7b79745cd83c")
+		(property "Reference" "U_NOR2"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc18cacf-5ff1-4f40-9eb9-c899a8196a08")
+		)
+		(pin "2"
+			(uuid "2ab91c35-02c1-4935-9a73-656e749d62d8")
+		)
+		(pin "3"
+			(uuid "73cc3bef-1b16-4da3-a286-17a037429405")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 143.51 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a3a5bf9-40e2-45ce-9aee-b94ce8ba611b")
+		(property "Reference" "rpump1"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12"
+			(at 142.24 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 165.862 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 167.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b89a4d29-aea6-47fc-a845-ecb1bc7ff63f")
+		)
+		(pin "2"
+			(uuid "e549066d-2f2f-40b0-b69c-849dd4b3b667")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "rpump1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 215.9 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bd6fde2-6f92-4cfa-88bd-85ca3148d36f")
+		(property "Reference" "Rs_3"
+			(at 217.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 52.578 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 50.8 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17ac3c74-d3c8-413a-854e-8870e76dfc31")
+		)
+		(pin "1"
+			(uuid "897f0c83-4ead-452d-b36a-ed9d04cd29b4")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rs_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 63.5 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8abd70-116b-4672-bbb2-c6a9913ba94e")
+		(property "Reference" "Rrst1"
+			(at 64.77 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 64.77 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.008 134.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 134.62 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2261af75-ca0d-4c84-8068-980ce6838b70")
+		)
+		(pin "1"
+			(uuid "de31a970-3893-4632-b279-c8af5b427d55")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rrst1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_LED")
+		(at 193.04 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d03b472-8bee-4c25-99ea-d29a12cf012a")
+		(property "Reference" "D3"
+			(at 194.6402 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_LED"
+			(at 194.6402 58.42 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76a04ceb-076d-4792-ae04-2834da4fdca2")
+		)
+		(pin "2"
+			(uuid "bbbe7c39-d499-4c84-a2f0-ea691c7c5696")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 160.02 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c89b883-8ce4-479a-b58b-0ae97fc1aea2")
+		(property "Reference" "#PWR05"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4979480-753c-4bd8-bf97-23b364174eab")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_Diode")
+		(at 147.32 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41369f09-8dec-481c-8117-7b7c8aabf103")
+		(property "Reference" "D8"
+			(at 147.3744 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_Diode"
+			(at 147.3744 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e025b1e-32ca-42cd-be42-afedf706aa7f")
+		)
+		(pin "1"
+			(uuid "145a5fd5-e944-40f9-84ff-717305bc2be5")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 196.85 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419664a5-2d75-4ec0-a3e2-aba92aaeaf2a")
+		(property "Reference" "rbuzzer1"
+			(at 198.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 198.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 180.848 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 179.07 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b115bb35-86a0-49f4-bd43-ef1c5bb34e04")
+		)
+		(pin "1"
+			(uuid "d410f224-8963-47af-ac32-67211896c350")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "rbuzzer1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 33.02 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b1f67c-cce4-4f85-9495-a515e2b4ed1c")
+		(property "Reference" "R1"
+			(at 31.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 125.222 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 127 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26a564ff-f133-4f77-b014-d56a4bbb8f8b")
+		)
+		(pin "2"
+			(uuid "52307700-f21a-4045-98c5-8500dea56eab")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 161.29 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "501630df-8b7b-4c27-b69c-d0d3ea62a02b")
+		(property "Reference" "Rf1"
+			(at 162.56 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 162.56 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.798 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e480fd3-9b08-4034-9d68-8742c8bad2c3")
+		)
+		(pin "1"
+			(uuid "dfcf254c-ba9d-42b5-88d6-e632b7b8bc65")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rf1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 92.71 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52e4023d-d47a-41bf-aca9-c26c80cac695")
+		(property "Reference" "Rg_pu1"
+			(at 93.98 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 93.98 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.218 177.8 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 177.8 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccf0182d-94e9-409d-afa3-f8522a5825d1")
+		)
+		(pin "2"
+			(uuid "c1028950-8728-4f85-963b-588dd095900a")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rg_pu1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:capacitor")
+		(at 236.22 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5452eb25-c67f-4702-9718-5469af3d9180")
+		(property "Reference" "Cf_4"
+			(at 240.03 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 240.03 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.1852 138.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61863ed6-aba0-4270-8e3e-f983378be7a8")
+		)
+		(pin "2"
+			(uuid "ef87ed0f-8c02-497f-a7b0-d20846628425")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Cf_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 62.23 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55879add-fd18-4ee8-801f-13bfa57e989b")
+		(property "Reference" "U_NOR3"
+			(at 62.23 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "121dba76-71cf-4d42-b7bd-fe2144f3251e")
+		)
+		(pin "2"
+			(uuid "5fd7d320-cccd-421f-ade4-13729a1a0780")
+		)
+		(pin "3"
+			(uuid "0e0c3440-a78a-4664-8638-09ce8fb3c2f8")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_LED")
+		(at 74.93 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56173006-c895-414a-aa7a-68b72cbbf8ee")
+		(property "Reference" "D2"
+			(at 76.5302 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_LED"
+			(at 76.5302 53.34 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45938300-b09e-41ac-b6a3-9ee78ece8a2f")
+		)
+		(pin "2"
+			(uuid "d7e735ba-9c3a-4f6c-a2c4-c48f2a698cd1")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 91.44 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "563e87c2-4aa0-48ca-be73-6c319e82491a")
+		(property "Reference" "#PWR06"
+			(at 91.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 91.44 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e6510b5-43e8-43ab-a161-c9fc13ce2992")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_Diode")
+		(at 147.32 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "577ba792-79d0-4368-a568-045c261e214a")
+		(property "Reference" "D6"
+			(at 147.3744 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_Diode"
+			(at 147.3744 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e025b1e-32ca-42cd-be42-afedf706aa7f")
+		)
+		(pin "1"
+			(uuid "145a5fd5-e944-40f9-84ff-717305bc2be5")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Sources:DC")
+		(at 171.45 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59bc1d94-ba2f-4822-87ae-ead6ecc1aad3")
+		(property "Reference" "v2"
+			(at 176.53 121.9199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V"
+			(at 176.53 124.4599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R1"
+			(at 176.53 126.9999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0c58df2-1800-4d17-8d5b-050ea18fcdea")
+		)
+		(pin "1"
+			(uuid "c9c5d67a-d7c8-4717-bdb3-6773f5840138")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "v2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:capacitor")
+		(at 62.23 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e79f4a0-0349-470e-ac84-fc55bdb458cd")
+		(property "Reference" "Crst1"
+			(at 66.04 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 66.04 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.1952 125.73 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd91965-117f-4377-8a19-f865da0f333b")
+		)
+		(pin "2"
+			(uuid "f5c2cedb-85d1-4d9c-8079-386f3bb5e42f")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Crst1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 193.04 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625b98b0-90dc-41bc-b52d-468ca1b1b98a")
+		(property "Reference" "U_NOR5"
+			(at 193.04 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8684d3a9-f7a2-4108-aee3-a8cd33963deb")
+		)
+		(pin "2"
+			(uuid "32cb45eb-f0b4-4dd7-881d-2ce7080e1b20")
+		)
+		(pin "3"
+			(uuid "644db7a5-0671-4a1a-8ef3-d98f415220cc")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:capacitor")
+		(at 106.68 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6394c7f6-56a6-4042-afce-de0714402c0b")
+		(property "Reference" "Cf_2"
+			(at 110.49 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 110.49 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.6452 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1431603-c05d-4f5c-b6be-62d7e19ce58d")
+		)
+		(pin "2"
+			(uuid "eaa0b254-6b69-40e9-b8c4-f75006e30f45")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Cf_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:capacitor")
+		(at 104.14 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a3a93fc-d754-4a96-8100-fe37d7ac3371")
+		(property "Reference" "Cf_1"
+			(at 107.95 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 107.95 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.1052 137.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7e22a20-fa55-4256-afc7-3ee82ed3ebe7")
+		)
+		(pin "2"
+			(uuid "2fec62c2-de09-497b-9de3-1c673a725a25")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Cf_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_LED")
+		(at 43.18 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dcb7e4f-0ec2-4baf-aa54-062090e58fc5")
+		(property "Reference" "D1"
+			(at 44.7802 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_LED"
+			(at 44.7802 123.19 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1e060d-5ef3-4e02-a970-21669463be3b")
+		)
+		(pin "2"
+			(uuid "96b62bc0-ef26-45db-b8d3-87ecfc944945")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_Diode")
+		(at 160.02 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "775be6b3-2e6d-4c42-a2aa-2e4b50df6a41")
+		(property "Reference" "D9"
+			(at 160.0744 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_Diode"
+			(at 160.0744 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04c7fe81-c590-43a7-be03-6af4651e8130")
+		)
+		(pin "1"
+			(uuid "d393d2d2-419d-4616-8d78-2435009695c2")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_NPN")
+		(at 88.9 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ace158a-c1e6-4773-bce1-9d8479bced10")
+		(property "Reference" "Q_Pump1"
+			(at 93.98 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "eSim_NPN"
+			(at 93.98 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 187.96 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d033ebc0-109f-4f07-900b-f860d4c78dfd")
+		)
+		(pin "1"
+			(uuid "40175b99-273a-4723-b756-aeb644ec6a3b")
+		)
+		(pin "3"
+			(uuid "0dc47230-d3fe-4086-8205-ddccb69a10d1")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Q_Pump1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 232.41 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce1f475-d493-449e-a35e-9bcc3cbb3ad1")
+		(property "Reference" "Rd_4"
+			(at 233.68 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 233.68 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.918 125.73 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 125.73 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ff67682-4751-44f4-9db0-0d17f6fd5b7d")
+		)
+		(pin "2"
+			(uuid "459a552f-02c9-4daf-9d23-79f00105db57")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rd_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 102.87 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ee10291-839b-4b21-bf87-bd4685bf8c7f")
+		(property "Reference" "Rd_2"
+			(at 104.14 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.14 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.378 57.15 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 57.15 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad3ad77-1942-4a27-aeb7-267744731d65")
+		)
+		(pin "2"
+			(uuid "030ed646-b55d-4d7c-854f-c7aa91c21131")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rd_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 99.06 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8796b2d7-36dc-43e5-92c9-b0c5128410eb")
+		(property "Reference" "Rp_2"
+			(at 100.33 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 100.33 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 23.368 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 21.59 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76ab4987-94d3-4c44-baf7-1d2da4f9f172")
+		)
+		(pin "2"
+			(uuid "4d2e8287-e164-4787-82b7-6782305f8ed4")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rp_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 190.5 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8816b417-3894-42ab-90cc-630597f6fd09")
+		(property "Reference" "#PWR08"
+			(at 190.5 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 190.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08ffa8d4-5be1-498e-b6da-5c7485310a0f")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Sources:pulse")
+		(at 110.49 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "898f5bbf-e5c1-48bc-abe3-dc1b488b9508")
+		(property "Reference" "v1"
+			(at 115.57 121.9199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "pulse"
+			(at 115.57 124.4599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R1"
+			(at 115.57 126.9999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d11b04-9cab-42a0-8c76-3c95a3a35cb0")
+		)
+		(pin "2"
+			(uuid "86a7fbe1-ce1f-4544-867c-b8ae8ac68d6a")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "v1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 193.04 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a175e8c-fef8-4b53-830d-47b82fc4d0ce")
+		(property "Reference" "U_NOR6"
+			(at 193.04 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59fca851-597c-4a17-9f75-98a8750dee54")
+		)
+		(pin "2"
+			(uuid "faaf4ae7-bc25-46a9-99b3-71bed20652a2")
+		)
+		(pin "3"
+			(uuid "81a42da5-6dd1-4321-9d6e-49b3de8172b5")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Subckt:LM393")
+		(at 119.38 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d4288dc-0d1e-4e1d-9fa3-fa41e0a6b3d7")
+		(property "Reference" "X3"
+			(at 118.745 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 118.745 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "47ee2ee3-fd0a-42a3-8b4a-ec505b95c598")
+		)
+		(pin "4"
+			(uuid "6ea38b68-bf83-4963-8637-a3f5ab2c7198")
+		)
+		(pin "2"
+			(uuid "2ae6f4f2-14c5-4ec1-9fb2-e3a3c9875f78")
+		)
+		(pin "7"
+			(uuid "c0570ba3-4d7f-4ee3-8e61-6e8cea9a165a")
+		)
+		(pin "8"
+			(uuid "e0543215-e01a-43af-b930-7d130d723ab1")
+		)
+		(pin "5"
+			(uuid "b7897cb1-cf59-4bbb-a124-e4313296bfe4")
+		)
+		(pin "6"
+			(uuid "10f26419-1afd-4ba4-aad4-4ff74fc03976")
+		)
+		(pin "1"
+			(uuid "2960827f-82a6-4bab-9765-4f758f4935f7")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 196.85 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c330db-5b16-4123-bc14-0ec0d29fcc4b")
+		(property "Reference" "R4"
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 195.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 125.222 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 127 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaa3352c-a496-4384-9951-fc143262ff6e")
+		)
+		(pin "2"
+			(uuid "be64a6eb-e0dc-4bd2-9e91-ed8ff28ef84f")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 271.78 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92aa201c-9a6c-47f4-af78-fa811120752c")
+		(property "Reference" "#PWR03"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 271.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "447a391e-6ad8-414f-89b8-5a8ccca62118")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Subckt:LM393")
+		(at 248.92 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c150df3-4f67-46c8-a8d7-24239fedce85")
+		(property "Reference" "X2"
+			(at 248.285 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 248.285 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e4b6d214-366f-4274-a721-c96286151249")
+		)
+		(pin "4"
+			(uuid "2321541a-e27b-49d0-a064-7ecfb0e008d6")
+		)
+		(pin "2"
+			(uuid "10ce055e-79c9-47d6-942f-3a24ec17fdd8")
+		)
+		(pin "7"
+			(uuid "909146c9-3039-4d75-8045-55117eb8d83d")
+		)
+		(pin "8"
+			(uuid "aef3664b-fd97-4796-a5c5-a5ea3c47f45e")
+		)
+		(pin "5"
+			(uuid "0106b35f-f9d3-4b75-bce7-b3858e50a68c")
+		)
+		(pin "6"
+			(uuid "af5f1492-3934-4394-9dfc-d7942e057073")
+		)
+		(pin "1"
+			(uuid "de759d25-ae98-4dc3-aaff-b5e3c7720bec")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 220.98 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9fa406-7581-4a10-8625-3344418c18cc")
+		(property "Reference" "Rs_4"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 119.888 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 118.11 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "670895e0-8a7c-43ac-a8be-34706dc9449d")
+		)
+		(pin "1"
+			(uuid "199608cd-a00e-4d22-81a0-83d418857c34")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rs_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Sources:pulse")
+		(at 86.36 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0030a47-13ed-4286-9a09-dd9c104d892f")
+		(property "Reference" "v3"
+			(at 91.44 125.7299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "pulse"
+			(at 91.44 128.2699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R1"
+			(at 91.44 130.8099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23945b5e-827f-49bd-9632-3b6ebbfa52a9")
+		)
+		(pin "2"
+			(uuid "d4bd1627-fb3f-4422-86c4-eb7aa7fa3b8b")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "v3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 144.78 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c87525-b0bc-4646-8287-0e2498a9e742")
+		(property "Reference" "#PWR01"
+			(at 144.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3ca2911-4d61-4e84-b055-d3a90dc694bb")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 72.39 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0cf4212-1cd7-4b8f-be91-0971014afe3d")
+		(property "Reference" "R5"
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.66 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 192.278 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 190.5 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d891a1-b2df-4db0-afcc-39456d8896ca")
+		)
+		(pin "2"
+			(uuid "a1dbfc80-e1a8-46d7-a0bd-87e08373cf9c")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 100.33 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fb84f3-21f8-4290-b53f-d1d1fb41d689")
+		(property "Reference" "Rd_1"
+			(at 101.6 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 101.6 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.838 124.46 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 124.46 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51597c00-f3a6-4788-85b1-662e66001aec")
+		)
+		(pin "2"
+			(uuid "90401fc6-ab0a-4ba1-9d67-91c9c19b06d9")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rd_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 227.33 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab3384d7-8a78-404a-9209-35bcba8b46c3")
+		(property "Reference" "Rd_3"
+			(at 228.6 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 228.6 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.838 58.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 58.42 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604d036a-914d-40a3-9604-333fb466eb03")
+		)
+		(pin "2"
+			(uuid "0a232f01-c9d8-4ca0-b934-edd4a6c43f67")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rd_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:capacitor")
+		(at 138.43 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d62e95-19ff-4db0-bc36-6219cb8969ed")
+		(property "Reference" "Cref1"
+			(at 138.43 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 138.43 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 123.4948 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d9697dc-7959-4935-849a-ceebfdee8900")
+		)
+		(pin "1"
+			(uuid "3c18f3e8-2710-4b3a-a7b6-9121f0bfaad4")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Cref1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 60.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3fc446c-9143-49af-a6dd-28b06347acdf")
+		(property "Reference" "U_NOR1"
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc18cacf-5ff1-4f40-9eb9-c899a8196a08")
+		)
+		(pin "2"
+			(uuid "2ab91c35-02c1-4935-9a73-656e749d62d8")
+		)
+		(pin "3"
+			(uuid "73cc3bef-1b16-4da3-a286-17a037429405")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 128.27 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41ff67c-d81c-41b5-abe3-924abbae208c")
+		(property "Reference" "Rr1"
+			(at 129.54 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 129.54 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.778 116.84 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 116.84 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "227cdd72-713f-433e-9026-ae75624979c9")
+		)
+		(pin "2"
+			(uuid "64ab1755-eaa9-407e-9163-1cb4549210fd")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rr1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 91.44 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b42535a0-0aac-4c56-8877-886e96a5686b")
+		(property "Reference" "Rs_2"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 51.308 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 49.53 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1beca6b0-4de7-4c7f-be96-a08492ced7c3")
+		)
+		(pin "1"
+			(uuid "9dff21b6-5c7d-496b-9124-67c619bd116f")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rs_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_Diode")
+		(at 196.85 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8bf7b91-57bd-4acf-b95e-f6b2a55e8b4d")
+		(property "Reference" "D10"
+			(at 196.9044 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_Diode"
+			(at 196.9044 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 170.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 170.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb11185e-69aa-4886-99ef-02fb62e8c911")
+		)
+		(pin "2"
+			(uuid "7b59fdbc-f4d9-415f-85aa-a7c947317697")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Digital:d_nor")
+		(at 62.23 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad569e6-6fdf-4c89-8941-f4f3e8ac7fbe")
+		(property "Reference" "U_NOR4"
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "d_nor"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a88285cf-4284-49ba-86c4-1d87278f7c54")
+		)
+		(pin "2"
+			(uuid "26379a9a-48a6-4606-8d6f-0009fa33eeef")
+		)
+		(pin "3"
+			(uuid "5bca2b8e-057d-4601-89b6-4a3ab36dc635")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "U_NOR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Power:eSim_GND")
+		(at 147.32 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd47f361-34a2-4c58-bdd7-54b520c02bab")
+		(property "Reference" "#PWR02"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "eSim_GND"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df040b6d-f8e1-4903-b09c-94e56738f4b5")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 182.88 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd5563eb-0b86-43a4-8b4c-bdff5bbb15de")
+		(property "Reference" "R3"
+			(at 181.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 60.452 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 62.23 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a17a0a55-140f-4eef-bc4c-eee04214c759")
+		)
+		(pin "2"
+			(uuid "1c470068-938d-4a7e-8c08-8bba5fc4f607")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 128.27 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb8a821-7e4b-4d3d-8369-69050b28cbb7")
+		(property "Reference" "Rr2"
+			(at 129.54 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 129.54 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.778 128.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 128.27 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9065f40-c242-4679-b9d5-1ec160c8a56a")
+		)
+		(pin "2"
+			(uuid "8e4e5c13-3d03-4d1f-bf66-6ef1402a6260")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rr2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 116.84 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d369147d-b810-4666-b67d-8905d1495098")
+		(property "Reference" "Rg_pd1"
+			(at 118.11 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 118.11 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.348 189.23 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 189.23 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0492ce5-047e-46c9-a23a-159a26798f60")
+		)
+		(pin "2"
+			(uuid "8b797723-255b-4005-91f8-3992a019661c")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rg_pd1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 223.52 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4fe2879-fc72-498a-94d4-32740aeb0a5f")
+		(property "Reference" "Rp_3"
+			(at 224.79 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 224.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 24.638 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 22.86 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b89567-704b-469b-9562-05f05e5bcb58")
+		)
+		(pin "2"
+			(uuid "f68d7879-e8ba-4726-81aa-8a16b27a8ed3")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rp_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_MOS_N")
+		(at 118.11 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db236d7a-2385-4975-938f-8c369121f136")
+		(property "Reference" "M1"
+			(at 127 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "eSim_MOS_N"
+			(at 127 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 185.42 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92fb0814-c393-455a-8177-5adf626f59c8")
+		)
+		(pin "3"
+			(uuid "4f5b56fc-f7dc-49f6-aff1-145b9567a61b")
+		)
+		(pin "4"
+			(uuid "25944162-1749-4290-aa23-4c9e0b4ceb0f")
+		)
+		(pin "1"
+			(uuid "86842523-d081-495b-b5b4-e0cd83cedd24")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 88.9 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de0878e2-1d97-48ff-bd9e-b6318c49054a")
+		(property "Reference" "Rs_1"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 118.618 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 116.84 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "625174c0-0e25-4c7e-afc8-10938430bfd2")
+		)
+		(pin "1"
+			(uuid "fabae562-f017-41d3-a2ff-215c87574e22")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rs_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 64.77 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0ea5dd7-87cf-46f7-b09b-433130c6d5f1")
+		(property "Reference" "R2"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 55.372 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 57.15 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde488f1-63c3-47d5-a831-f80b523fb8e9")
+		)
+		(pin "2"
+			(uuid "d2b6f399-7a8e-49d0-acc7-8fb59bc2d4cb")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Subckt:LM393")
+		(at 243.84 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e311d285-e24f-4f97-ad10-12a8d79b807f")
+		(property "Reference" "X4"
+			(at 243.205 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 243.205 17.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d8bd685e-6346-4cac-9de0-75f5af7219f1")
+		)
+		(pin "4"
+			(uuid "678585ed-0e8d-4a93-9f6c-debcdf5bdabb")
+		)
+		(pin "2"
+			(uuid "2a8dd03f-0822-407d-8d7a-27bbcc7a5832")
+		)
+		(pin "7"
+			(uuid "e3f87479-dcb7-4068-aef7-59a0a7c7a4b2")
+		)
+		(pin "8"
+			(uuid "9764cbae-b36f-4f01-85ab-7830f504cdea")
+		)
+		(pin "5"
+			(uuid "f17bde16-a764-4724-8586-82a074150332")
+		)
+		(pin "6"
+			(uuid "f778fc44-f4f2-4bfd-9a0d-9bd6b8c1c3bf")
+		)
+		(pin "1"
+			(uuid "245aefb3-5254-4b99-b603-dbee9754c593")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_LED")
+		(at 207.01 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7219c0f-eb7d-4e3b-a290-daecd6e94359")
+		(property "Reference" "D4"
+			(at 208.6102 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_LED"
+			(at 208.6102 123.19 0)
+			(effects
+				(font
+					(size 0.7874 0.7874)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d766708-f0dd-4b63-816b-342178aebd57")
+		)
+		(pin "2"
+			(uuid "a9049f45-8e47-418a-8836-674f72885b5d")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:resistor")
+		(at 228.6 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8a41fa-a8b8-4ec4-b98e-1b54a6e00006")
+		(property "Reference" "Rp_4"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 91.948 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 90.17 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a9ec09-ff14-41cd-945b-67327fcbf89c")
+		)
+		(pin "2"
+			(uuid "c1678ea5-cd67-4507-87bf-3086a31953c2")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Rp_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Sources:pulse")
+		(at 213.36 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa543fb7-919a-4fdf-9874-459968ed63a6")
+		(property "Reference" "v5"
+			(at 218.44 59.6899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "pulse"
+			(at 218.44 62.2299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R1"
+			(at 218.44 64.7699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50d5e1ea-082c-43f6-855f-a15074d7ea39")
+		)
+		(pin "2"
+			(uuid "86ee70bb-bc6c-4d63-ab28-569b34f9810a")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "v5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_NPN")
+		(at 187.96 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd664a8-e2d3-4d14-bf4f-5d53eb076d95")
+		(property "Reference" "Q2"
+			(at 193.04 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "eSim_NPN"
+			(at 193.04 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 185.42 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 187.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12839b1e-c527-42a8-8195-05b877c7ac57")
+		)
+		(pin "1"
+			(uuid "8c20079e-8400-432b-a4f1-43d868464b5d")
+		)
+		(pin "3"
+			(uuid "e8944b3b-dc9d-439d-bd2f-74a97e9d3500")
+		)
+		(instances
+			(project "AquaGuard4_Sim"
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "eSim_Devices:eSim_Diode")
+		(at 147.32 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe299c8f-23aa-410b-a1a3-7e6c0beab2e0")
+		(property "Reference" "D5"
+			(at 147.3744 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "eSim_Diode"
+			(at 147.3744 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e025b1e-32ca-42cd-be42-afedf706aa7f")
+		)
+		(pin "1"
+			(uuid "145a5fd5-e944-40f9-84ff-717305bc2be5")
+		)
+		(instances
+			(project ""
+				(path "/540b3f50-2814-413e-ad89-3cd8bd5ff064"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
