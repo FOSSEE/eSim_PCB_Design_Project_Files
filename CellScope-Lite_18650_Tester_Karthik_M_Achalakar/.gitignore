@@ -1,0 +1,6 @@
+build/
+__pycache__/
+*.bak
+*-backups/
+*.lck
+fp-info-cache

@@ -1,0 +1,12 @@
+(version 1)
+
+# Fine-pitch MSOP-10 (INA226, 0.5 mm pitch): the stock footprint leaves 0.15 mm between pads.
+# Allow that only for items inside U6's courtyard; everything else keeps its net-class clearance.
+(rule "INA226 fine-pitch"
+	(constraint clearance (min 0.15mm))
+	(condition "A.insideCourtyard('U6') && B.insideCourtyard('U6')"))
+
+# Keep drilled holes well away from the M3 mounting holes.
+(rule "Mounting hole keepout"
+	(constraint hole_clearance (min 0.5mm))
+	(condition "A.Reference == 'H*' || B.Reference == 'H*'"))

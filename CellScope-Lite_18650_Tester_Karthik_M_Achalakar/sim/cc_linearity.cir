@@ -1,0 +1,68 @@
+* CellScope-Lite: CC load linearity (DC sweep of set-point) (Ngspice 45, as bundled with eSim 2.6)
+* Same component values and reference designators as the schematic.
+* Models: MCP6002 = behavioural 1 MHz GBW rail-to-rail op-amp; IRLZ44N = VDMOS fitted to datasheet
+* (Vgs(th) 1-2 V, Rds(on) 25 mOhm at 4 V, Ciss ~1.7 nF). Both are approximations, not vendor models.
+
+.param RSHUNT=0.1
+
+.subckt opamp_rr inp inn out vdd vss
+G1 0 n1 inp inn 1
+R1 n1 0 1e5
+C1 n1 0 1.59e-6
+* internal-node rail clamps (prevents unrealistic integrator wind-up in saturation)
+Vch nh 0 3.4
+Vcl nl 0 -0.1
+Dch n1 nh dclamp
+Dcl nl n1 dclamp
+.model dclamp D(Is=1e-12 N=0.3)
+B1 n2 0 V = max(min(V(n1), V(vdd)-0.02), V(vss)+0.02)
+Rout n2 out 30
+.ends
+
+.model IRLZ44N VDMOS(Vto=1.6 Kp=60 Rd=8m Rs=5m Rg=2 lambda=0.01 Cgdmax=1.2n Cgdmin=0.1n Cgs=1.6n Cjo=1.5n Rb=10m)
+.model N2N7002 VDMOS(Vto=1.8 Kp=0.3 Rd=1 Rs=0.5 Cgs=40p Cgdmax=15p Cgdmin=5p)
+
+* ---------- supplies ----------
+V3V3 +3V3 0 3.3
+VREF VREF 0 2.048
+* cell: EMF ramps 4.20 V -> 2.85 V over 200 ms (time-compressed discharge) + 60 mOhm ESR
+VCELL emf 0 PWL(0 4.2 120m 4.2 320m 2.85 500m 2.85)
+RESR emf VBAT 0.06
+
+* ---------- set-point (trimmer wiper, stepped) ----------
+VSET SETPOINT 0 PWL(0 0 5m 0 5.01m 0.025 60m 0.025 60.01m 0.0975 500m 0.0975)
+R12 SETPOINT SET_FILT 10k
+C8 SET_FILT 0 1u
+M2 SET_FILT UVLO_G 0 N2N7002
+
+* ---------- CC loop (U5A) ----------
+XU5A SET_FILT OA_FB OA_OUT +3V3 0 opamp_rr
+R13 SENSE_HI OA_FB 1k
+C9 OA_FB OA_OUT 10n
+R14 OA_OUT GATE 100
+R15 GATE 0 100k
+M3 VBAT GATE SENSE_HI IRLZ44N
+R16 SENSE_HI 0 {RSHUNT}
+
+* ---------- UVLO comparator (U5B) ----------
+R20 VBAT VBAT_DIV 619k
+C13 VBAT_DIV 0 100n
+R21 VBAT_DIV 0 1Meg
+R22 VREF CMP_P 10k
+R23 UVLO CMP_P 100k
+XU5B CMP_P VBAT_DIV UVLO +3V3 0 opamp_rr
+R24 UVLO UVLO_G 1k
+R26 UVLO LED 1k
+DLED LED 0 DAMBER
+.model DAMBER D(Is=1e-18 N=2 Rs=5)
+
+.control
+set wr_singlescale
+set wr_vecnames
+dc VSET 0 0.1 0.001
+wrdata sim/out_dc.csv v(SENSE_HI) v(GATE)
+meas dc I_AT_50MV find v(SENSE_HI) at=0.05
+meas dc I_AT_97MV find v(SENSE_HI) at=0.0975
+quit
+.endc
+.end

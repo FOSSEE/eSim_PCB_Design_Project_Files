@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CellScopeLite")(type "KiCad")(uri "${KIPRJMOD}/libraries/CellScopeLite.kicad_sym")(options "")(descr "CellScope-Lite project symbols: TP4056, DW01A, FS8205A"))
+)
