@@ -1,0 +1,38 @@
+PROJECT PROPOSAL
+Task 7 – PCB Design using eSim
+Project Title: Smart Line Follower and Object Detector PCB
+
+1. Introduction
+The proposed project is a Smart Line Follower and Object Detector system. The PCB is designed to integrate the controller, line-detection sensors, obstacle-detection sensor, motor-driver connections, servo interface, and power-supply section on a single board.
+
+2. Objectives
+- Design a PCB for a smart line-following robot.
+- Interface multiple IR sensors for line detection.
+- Provide an interface for an HC-SR04 ultrasonic sensor for obstacle detection.
+- Provide connections for a servo motor and motor driver.
+- Arrange the components and route the PCB tracks in a clear and organized manner.
+- Verify the schematic and PCB design using ERC and DRC checks.
+
+3. Proposed System
+An Arduino Nano is used as the controller. Six IR sensor interfaces are included for line detection. An HC-SR04 ultrasonic sensor interface is provided for obstacle detection. The design also includes a servo-motor interface, motor-driver connections, and a protected power-supply section.
+
+4. PCB Design Approach
+The circuit schematic is prepared and checked using Electrical Rules Check (ERC). Component footprints are assigned before placing the components on the PCB. The board uses front and back copper layers for routing. The completed layout is checked using Design Rules Check (DRC), and the 3D Viewer is used to inspect the board from different views.
+
+5. Expected Outcome
+The expected outcome is a complete PCB design that brings together the control and sensor interfaces required for a smart line follower and object detector. The design files and report will be submitted as part of Task 7.
+
+6. Deliverables
+- Schematic file (.kicad_sch)
+- PCB layout file (.kicad_pcb)
+- KiCad project file (.kicad_pro)
+- Project preferences file (.kicad_prl), if available
+- PCB design report (PDF)
+- Supporting design screenshots
+- This project proposal
+
+7. Verification
+The project report records successful ERC and DRC checks and a 3D inspection of the PCB layout. The final editable project files should be included with the submission so the design can be opened and reviewed.
+
+Note:
+This proposal describes the project scope and design approach. Actual hardware testing or physical PCB fabrication is not claimed here unless separately completed and documented.
