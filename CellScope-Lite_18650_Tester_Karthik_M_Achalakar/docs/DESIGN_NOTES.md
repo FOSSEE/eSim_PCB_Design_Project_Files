@@ -6,7 +6,7 @@ and stops automatically at 3.0 V. An INA226 monitor reports cell voltage, curren
 so any microcontroller can integrate mAh and mWh and report the cell's real capacity.
 
 All values below are on the schematic (sheet A2, nine blocks) and were checked with Ngspice 45.2,
-which ships with eSim 2.6.
+which ships with eSim.
 
 ---
 

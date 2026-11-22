@@ -130,7 +130,7 @@ def main(netfile, fpdir, out):
 
     # bottom silkscreen: branding + pinout + key specs (mirrored, read from the back)
     # (text, size, thickness, y) -- y chosen so lines clear the holder's NPTH locating holes at y = 51 and 67 mm
-    lines = [("FOSSEE eSim 2.6 Winter Internship 2026 - Task 7", 1.2, 0.18, 47.6),
+    lines = [("FOSSEE eSim Internship Autumn 2026 - Task 7", 1.2, 0.18, 47.6),
              ("CellScope-Lite", 3.0, 0.45, 51.2),
              ("18650 Li-ion charger & capacity tester  rev 1.0", 1.5, 0.22, 54.9),
              ("HOST J2: 1 3V3  2 SDA  3 SCL  4 ALERT  5 EXT_SET  6 GND", 1.2, 0.18, 57.4),

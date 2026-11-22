@@ -434,8 +434,8 @@ def build(symdir, out, version, gen_ver):
         sh.text(line, nx + 3, ny + 7 + 4.6 * i, size=2.2 if i == 0 else 1.8, bold=(i == 0))
     print("layout bottom y = %.1f mm (A3 usable ~ 255 for right column above title block)" % y)
     tb = [S("title_block"), [S("title"), "CellScope-Lite: 18650 Li-ion Charger & Capacity Tester"],
-          [S("date"), "2026-11-21"], [S("rev"), "1.0"], [S("company"), "FOSSEE eSim Winter Internship 2026 - Task 7"],
-          [S("comment"), 1, "4-layer PCB designed in eSim 2.6 (eSchema + KiCad PCB editor)"],
+          [S("date"), "2026-11-21"], [S("rev"), "1.0"], [S("company"), "FOSSEE eSim Semester Long Internship - Autumn 2026 - Task 7"],
+          [S("comment"), 1, "4-layer PCB, eSim project in KiCad 6.0 format (opens in eSim 2.4 / 2.5 / 2.6)"],
           [S("comment"), 2, "Charge 1 A (TP4056) | Protect (DW01A+FS8205A) | CC discharge 0-1 A | INA226 I2C monitor"]]
     sh.write(out, tb)
     print("wrote", out, "symbols:", len(sh.lib_symbols))

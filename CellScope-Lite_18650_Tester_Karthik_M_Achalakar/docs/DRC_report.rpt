@@ -1,7 +1,10 @@
 ** Drc report for CellScope-Lite.kicad_pcb **
-** Created on 2026-11-22T10:19:47+0530 **
+** Created on 2026-11-22T10:43:54+0530 **
 
-** Found 0 DRC violations **
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'.
+    Local override; warning (excluded)
+    @(191.5000 mm, 136.0000 mm): Footprint NT1
 
 ** Found 0 unconnected pads **
 

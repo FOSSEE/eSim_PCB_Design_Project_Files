@@ -4,7 +4,7 @@
 # Allow that only for items inside U6's courtyard; everything else keeps its net-class clearance.
 (rule "INA226 fine-pitch"
 	(constraint clearance (min 0.15mm))
-	(condition "A.intersectsCourtyard('U6') && B.intersectsCourtyard('U6')"))
+	(condition "A.insideCourtyard('U6') && B.insideCourtyard('U6')"))
 
 # Keep drilled holes well away from the M3 mounting holes.
 (rule "Mounting hole keepout"

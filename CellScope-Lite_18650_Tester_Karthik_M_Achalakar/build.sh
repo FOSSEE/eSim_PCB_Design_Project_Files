@@ -9,6 +9,7 @@ mkdir -p build
 echo "schematicFile CellScope-Lite.kicad_sch" > CellScope-Lite/CellScope-Lite.proj
 python tools/make_symlib.py CellScope-Lite/libraries/CellScopeLite.kicad_sym
 python tools/gen_sch.py "$SYM" CellScope-Lite/CellScope-Lite.kicad_sch 20250114 9.0
+# final deliverable is kept in KiCad 6.0 format (eSim 2.4/2.5): run tools/to_kicad6.py CellScope-Lite after editing
 "$K" sch erc --severity-all --format report -o build/erc.rpt CellScope-Lite/CellScope-Lite.kicad_sch | tail -1
 "$K" sch export netlist --format kicadsexpr -o build/CellScope-Lite.net CellScope-Lite/CellScope-Lite.kicad_sch >/dev/null
 python tools/check_netlist.py build/CellScope-Lite.net | tail -1

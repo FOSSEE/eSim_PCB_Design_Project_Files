@@ -3,7 +3,7 @@ CellScope-Lite: single source of truth for the circuit.
 
 Every part: ref, symbol lib_id, value, footprint, extra fields, {pin_number: net},
 schematic block. The schematic (.kicad_sch) and PCB (.kicad_pcb) are generated
-from this file, then opened, checked and finished in eSim 2.6 (KiCad).
+from this file, then opened, checked and finished in eSim 2.6 (KiCad), then saved in KiCad 6.0 format (tools/to_kicad6.py).
 
 Nets that start with '+' or are 'GND' use power symbols in the schematic.
 NC = no-connect flag on that pin.
