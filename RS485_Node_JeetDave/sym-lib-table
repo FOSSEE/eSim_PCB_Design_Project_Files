@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "RS485Lib")(type "KiCad")(uri "${KIPRJMOD}/RS485Lib.kicad_sym")(options "")(descr ""))
+)
