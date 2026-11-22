@@ -1,0 +1,71 @@
+{
+  "suite": "MISACS Phase 3 Controlled Negative Testing Suite (Final Review Candidate)",
+  "total_cases": 9,
+  "passed_cases": 9,
+  "all_passed": true,
+  "results": [
+    {
+      "case": 1,
+      "name": "Insufficient TB4 Regression Samples (< 10 samples)",
+      "status": "PASS",
+      "details": "Runner caught sample count (< 10; exactly 9 samples generated at 2mA step in 4-20mA interval) and failed with exit code 1",
+      "returncode": 1
+    },
+    {
+      "case": 2,
+      "name": "Missing TB5 Mandatory 12V Over-Range Point",
+      "status": "PASS",
+      "details": "Runner caught missing 12V over-range check and exited with code 1",
+      "returncode": 1
+    },
+    {
+      "case": 3,
+      "name": "Malformed Non-Numeric Token Injection",
+      "status": "PASS",
+      "details": "Runner caught non-numeric token and rejected row cleanly",
+      "returncode": 1
+    },
+    {
+      "case": 4,
+      "name": "Non-Finite Token Injection (NaN / Inf)",
+      "status": "PASS",
+      "details": "Runner caught NaN token and rejected non-finite value cleanly",
+      "returncode": 1
+    },
+    {
+      "case": 5,
+      "name": "Missing Simulator Output Data File",
+      "status": "PASS",
+      "details": "Runner detected missing output file and recorded test failure",
+      "returncode": 1
+    },
+    {
+      "case": 6,
+      "name": "Missing Circuit SPICE Netlist File",
+      "status": "PASS",
+      "details": "Runner trapped missing input netlist before execution",
+      "returncode": 1
+    },
+    {
+      "case": 7,
+      "name": "Failed Simulator Executable Invocation",
+      "status": "PASS",
+      "details": "Runner cleanly aborted on invalid simulator executable path",
+      "returncode": 1
+    },
+    {
+      "case": 8,
+      "name": "Universal Report Generation Without Secondary KeyError",
+      "status": "PASS",
+      "details": "Report and manifest generated cleanly without KeyError or secondary crash during universal failure",
+      "returncode": 1
+    },
+    {
+      "case": 9,
+      "name": "Deliberately Perturbed TB4 Ideal Agreement Dataset",
+      "status": "PASS",
+      "details": "Runner computed R^2(ideal)=0.999063 (< 0.9999) and specifically trapped ideal agreement failure; verified compute_ideal_agreement helper across 3 synthetic datasets",
+      "returncode": 1
+    }
+  ]
+}

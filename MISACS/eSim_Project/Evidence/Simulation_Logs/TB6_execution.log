@@ -1,0 +1,22 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB6 ===
+[Simulator executed in batch mode without terminal warnings; output written directly to target data file]
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB6 ===
+Timestamp UTC : 2026-11-19 11:25:23 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : ADS1115 Input Overvoltage Clamping
+Model Type    : Generic Parameterized Schottky Diode Macro (Nominal 25°C, Fixed 3.3V DC Rail)
+Model Scope   : Generic parameterized Schottky diode macro under nominal room-temperature (25°C) static DC sweep with fixed 3.30V rail. Not a vendor-qualified worst-case BAT54S model; does not simulate sub-zero VF curves, ADS1115 internal ESD diode conduction, or dynamic 3.3V rail rise.
+Source Netlist: tb6_adc_protection.cir (SHA-256: a2bc532d4a22a86b2cbd9e6803cdccf99898fa987e9b9fd85afee2fc8064d085)
+Raw Output    : tb6_out.txt (SHA-256: b8f928a0741e098090e0c1b84c21b9d9a0aee53674ee5c4e5dbda0b5c43b35ad, 76 rows)
+Plot Vector   : tb6_plot.svg (SHA-256: aa175e60f90bc32a8aa75247d2c1778a3258f4e8c2b154b5236e170fd093e1e0)
+Duration      : 0.565 s
+Verdict       : PASS
+Quantitative Checks:
+  * Fault=-5.0V: Protected V(adc_pin)=-0.281V (limit -0.30V to -0.25V), Lower Clamp Current=4.72mA
+  * Fault=+10.0V: Protected V(adc_pin)=3.591V (limit 3.50V to 3.60V max), Rail Injection Current=6.41mA into +3.3V
+  * Simulation Model: Generic Parameterized Schottky Diode Macro (Nominal 25°C, Fixed 3.30V DC Rail, Active MCU Load Assumed)
+  * Qualification Note: Sub-zero VF (~0.45V at -40°C typical) yields negative voltage margin to ADS1115 absolute limits; 405 V/s rail-rise is a first-order initial-slope estimate under deep sleep (<100µA load, 15.8µF derated capacitance), not a transient simulation or destruction guarantee; dynamic model and bench validation required
+  * Engineering Qualification Status: CONDITIONAL / NOT VERIFIED (Simulation Execution: PASS)
+=== END WRAPPER AUDIT SUMMARY ===

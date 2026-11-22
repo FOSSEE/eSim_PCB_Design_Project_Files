@@ -1,0 +1,19 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB5 ===
+[Simulator executed in batch mode without terminal warnings; output written directly to target data file]
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB5 ===
+Timestamp UTC : 2026-11-19 11:25:22 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : 0–10 V Voltage Input Conditioning
+Model Type    : Precision Resistive Divider (4:1) with Behavioural VCVS Buffer
+Model Scope   : Precision 4:1 attenuation divider (30.0k / 10.0k, 0.1%) with behavioural VCVS clipping buffer. Models nominal DC division and extended 12V over-range; does not simulate physical LMV358 op-amp silicon parasitics.
+Source Netlist: tb5_voltage_input.cir (SHA-256: 2a6c99d0d6baa7ca97881cf6ec650b080a4523c86d5ca42ed4a6557e62043605)
+Raw Output    : tb5_out.txt (SHA-256: 9ee39908ca4686ffc637627276446790a6aeecbd913d3e65d795b2966aba2901, 25 rows)
+Plot Vector   : tb5_plot.svg (SHA-256: 8a37d1a19eb1692d10f4ae3be1f7e16d6baf308cf046058cd31972336b89c836)
+Duration      : 0.640 s
+Verdict       : PASS
+Quantitative Checks:
+  * Normal 0-10V Operating Points: 0V=0.0000V, 5V=1.2500V, 10V=2.5000V (Exact 4.000:1 division)
+  * Extended Over-Range Input Fault Point: Vin=12.0V -> Vout=3.0000V (<= 3.3V ADC absolute rail)
+=== END WRAPPER AUDIT SUMMARY ===

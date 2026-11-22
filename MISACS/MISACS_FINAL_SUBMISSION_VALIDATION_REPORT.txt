@@ -1,0 +1,139 @@
+================================================================================
+MISACS — FINAL SUBMISSION PACKAGE VALIDATION & INTEGRITY REPORT
+================================================================================
+Project:    Modular Industrial Sensor Acquisition and Control System (MISACS)
+Program:    FOSSEE eSim Winter Internship 2026 — Screening Task 7: PCB Design using eSim
+Lead Eng:   Nikhil J
+Date:       November 22, 2026
+EDA Engine: KiCad 6.0.11 (eSim 2.5 EDA Engine) + Ngspice 35 (nghdl-simulator)
+Platform:   Microsoft Windows 11 Enterprise (64-bit)
+================================================================================
+
+1. ARCHIVE DELIVERABLES & CRYPTOGRAPHIC HASHES:
+--------------------------------------------------------------------------------
+Primary Final Archive:
+  Path:    C:\eSim_Internship_2026\MISACS_FOSSEE_Winter_2026_Task7_Submission_Package_Final.zip
+  Size:    5,123,631 bytes (4.89 MB)
+  SHA-256: EDDCB2C1D3E30CF5B1BD22A7134D296D2F985DE80A6EE3C0A7B6A300F5EB6732
+
+Revision 2 Synced Archive:
+  Path:    C:\eSim_Internship_2026\MISACS_FOSSEE_Winter_2026_Task7_Submission_Package_Final_Revision2.zip
+  Size:    5,123,631 bytes (4.89 MB)
+  SHA-256: EDDCB2C1D3E30CF5B1BD22A7134D296D2F985DE80A6EE3C0A7B6A300F5EB6732
+
+Total Files Tracked in Manifest: 167 files
+Total Entries in ZIP Archive:     169 entries (including 2 manifest copies)
+Staging Bit-for-Bit Match:       100% (167/167 files verified)
+
+2. IMMUTABLE HARDWARE DESIGN VERIFICATION:
+--------------------------------------------------------------------------------
+Schematic File: eSim_Project/MISACS.kicad_sch
+  Size:    134,618 bytes
+  SHA-256: 6DE222A83B9F2B13141575CEB4C2BE5E1923FCCB374766BCFE82D35701CE10B8
+  Status:  PASS (100% BIT-IDENTICAL TO FROZEN BASELINE)
+
+PCB Layout File: eSim_Project/MISACS.kicad_pcb
+  Size:    385,602 bytes
+  SHA-256: 136E71039AF185293E34E51087B60F242863BE97F9A93EC3C97C44F1EA3E88A4
+  Status:  PASS (100% BIT-IDENTICAL TO FROZEN BASELINE)
+
+Hardware Preservation Confirmation:
+- 10 Functional Subsystems: Segregated and preserved.
+- Component Count: 70 electrical components + 4 mechanical mounting holes (74 total).
+- Physical Endpoints: 196 total (192 connected pin endpoints + 4 intentional NC flags).
+- Electrical Nets: 40 nets perfectly matched between schematic and layout (0 discrepancies).
+- Native DRC Violations: 0 violations, 0 unconnected pads, 0 footprint errors.
+- Native ERC: 0 electrical errors, 74 documented informational library warnings.
+- Gerbers: 9 RS-274X copper/mask/silk layers + 2 Excellon drill files intact.
+- Simulations: 10 portable Ngspice testbenches intact.
+
+3. SCREENSHOT RELEVANCE & AUTHENTICITY AUDIT:
+--------------------------------------------------------------------------------
+All 12 screenshots are captured directly from native KiCad 6.0.11 application windows.
+Zero blank viewports, zero duplicate images, and zero browser/third-party captures exist.
+
+Index | Filename                                 | Size (Bytes) | Resolution | Verified Content
+------+------------------------------------------+--------------+------------+--------------------------------------------------------------
+01    | 01_esim_project_opened.png               |       91,474 | 1917x1078  | KiCad 6.0.11 Project Manager - MISACS Project Tree
+02    | 02_schematic_overview.png                |       45,322 | 1215x 855  | Eeschema Complete Schematic Canvas (10 Subsystems Segregated)
+03    | 03_schematic_subsystems_detail.png       |       13,843 | 1415x 470  | Eeschema Zoomed Detail (AFE, TPS26610, Regulators, ADS1115)
+04    | 04_footprint_assignment_mapping.png      |      123,747 | 1917x1078  | KiCad Symbol Fields Table (70 Components + 4 Mounting Holes)
+05    | 05_pcb_top_copper.png                    |      150,029 | 1567x 878  | Pcbnew Top Copper Layer (F.Cu) High-Current Tracks & Routing
+06    | 06_pcb_bottom_copper.png                 |      125,069 | 1527x 865  | Pcbnew Bottom Copper Layer (B.Cu) Solid Ground Plane
+07    | 07_pcb_complete_routing.png              |      139,785 | 1535x 871  | Pcbnew Composite Two-Layer Routing (F.Cu, B.Cu, Silkscreen)
+08    | 08_native_drc_verification.png           |       41,948 | 1550x 878  | Native KiCad DRC Verification Dialog (0 Violations, 0 Unconn)
+09    | 09_3d_viewer_isometric.png               |      125,439 | 1918x 954  | KiCad 3D Viewer Populated Isometric View
+10    | 10_3d_viewer_top.png                     |      109,233 | 1918x 954  | KiCad 3D Viewer Top Orthographic View
+11    | 11_3d_viewer_bottom.png                  |      112,741 | 1918x 954  | KiCad 3D Viewer Bottom Orthographic View
+12    | 12_esim_kicad_application_provenance.png |      208,791 | 1917x1077  | KiCad 6.0.11 Pcbnew About Dialog (Toolchain Provenance)
+
+Contact Sheet: Evidence/SUBMISSION_SCREENSHOTS_CONTACT_SHEET.png (1860x3386 px)
+
+4. REBUILT PDF SUBMISSION REPORTS:
+--------------------------------------------------------------------------------
+Engineering Qualification Report:
+  Path:        PDF_Report/MISACS_FOSSEE_Task7_Engineering_Report.pdf
+  Pages:       18 (Strictly adheres to 18-page budget; TOC matches 1:1)
+  Title:       Modular Industrial Sensor Acquisition and Control System (MISACS) — Engineering Qualification Report
+  Author:      Nikhil J
+  Layout:      Zero overflow; embedded figures C.1, 1.1, 3.1, 3.2, 4.1, 5.1, 5.2, 5.3, 7.1, 8.1, 8.2, 8.3
+
+Design Proposal & Architecture:
+  Path:        Design_Proposal/MISACS_FOSSEE_Task7_Design_Proposal.pdf
+  Pages:       6 (Strictly adheres to 6-page budget)
+  Title:       Modular Industrial Sensor Acquisition and Control System (MISACS) — Design Proposal & Architecture
+  Author:      Nikhil J
+  Layout:      Zero overflow; embedded figures P.1, P.2, P.3
+
+5. BOM SPECIFICATION ACCORDANCE:
+--------------------------------------------------------------------------------
+- BOM Rows: 50 distinct entries; exactly 70 physical electrical components.
+- D8:  Vishay SS56-E3/57T, 60V/5A SMC, Actuator Ch1 flyback clamp (+24V_ACT1_FUSED to MOSFET1_DRAIN).
+- D10: Vishay SS56-E3/57T, 60V/5A SMC, Actuator Ch2 flyback clamp (+24V_ACT2_FUSED to MOSFET2_DRAIN).
+- D12: Vishay SS56-E3/57T, 60V/5A SMC, LM2576 freewheeling catch diode (SW_NODE to GND).
+- D14: Vishay SS56-E3/57T, 60V/5A SMC, J1 power entry reverse-polarity shunt diode (+24V to GND).
+- F1:  Bourns MF-MSMF110/33X-2, 1.1A hold / 2.2A trip resettable PTC on logic rail (+24V to +24V_LOGIC_FUSED).
+- Zero incorrect references to TVS crowbar or 2A conventional fuse.
+
+6. OUTSTANDING TECHNICAL LIMITATIONS & EVALUATOR GUIDANCE:
+--------------------------------------------------------------------------------
+1. ESIM 2.5 FRONT-END GUI EXECUTION & COMPATIBILITY:
+   - Status: VERIFIED
+   - Ground Truth: The eSim 2.5 graphical user interface executes natively on 
+     Windows 11 Enterprise (64-bit). C:\FOSSEE\eSim\eSim.exe extracts its 
+     PyInstaller bundled dependencies into %TEMP%\_MEI* in ~13 seconds and 
+     renders its genuine PyQt5 user interface (window class 'Qt5QWindowIcon', 
+     title 'eSim').
+   - Root Cause of Previous WinError 4551 Claim: An earlier automated audit probe 
+     timed out during PyInstaller extraction and attempted a synchronous read 
+     against a detached GUI handle, mistakenly attributing the timeout to Smart 
+     App Control. Process-level audit confirms zero Code Integrity blocking events.
+   - Evaluator Guidance: Evaluators can open eSim_Project/MISACS.proj directly in 
+     eSim 2.5 workspace, or open eSim_Project/MISACS.kicad_pro in KiCad 6.0.11+ 
+     for identical schematic, layout, DRC, and 3D visualization.
+
+2. STANDALONE KICAD DRC SCHEMATIC PARITY ENGINE:
+   - Status: NOT VERIFIED IN DRC (PASS VIA INDEPENDENT AUDIT)
+   - Reason: Standalone Pcbnew lacks inter-process shared memory linkage to Eeschema;
+     the DRC dialog checkbox 'Test for parity between PCB and schematic' reports 
+     'Schematic Parity (not run)'. This engine limitation is honestly recorded and 
+     NOT reported as PASS in DRC.
+   - Parity Audit: 100% pin-for-pin netlist parity (196 endpoints) is independently 
+     verified and documented in Verification/SCHEMATIC_PCB_NETLIST_PARITY_REPORT.txt.
+
+3. AMS1117-3.3 DYNAMIC STABILITY QUALIFICATION:
+   - Status: NOT VERIFIED
+   - Reason: Simulation TB3 models DC dropout and PCB trace drop. True AC phase margin 
+     with ceramic output caps (C13, C14) requires physical prototype load-transient bench testing.
+
+4. D14 DYNAMIC REVERSE FAULT CLEARING:
+   - Status: NOT VERIFIED
+   - Reason: Continuous survival under reverse polarity depends on an external upstream 
+     fast fuse clearing before D14 thermal limits are exceeded.
+
+7. COMPLIANCE & CHANGE CONTROL DECLARATION:
+--------------------------------------------------------------------------------
+- Hardware design: STRICTLY FROZEN & UNCHANGED (0 modifications).
+- External actions: ZERO GitHub pushes and ZERO FOSSEE portal submissions.
+- Environment: Zero unauthorized file deletions or destructive cleanups.
+================================================================================

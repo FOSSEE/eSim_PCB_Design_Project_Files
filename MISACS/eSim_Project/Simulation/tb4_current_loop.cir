@@ -1,0 +1,15 @@
+* TB4: 4-20mA Current Loop Shunt (100R 0.1%) with Behavioural VCVS Buffer
+* NOTE: Behavioural VCVS clipping buffer; does not simulate physical LMV358 op-amp silicon parasitics.
+Iloop 0 loop_in DC 12m
+Rshunt loop_in 0 100.0
+Rfilt loop_in filt_node 1k
+Cfilt filt_node 0 100n
+Ebuf buf_out 0 VALUE = { min(5.0, max(0.0, v(filt_node))) }
+Rout buf_out 0 100k
+.dc Iloop 0m 25m 1m
+.control
+run
+wrdata tb4_out.txt v(buf_out)
+quit
+.endc
+.end

@@ -1,0 +1,4 @@
+MISACS Phase 3.1 Verified Baseline Archive Checksum
+Path: C:\eSim_Internship_2026\MISACS_Phase3_1_Final_Release_Candidate.zip
+SHA-256: 4591CED4878BD5F2F03148FFEEEEC7E9F5B617CCDFA4467D4EB3FB5344C6DDE1
+Status: Frozen Baseline

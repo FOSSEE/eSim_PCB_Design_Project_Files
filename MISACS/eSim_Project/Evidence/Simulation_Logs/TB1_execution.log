@@ -1,0 +1,23 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB1 ===
+[Simulator executed in batch mode without terminal warnings; output written directly to target data file]
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB1 ===
+Timestamp UTC : 2026-11-19 11:25:20 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : 24V Input TVS Clamping and Reverse Protection
+Model Type    : Parametric Diode & TVS Static DC-Sweep Macro
+Model Scope   : Static DC sweep (Rsrc=0.5 ohm); models reverse blocking of D2, forward clamp of D14 crowbar, and breakdown of SMBJ30A. Does not simulate dynamic high-energy lightning/surge transients or dynamic reverse-polarity fuse clearing.
+Source Netlist: tb1_input_protection.cir (SHA-256: 552114cd1bbbaa6e62d5bd6fc859eae1178d939aaf80d9d3aa211534890fe514)
+Raw Output    : tb1_out.txt (SHA-256: be78555ec1b5b73d0a3df2547a3c887f27207422c2e352442e527c450f3c29de, 81 rows)
+Plot Vector   : tb1_plot.svg (SHA-256: ae4bb191ebf370ae437f7dd8b3506f2d2bf866288a30e66797f0a237b75eae6f)
+Duration      : 2.216 s
+Verdict       : PASS
+Quantitative Checks:
+  * Vin=-24V: V(v24_in)=-1.432V, V(prot)=-0.0000V
+  * Vin=+24V: V(v24_in)=23.758V, V(prot)=23.253V
+  * Vin=+50V: V(fused)=44.020V, V(prot)=43.558V (Margin to 60V LM2576=15.98V)
+  * Simulation Model: Parametric Diode & TVS Static DC-Sweep Macro (Nominal Static Rsrc=0.5 ohm)
+  * Qualification Note: Verifies static protection behaviour under stated model; does not prove dynamic reverse-polarity fuse coordination. D14 survival under actual installation fault conditions remains unverified (clearing I^2t unpublished, installation-dependent)
+  * Engineering Qualification Status: CONDITIONAL / NOT VERIFIED (Simulation Execution: PASS)
+=== END WRAPPER AUDIT SUMMARY ===

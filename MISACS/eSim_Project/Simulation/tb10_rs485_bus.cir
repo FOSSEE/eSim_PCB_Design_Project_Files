@@ -1,0 +1,18 @@
+* TB10: RS-485 Differential Bus Signaling with Ideal Pulse Stimulus, 390R Bias, and 60R Termination
+* NOTE: Ideal pulse source stimulus; models passive bias network and termination loading, not physical MAX3485E transceiver silicon.
+V_A a_node 0 PULSE(0.85 2.65 0 50n 50n 8.68u 17.36u)
+V_B b_node 0 PULSE(2.65 0.85 0 50n 50n 8.68u 17.36u)
+Ra a_node bus_a 20
+Rb b_node bus_b 20
+Rterm bus_a bus_b 60.0
+Vcc vcc33 0 DC 3.3
+Rpu vcc33 bus_a 390
+Rpd bus_b 0 390
+Cbus bus_a bus_b 100p
+.tran 50n 40u
+.control
+run
+wrdata tb10_out.txt v(bus_a) v(bus_b)
+quit
+.endc
+.end

@@ -1,0 +1,39 @@
+* TB3: Behavioural AMS1117-3.3 Model with Corrected Series Distributed PCB Trace Network
+* Models DC dropout transfer and series resistive PCB trace drop (5.14mV @ 285.3mA).
+* NOTE: Behavioural model; does not establish AC loop stability, phase margin, or Wi-Fi transient response.
+Vin in_rail 0 DC 5.0
+Ereg reg_node 0 VALUE = { min(v(in_rail) - 1.1, 3.30) }
+Rpass reg_node vout_local 0.05
+
+* Local output compensation at U2 (C4: 0805 10uF derated to 8.0uF @ 3.3V bias, ESR=10mR):
+Resr4 vout_local c4_mid 0.010
+Lesl4 c4_mid c4_gnd 0.8n
+C4 c4_gnd 0 8.0u
+
+* Local high-frequency bypass (C5: 0805 100nF):
+Resr5 vout_local c5_mid 0.020
+C5 c5_mid 0 100n
+
+* Corrected Series PCB Trace between U2 and ESP32/C10 (18.8mm length, 0.5mm width):
+Rtrace vout_local trace_mid 0.018
+Ltrace trace_mid vout_mcu 16.0n
+
+* Bulk decoupling at ESP32 (C10: 1206 10uF derated to 8.5uF @ 3.3V bias, ESR=10mR):
+Resr10 vout_mcu c10_mid 0.010
+Lesl10 c10_mid c10_gnd 1.0n
+C10 c10_gnd 0 8.5u
+
+* Local bypass at MCU (C11, C13: 100nF):
+Resr11 vout_mcu c11_mid 0.020
+C11 c11_mid 0 200n
+
+* Peak system load (ESP32 active burst + peripherals: 285.3mA):
+Iload vout_mcu 0 0.2853
+
+.dc Vin 3.0 6.0 0.05
+.control
+run
+wrdata tb3_out.txt v(vout_local) v(vout_mcu)
+quit
+.endc
+.end

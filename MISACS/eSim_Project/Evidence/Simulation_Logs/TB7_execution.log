@@ -1,0 +1,48 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB7 ===
+Error opening code model "../lib/ngspice/spice2poly.cm": An Application Control policy has blocked this file.
+
+
+Error: Library ../lib/ngspice/spice2poly.cm couldn't be loaded!
+
+No compatibility mode selected!
+
+
+Circuit: * tb7: generic level 1 nmos model dynamic switching with ideal 5v pulse generator
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vdrv: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+drv_out                                      0
+gate_drv                                     0
+gate_node                                    0
+drain_node                                  24
+v24_rail                                    24
+vbat#branch                       -2.37712e-11
+vdrv#branch                                  0
+
+
+No. of Data Rows : 365
+ngspice-35 done
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB7 ===
+Timestamp UTC : 2026-11-19 11:25:24 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : Generic Level 1 NMOS Model Dynamic Switching
+Model Type    : Generic Level 1 NMOS Model Dynamic Switching with Ideal 5V Pulse Generator
+Model Scope   : Ideal 5V pulse generator with 10 ohm gate dampening resistor and generic Level 1 NMOS model (MNOM) with lumped capacitances (Ciss=3.68nF, Crss=80pF). Models basic RC gate charging; does not model internal UCC27524 driver silicon propagation delays or vendor Infineon trench structure.
+Source Netlist: tb7_gate_drive.cir (SHA-256: de04a23e1bb94b84df029bc6f36fb8ba553d6e30ccec50892b35a47e3ece7277)
+Raw Output    : tb7_out.txt (SHA-256: 3ee4f9cd2d42088d16143f775db69c94947ec4eed02245a42af99941528bf060, 365 rows)
+Plot Vector   : tb7_plot.svg (SHA-256: 103836636e3ac1881648d95784ba356a04dc2407cde566d391d1ccfd241f0ae5)
+Duration      : 0.639 s
+Verdict       : PASS
+Quantitative Checks:
+  * Gate Amplitude: 4.99V (>= 4.80V), Vdrain_on=0.136V (<= 0.20V), Vdrain_off=24.09V (>= 23.5V)
+  * Switching Speed (Generic Level 1 Model): tf=12.5ns (acceptance 5-30ns), tr=9.9ns (acceptance 5-30ns)
+=== END WRAPPER AUDIT SUMMARY ===

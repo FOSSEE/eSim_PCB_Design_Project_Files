@@ -1,0 +1,50 @@
+=== RAW NGSPICE SIMULATOR TRANSCRIPT: TB10 ===
+Error opening code model "../lib/ngspice/spice2poly.cm": An Application Control policy has blocked this file.
+
+
+Error: Library ../lib/ngspice/spice2poly.cm couldn't be loaded!
+
+No compatibility mode selected!
+
+
+Circuit: * tb10: rs-485 differential bus signaling with ideal pulse stimulus, 390r bias, and 60r termination
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v_b: no DC value, transient time 0 value used
+Warning: v_a: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+a_node                                    0.85
+b_node                                    2.65
+bus_a                                   1.2705
+bus_b                                  2.21975
+vcc33                                      3.3
+vcc#branch                         -0.00520386
+v_b#branch                          -0.0215126
+v_a#branch                           0.0210248
+
+
+No. of Data Rows : 854
+ngspice-35 done
+=== END RAW SIMULATOR TRANSCRIPT ===
+
+=== WRAPPER AUDIT VALIDATION SUMMARY: TB10 ===
+Timestamp UTC : 2026-11-19 11:25:26 UTC
+Engine        : C:\FOSSEE\nghdl-simulator\bin\ngspice.exe (ngspice-35)
+Testbench     : RS-485 Differential Bus Signaling
+Model Type    : RS-485 Differential Bus Signaling with Ideal Pulse Stimulus, 390R Bias, and 60R Termination
+Model Scope   : Ideal pulse source stimulus into dual 120 ohm termination (60 ohm equivalent load) with 390 ohm fail-safe pull-up and pull-down bias network. Models differential bus voltage swing and passive bias levels; does not model physical MAX3485E transceiver driver output impedance, slew-rate control, or common-mode rejection.
+Source Netlist: tb10_rs485_bus.cir (SHA-256: 6664b6543abd580f2276d3a0bad8105d595f1e2e2189f57d2c3b248c4f14f0c8)
+Raw Output    : tb10_out.txt (SHA-256: 167c908bff846cc9df4ba7243d3c3e6896d0f33c2fe06a1bc0f5d06d6038299a, 854 rows)
+Plot Vector   : tb10_plot.svg (SHA-256: 56d9701f3aaa3e174248361b5006e7cc0618f0da4bf9ccaca83a50e4016ee713)
+Duration      : 0.667 s
+Verdict       : PASS
+Quantitative Checks:
+  * Differential States: Positive Mark=+1.150V (>= +0.80V), Negative Space=-0.951V (<= -0.80V)
+  * Dynamic Differential Eye Swing: 2.10Vpp (TIA/EIA-485 spec >= 1.50Vpp, acceptance >= 1.80Vpp)
+=== END WRAPPER AUDIT SUMMARY ===

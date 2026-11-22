@@ -1,0 +1,35 @@
+==========================================================================================
+   MISACS PHASE 0 FROZEN BASELINE INTEGRITY MANIFEST
+   Timestamp: 2026-11-17
+==========================================================================================
+
+Description : Immutable Historical Original Schematic
+Source Path : C:\eSim_Internship_2026\MISACS_Project_BACKUP_PHASE1_ERC_BASELINE_IMMUTABLE\MISACS.kicad_sch
+File Size   : 139873 bytes
+SHA-256     : 2E276419AA32A9694BC5A109F7DE35B60147B01911298C1C2940A42081AA2C71
+--------------------------------------------------------------------------------
+Description : Phase 2 Final Verified Schematic (0 ERC Errors)
+Source Path : C:\eSim_Internship_2026\MISACS_Integration_Phase2\MISACS_ERC_Final_Verified.kicad_sch
+File Size   : 134621 bytes
+SHA-256     : D77812A2BAEF38EA1A296F42EEBC826113BDDE700E7BA5694EB0BB98747DCA65
+--------------------------------------------------------------------------------
+Description : Phase 2 Clean PCB Layout Baseline (0 DRC Errors)
+Source Path : C:\eSim_Internship_2026\MISACS_Integration_Phase2\MISACS.kicad_pcb
+File Size   : 385602 bytes
+SHA-256     : 136E71039AF185293E34E51087B60F242863BE97F9A93EC3C97C44F1EA3E88A4
+--------------------------------------------------------------------------------
+Description : Phase 2 Native ERC Verification Report
+Source Path : C:\eSim_Internship_2026\MISACS_Project\05_DRC_Results\MISACS_ERC_Final_Verified.rpt
+File Size   : 11433 bytes
+SHA-256     : EB587A5B1436D064C58EDF693ADB87CA13ED63B19D5071401195B08C2CDA0683
+--------------------------------------------------------------------------------
+Description : Phase 2 Native DRC Verification Report
+Source Path : C:\eSim_Internship_2026\MISACS_Integration_Phase2\MISACS_PHASE2_DRC.rpt
+File Size   : 250 bytes
+SHA-256     : A515C5B849BDB6E5198D3FD2B55173343C97646B6ED3BD844BE9A2538FD8FD41
+--------------------------------------------------------------------------------
+Description : Phase 2 Native Netlist
+Source Path : C:\eSim_Internship_2026\MISACS_Integration_Phase2\MISACS_native.net
+File Size   : 56806 bytes
+SHA-256     : 5EF050834487FDE356C3E15D8AABE482E955DC1983782A57EAE9333C6585A4C4
+--------------------------------------------------------------------------------
