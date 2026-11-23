@@ -8,8 +8,9 @@ A compact **Dual-Battery Automatic Hot-Swap Circuit** PCB designed for a **16 V,
 
 **Project Folder:** `Dual_Battery_Hot_Swap_PCB/` (`Hotswap_Task7`)
 
-**Repository & PR:** [Hazijul/eSim_PCB_Design_Hot_Swap_File](https://github.com/Hazijul/eSim_PCB_Design_Hot_Swap_File/tree/main/Dual_Battery_Hot_Swap_PCB) (`Dual_Battery_Hot_Swap_PCB/`) — [Pull Request #49 on FOSSEE/eSim_PCB_Design_Project_Files](https://github.com/FOSSEE/eSim_PCB_Design_Project_Files/pull/49)
+**Project Report:** [Hotswap_Task7_Report.pdf](https://github.com/Hazijul/eSim_PCB_Design_Hot_Swap_File/blob/main/Dual_Battery_Hot_Swap_PCB/Hotswap_Task7_Report.pdf)
 
+**Repository & PR:** [Hazijul/eSim_PCB_Design_Hot_Swap_File](https://github.com/Hazijul/eSim_PCB_Design_Hot_Swap_File/tree/main/Dual_Battery_Hot_Swap_PCB) (`Dual_Battery_Hot_Swap_PCB/`) — [Pull Request #49 on FOSSEE/eSim_PCB_Design_Project_Files](https://github.com/FOSSEE/eSim_PCB_Design_Project_Files/pull/49)
 ---
 
 ## Hardware Specifications
