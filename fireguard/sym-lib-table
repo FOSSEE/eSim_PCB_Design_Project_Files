@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "MQ6_Module_4Pin")(type "Legacy")(uri "${KIPRJMOD}/libs/MQ6_Module_4Pin.lib")(options "")(descr ""))
+  (lib (name "Buzzer_MH-FMD")(type "Legacy")(uri "${KIPRJMOD}/libs/Buzzer_MH-FMD.lib")(options "")(descr ""))
+  (lib (name "CN3065_Module")(type "Legacy")(uri "${KIPRJMOD}/libs/CN3065_Module.lib")(options "")(descr ""))
+  (lib (name "DHT11_3Pin_Module")(type "Legacy")(uri "${KIPRJMOD}/libs/DHT11_3Pin_Module.lib")(options "")(descr ""))
+  (lib (name "OLED_SSD1306_0.96_I2C")(type "Legacy")(uri "${KIPRJMOD}/libs/OLED_SSD1306_0.96_I2C.lib")(options "")(descr ""))
+  (lib (name "RA02_Module")(type "Legacy")(uri "${KIPRJMOD}/libs/RA02_Module.lib")(options "")(descr ""))
+  (lib (name "esp32-wroom-32")(type "Legacy")(uri "${KIPRJMOD}/libs/esp32-wroom-32.lib")(options "")(descr ""))
+  (lib (name "Connector_Generic_Custom")(type "Legacy")(uri "${KIPRJMOD}/libs/Connector_Generic_Custom.lib")(options "")(descr ""))
+)
+

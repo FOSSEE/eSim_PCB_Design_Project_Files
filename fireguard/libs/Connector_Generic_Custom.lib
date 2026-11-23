@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Custom
+#
+DEF Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x02" 0 -200 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 10 f
+X Pin_1 1 -300 50 200 R 50 50 1 1 P
+X Pin_2 2 -300 -50 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+DEF Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x06" 0 -200 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 350 100 -350 0 1 10 f
+X Pin_1 1 -300 300 200 R 50 50 1 1 P
+X Pin_2 2 -300 180 200 R 50 50 1 1 P
+X Pin_3 3 -300 60 200 R 50 50 1 1 P
+X Pin_4 4 -300 -60 200 R 50 50 1 1 P
+X Pin_5 5 -300 -180 200 R 50 50 1 1 P
+X Pin_6 6 -300 -300 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
