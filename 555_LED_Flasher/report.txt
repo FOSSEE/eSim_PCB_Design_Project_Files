@@ -1,0 +1,16 @@
+Updated eSim_GND from #PWR0102 to #PWR01.
+Updated eSim_VCC from #PWR0101 to #PWR02.
+Updated eSim_GND from #PWR0105 to #PWR03.
+Updated eSim_VCC from #PWR0104 to #PWR04.
+Updated eSim_GND from #PWR0106 to #PWR05.
+Updated eSim_GND from #PWR0103 to #PWR06.
+Updated eSim_VCC from #PWR0108 to #PWR07.
+Updated eSim_GND from #PWR0107 to #PWR08.
+Updated 10nf from esim_C to esim_C1.
+Updated 10uf from esim_CP to esim_CP1.
+Updated eSim_LED from esim_D to esim_D1.
+Annotated eSim_2PinConn as J1.
+Updated 300 from R3 to R1.
+Updated 1k from R1 to R3.
+Annotated NE555 as X1.
+Annotation complete.
