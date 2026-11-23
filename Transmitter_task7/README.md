@@ -4,7 +4,10 @@ A custom handheld 2.4 GHz radio-control (RC) transmitter PCB designed for quadco
 
 **Author:** MD Hazijul Haque  
 **Program:** FOSSEE eSim Winter Internship 2026 (Task 7)  
-**Project Folder:** `Transmitter_task7/`
+**Project Folder:** `Transmitter_task7/`  
+**Full PDF Report:** [View Task 7 Design Report (PDF)](./esim%20Task_7%20Report%20on%20Design%20and%202-Layer%20PCB%20Transmitter.pdf)  
+**Forked Repository:** [Hazijul/eSim_PCB_Design_Hot_Swap_File](https://github.com/Hazijul/eSim_PCB_Design_Hot_Swap_File)  
+**Pull Request:** [FOSSEE/eSim_PCB_Design_Project_Files #61](https://github.com/FOSSEE/eSim_PCB_Design_Project_Files/pull/61)
 
 ---
 
