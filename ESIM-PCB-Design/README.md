@@ -27,6 +27,7 @@ Circuit schematic
 PCB layout
 Component connections
 Circuit design documentation
+
 5. Project Files
 
 This folder contains:
@@ -35,6 +36,7 @@ Project proposal
 Circuit design
 PCB design files
 Supporting documentation and images
+
 6. Expected Outcome
 
 The expected outcome is a properly documented PCB design with an organized circuit layout and supporting project files.
