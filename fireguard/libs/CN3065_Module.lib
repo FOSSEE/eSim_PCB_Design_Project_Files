@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+#encoding utf-8
+#
+## CN3065_Module
+#
+DEF CN3065_Module A 0 40 Y Y 1 F N
+F0 "A" 0 500 50 H V C CNN
+F1 "CN3065_Module" 0 401 50 H V C CNN
+DRAW
+S -400 -350 400 350 0 1 10 f
+T 0 0 0 35 0 0 0 "CN3065" Normal 0 C C
+X SOLAR+ 1 -500 200 100 R 40 40 1 1 W
+X SOLAR- 2 -500 100 100 R 40 40 1 1 W
+X BATT+ 3 500 200 100 L 40 40 1 1 W
+X BATT- 4 500 100 100 L 40 40 1 1 W
+X SYS+ 5 -200 -450 100 U 40 40 1 1 w
+X SYS- 6 200 -450 100 U 40 40 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
