@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Downloads\e-sim\ESP-32\ESP-32.kicad_sch</source>
+    <date>11/23/2026 11:15:27 PM</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP-32_Module</title>
+        <company/>
+        <rev/>
+        <date>2026-11-20</date>
+        <source>ESP-32.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB__c.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>UI.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="" part="C_1" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>297ccd9c-ff03-4402-8a43-f8c91871444b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="polcap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4f53342-9959-4f52-a32a-32806531f43f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3df3da40-f836-40b0-abe5-4c98dc47aaa8</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="polcap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8aaa2cac-9007-4746-bf45-b81f18ca6180</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb1cbe7-4b5f-497f-8e8d-5b9d64f22345</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="polcap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c95cb29-54b1-4aaf-9bdd-8b680b5566de</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad1a1a5b-bd24-4e9f-bfb8-313e371ca799</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d9a601c-7100-4efb-bc7b-86003f690c6a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>C170KRKT</value>
+      <footprint>Diode_SMD:DIOC200X125X110</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <libsource lib="LTST-C170KRKT" part="LTST-C170KRKT" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf"/>
+      <property name="DESCRIPTION" value="Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"/>
+      <property name="MANUFACTURER" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Package" value="0805 Lite-On"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e804867-5507-4dff-881e-c9e54aa5a34b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>C170KRKT</value>
+      <footprint>Diode_SMD:DIOC200X125X110</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <libsource lib="LTST-C170KRKT" part="LTST-C170KRKT" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf"/>
+      <property name="DESCRIPTION" value="Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"/>
+      <property name="MANUFACTURER" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Package" value="0805 Lite-On"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0abf5f0f-382a-4c5d-b2ee-fd8a6d4694cd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>GSD090012SEU</value>
+      <footprint>Sensor_Motion:AMPHENOL_GSD090012SEU</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/GSD090012SEU_Amphenol_FCI.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/GSD090012SEU_Amphenol_FCI.pdf</field>
+        <field name="DESCRIPTION">11 (9 + 2) Position Card Connector Secure Digital - SD Surface Mount, Right Angle Gold</field>
+        <field name="MANUFACTURER">Amphenol FCI</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.95mm</field>
+        <field name="MPN">GSD090012SEU</field>
+        <field name="PARTREV">E</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/GSD090012SEU/Amphenol/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="GSD090012SEU" part="GSD090012SEU" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/GSD090012SEU_Amphenol_FCI.pdf"/>
+      <property name="DESCRIPTION" value="11 (9 + 2) Position Card Connector Secure Digital - SD Surface Mount, Right Angle Gold"/>
+      <property name="MANUFACTURER" value="Amphenol FCI"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.95mm"/>
+      <property name="MPN" value="GSD090012SEU"/>
+      <property name="PARTREV" value="E"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/GSD090012SEU/Amphenol/view-part/"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74747b01-1f1e-47ef-be8d-28de52040790</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>059f276d-0838-4a2b-b93e-3703c53ee5b9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c601095-fb9b-4148-9906-377bbcb2ed7a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd2c2778-f065-4b69-9dd5-09ff5b454f08</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>50R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20bc8f63-f7f9-4af3-880c-8dbecd4e48cd</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>50R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4850b1a1-2e02-4df6-94f2-35cec8346d6e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5ecc0fa-ebc4-421f-b92d-5092c3450c57</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>50R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b49608d-52ae-41ca-8926-8d953270b444</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>50R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8757b36-8ad1-41ac-a76c-e2f2eb39afec</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>47.5K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de7e8b9f-a3b3-456c-866b-75e5f773423a</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>22.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1466993f-791d-4b02-9616-c80b1f4132fe</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-C3-WROOM-02-H4</value>
+      <footprint>Module:ESP-WROOM-02</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2944070.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2944070</field>
+        <field name="MPN">ESP32-C3-WROOM-02-H4</field>
+        <field name="Manufacturer">ESPRESSIF(乐鑫)</field>
+      </fields>
+      <libsource lib="ESP32-C3-WROOM-02-H4" part="ESP32-C3-WROOM-02-H4" description=""/>
+      <property name="Manufacturer" value="ESPRESSIF(乐鑫)"/>
+      <property name="MPN" value="ESP32-C3-WROOM-02-H4"/>
+      <property name="LCSC Part" value="C2944070"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba1360b7-7426-4e61-9268-59f0f73281c9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>USBLC6-2SC6</value>
+      <footprint>Diode_SMD:SOT95P280X145-6N</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/USBLC6-2SC6_STMicroelectronics.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/USBLC6-2SC6_STMicroelectronics.pdf</field>
+        <field name="DESCRIPTION">17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="PACKAGE">SOT-23-6 STMicroelectronics</field>
+        <field name="Package">SOT-23-6 STMicroelectronics</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/</field>
+      </fields>
+      <libsource lib="USBLC6-2SC6" part="USBLC6-2SC6" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/USBLC6-2SC6_STMicroelectronics.pdf"/>
+      <property name="DESCRIPTION" value="17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="PACKAGE" value="SOT-23-6 STMicroelectronics"/>
+      <property name="Package" value="SOT-23-6 STMicroelectronics"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0da3e0af-f354-4e30-9ee6-5238bbe3a1fe</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CP2102N-A02-GQFN20</value>
+      <footprint>Sensor_Motion:WFQFN-20</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/CP2102N-A02-GQFN20_Silicon_Labs.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/CP2102N-A02-GQFN20_Silicon_Labs.pdf</field>
+        <field name="DESCRIPTION">USB Bridge, USB to UART USB 2.0 UART Interface 20-QFN (3x3)</field>
+        <field name="MANUFACTURER">Silicon Labs</field>
+        <field name="MPN">CP2102N-A02-GQFN20</field>
+        <field name="Package">WFQFN-20 Silicon Labs</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/CP2102N-A02-GQFN20/Silicon+Labs/view-part/</field>
+      </fields>
+      <libsource lib="CP2102N-A02-GQFN20" part="CP2102N-A02-GQFN20" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/CP2102N-A02-GQFN20_Silicon_Labs.pdf"/>
+      <property name="DESCRIPTION" value="USB Bridge, USB to UART USB 2.0 UART Interface 20-QFN (3x3)"/>
+      <property name="MANUFACTURER" value="Silicon Labs"/>
+      <property name="MPN" value="CP2102N-A02-GQFN20"/>
+      <property name="Package" value="WFQFN-20 Silicon Labs"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/CP2102N-A02-GQFN20/Silicon+Labs/view-part/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22fc429f-4006-4120-b635-9463b62fffd7</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>W25Q32JVSSIQ</value>
+      <footprint>Module:SOIC127P790X216-8N</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/W25Q32JVSSIQ_Winbond.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/W25Q32JVSSIQ_Winbond.pdf</field>
+        <field name="DESCRIPTION">FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC</field>
+        <field name="MANUFACTURER">Winbond</field>
+        <field name="MPN">W25Q32JVSSIQ</field>
+        <field name="M_PART_NUMBER">W25QXX</field>
+        <field name="Package">SOIC-8 Winbond</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/</field>
+      </fields>
+      <libsource lib="W25Q32JVSSIQ" part="W25Q32JVSSIQ" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/W25Q32JVSSIQ_Winbond.pdf"/>
+      <property name="DESCRIPTION" value="FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC"/>
+      <property name="MANUFACTURER" value="Winbond"/>
+      <property name="MPN" value="W25Q32JVSSIQ"/>
+      <property name="M_PART_NUMBER" value="W25QXX"/>
+      <property name="Package" value="SOIC-8 Winbond"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP-32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9954fb7e-39d7-4f3c-b8f9-6b3744642ec7</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>f529f257-90f2-4844-92d6-aaf627af7939</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="polcap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>18190e7c-c52c-440a-bf23-552126d9285b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>fa111788-7768-4ad2-949a-e7001ade446f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="polcap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>b6a64293-adae-487a-ab07-309af3492603</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>1daec4ad-97e9-43e7-9881-b2be822ba5ae</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>C170KRKT</value>
+      <footprint>Diode_SMD:DIOC200X125X110</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <libsource lib="LTST-C170KRKT" part="LTST-C170KRKT" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf"/>
+      <property name="DESCRIPTION" value="Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"/>
+      <property name="MANUFACTURER" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Package" value="0805 Lite-On"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>39543f49-b996-4dfb-8683-e3933df1b6a3</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>C170KRKT</value>
+      <footprint>Diode_SMD:DIOC200X125X110</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <libsource lib="LTST-C170KRKT" part="LTST-C170KRKT" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf"/>
+      <property name="DESCRIPTION" value="Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"/>
+      <property name="MANUFACTURER" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Package" value="0805 Lite-On"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>3f886a06-98d8-4671-9660-b5579db7b5e2</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>C170KRKT</value>
+      <footprint>Diode_SMD:DIOC200X125X110</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <libsource lib="LTST-C170KRKT" part="LTST-C170KRKT" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf"/>
+      <property name="DESCRIPTION" value="Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"/>
+      <property name="MANUFACTURER" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Package" value="0805 Lite-On"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>c3e01b84-4631-4b77-ad8e-2ba8144b0aea</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>C170KRKT</value>
+      <footprint>Diode_SMD:DIOC200X125X110</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <libsource lib="LTST-C170KRKT" part="LTST-C170KRKT" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf"/>
+      <property name="DESCRIPTION" value="Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)"/>
+      <property name="MANUFACTURER" value="Lite-On Inc."/>
+      <property name="MPN" value="LTST-C170KRKT"/>
+      <property name="Package" value="0805 Lite-On"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>390d0ff5-9581-4fc4-8728-1aef291e0870</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0ZCH0110AF2E</value>
+      <footprint>Diode_SMD:FUSC3225X100N</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/0ZCH0110AF2E_Bel_Fuse_Inc.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/0ZCH0110AF2E_Bel_Fuse_Inc.pdf</field>
+        <field name="DESCRIPTION">1210 SMT PPTC | 1.10 Ih | 16V</field>
+        <field name="MANUFACTURER">Bel Fuse Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.0mm</field>
+        <field name="MPN">0ZCH0110AF2E</field>
+        <field name="PARTREV">Apr2023</field>
+        <field name="Package">Package</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/0ZCH0110AF2E/Bel+Circuit+Protection/view-part/</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="0ZCH0110AF2E" part="0ZCH0110AF2E" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/0ZCH0110AF2E_Bel_Fuse_Inc.pdf"/>
+      <property name="DESCRIPTION" value="1210 SMT PPTC | 1.10 Ih | 16V"/>
+      <property name="MANUFACTURER" value="Bel Fuse Inc."/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.0mm"/>
+      <property name="MPN" value="0ZCH0110AF2E"/>
+      <property name="PARTREV" value="Apr2023"/>
+      <property name="Package" value="Package"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/0ZCH0110AF2E/Bel+Circuit+Protection/view-part/"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>614dcb28-683b-4604-be15-c3ec10a85d83</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SS-52400-002</value>
+      <footprint>Module:BELFUSE_SS-52400-002</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/SS-52400-002_Stewart_Connector.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/SS-52400-002_Stewart_Connector.pdf</field>
+        <field name="DESCRIPTION">USB Type-C Connector | USB 3.1 | 1 Port | Right Angle Receptacle | Shielded | 0.039 in (1.00mm) PCB Thickness</field>
+        <field name="MANUFACTURER">Stewart Connector</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.96 mm</field>
+        <field name="MPN">SS-52400-002</field>
+        <field name="PARTREV">A0</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/SS-52400-002/Stewart+Connector/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="SS-52400-002" part="SS-52400-002" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/SS-52400-002_Stewart_Connector.pdf"/>
+      <property name="DESCRIPTION" value="USB Type-C Connector | USB 3.1 | 1 Port | Right Angle Receptacle | Shielded | 0.039 in (1.00mm) PCB Thickness"/>
+      <property name="MANUFACTURER" value="Stewart Connector"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.96 mm"/>
+      <property name="MPN" value="SS-52400-002"/>
+      <property name="PARTREV" value="A0"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/SS-52400-002/Stewart+Connector/view-part/"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>565e31be-8718-4793-9006-0ca7b4f9b39e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>B2B-PH-SM4-TB</value>
+      <footprint>Connector_Wuerth:JST_B2B-PH-SM4-TB</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-SM4-TB_JST.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-SM4-TB_JST.pdf</field>
+        <field name="DESCRIPTION">Connector Header Surface Mount 2 position 0.079" (2.00mm)</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.6 mm</field>
+        <field name="MPN">B2B-PH-SM4-TB</field>
+        <field name="Package">NON STANDARD-2 JST</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="B2B-PH-SM4-TB" part="B2B-PH-SM4-TB" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-SM4-TB_JST.pdf"/>
+      <property name="DESCRIPTION" value="Connector Header Surface Mount 2 position 0.079&quot; (2.00mm)"/>
+      <property name="MANUFACTURER" value="JST"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.6 mm"/>
+      <property name="MPN" value="B2B-PH-SM4-TB"/>
+      <property name="Package" value="NON STANDARD-2 JST"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>c8448cb1-e668-4552-a5f7-8611bc175b09</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>967f4428-40e4-43e2-a099-2d039df6598a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>79165af6-d3f0-40e1-8678-68fe481b95c6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>cb404da8-6872-4882-b692-7910bbbd4e1d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>470ed50c-43ad-4027-8fcf-d0a340433865</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>a6c4fa34-a590-42c3-8014-60a19261d4d0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>4591d1ec-fb7d-4ef2-ace0-8f71b10fa9ad</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>0ed11744-3e4d-42c0-95be-d9e0d55ff634</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>b6011dba-e869-4c02-b7a0-901aec224b70</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>1ec39a98-f544-4224-ab42-85453dc348ac</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>de99a95c-80f7-4d14-accb-40a489f3ce8a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73871-2CAI_ML</value>
+      <footprint>Sensor_Motion:QFN50P400X400X100-21N</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/MCP73871-2CAI/ML_Microchip_Technology.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/MCP73871-2CAI/ML_Microchip_Technology.pdf</field>
+        <field name="DESCRIPTION">Microchip MCP73871-2CAI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CAI/ML</field>
+        <field name="MANUFACTURER">Microchip Technology</field>
+        <field name="MPN">MCP73871-2CAI/ML</field>
+        <field name="PARTREV">D</field>
+        <field name="Package">QFN-20 Microchip</field>
+        <field name="SNAPEDA_PACKAGE_ID">22102</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/MCP73871-2CAI/ML/Microchip+Technology/view-part/</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="MCP73871-2CAI_ML" part="MCP73871-2CAI_ML" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/MCP73871-2CAI/ML_Microchip_Technology.pdf"/>
+      <property name="DESCRIPTION" value="Microchip MCP73871-2CAI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CAI/ML"/>
+      <property name="MANUFACTURER" value="Microchip Technology"/>
+      <property name="MPN" value="MCP73871-2CAI/ML"/>
+      <property name="PARTREV" value="D"/>
+      <property name="Package" value="QFN-20 Microchip"/>
+      <property name="SNAPEDA_PACKAGE_ID" value="22102"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/MCP73871-2CAI/ML/Microchip+Technology/view-part/"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>cf3115d2-855c-4170-8de3-b195f1d0da6c</tstamps>
+    </comp>
+    <comp ref="VR1">
+      <value>LM1117MPX-3.3_NOPB</value>
+      <footprint>Sensor_Pressure:VREG_LM1117MPX-3.3_NOPB</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/lm1117</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">http://www.ti.com/lit/gpn/lm1117</field>
+        <field name="DESCRIPTION">800-mA 15-V linear voltage regulator</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.80 mm</field>
+        <field name="MPN">LM1117MPX-3.3/NOPB</field>
+        <field name="PARTREV">O</field>
+        <field name="Package">SOT-223-4 Texas Instruments</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LM1117MPX-3.3/NOPB/Texas+Instruments/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="LM1117MPX-3.3_NOPB" part="LM1117MPX-3.3_NOPB" description=""/>
+      <property name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/lm1117"/>
+      <property name="DESCRIPTION" value="800-mA 15-V linear voltage regulator"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.80 mm"/>
+      <property name="MPN" value="LM1117MPX-3.3/NOPB"/>
+      <property name="PARTREV" value="O"/>
+      <property name="Package" value="SOT-223-4 Texas Instruments"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/LM1117MPX-3.3/NOPB/Texas+Instruments/view-part/"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="Sheetname" value="USB__c"/>
+      <property name="Sheetfile" value="USB__c.kicad_sch"/>
+      <sheetpath names="/USB__c/" tstamps="/b3414a55-08af-4351-a237-75296c535021/"/>
+      <tstamps>a9bb11a5-811e-4962-951a-f5c2cfc8e54d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>4f7b687f-1014-4753-9013-714440e0fdbb</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>15ae3277-8d4e-4b4d-a4e8-99ce0f4024ec</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>36aa0c58-0d52-48e3-bdef-c1ec9e6c7720</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>0a15268e-34bd-4b7c-bb24-f74e3128fd71</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>CMC-5042PF-AC</value>
+      <footprint>Sensor_Pressure:CUI_CMC-5042PF-AC</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/CMC-5042PF-AC_CUI_Devices.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/CMC-5042PF-AC_CUI_Devices.pdf</field>
+        <field name="DESCRIPTION">100 Hz ~ 20 kHz Analog Microphone Electret Condenser 2 V ~ 10 V Omnidirectional (-42dB ±3dB @ 94dB SPL) PC Pins</field>
+        <field name="MANUFACTURER">Same Sky</field>
+        <field name="MPN">CMC-5042PF-AC</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/CMC-5042PF-AC/Same+Sky/view-part/</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="CMC-5042PF-AC" part="CMC-5042PF-AC" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/CMC-5042PF-AC_CUI_Devices.pdf"/>
+      <property name="DESCRIPTION" value="100 Hz ~ 20 kHz Analog Microphone Electret Condenser 2 V ~ 10 V Omnidirectional (-42dB ±3dB @ 94dB SPL) PC Pins"/>
+      <property name="MANUFACTURER" value="Same Sky"/>
+      <property name="MPN" value="CMC-5042PF-AC"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/CMC-5042PF-AC/Same+Sky/view-part/"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>4dc9f1e1-4d2a-46d8-a08d-6933a5593bbe</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value> </value>
+      <footprint>Sensor_Pressure:TEMT6000X01</footprint>
+      <fields>
+        <field name="Arrow Part Number">TEMT6000X01</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/temt6000x01/vishay.html?utm_currency=USD&amp;region=nac</field>
+        <field name="Datasheet_1">https://www.vishay.com/docs/81579/temt6000.pdf</field>
+        <field name="Footprint_1">TEMT6000X01</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">TEMT6000X01</field>
+        <field name="Mouser Part Number">78-TEMT6000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D</field>
+        <field name="Reference_1"> </field>
+        <field name="Value_1">TEMT6000X01</field>
+      </fields>
+      <libsource lib="TEMT6000X01" part="TEMT6000X01" description="Ambient Light Sensor 570nm SMD3 Vishay TEMT6000X01 +/-60  Visible Light Phototransistor, Surface Mount 3-Pin 1206 package"/>
+      <property name="Reference_1" value=" "/>
+      <property name="Value_1" value="TEMT6000X01"/>
+      <property name="Footprint_1" value="TEMT6000X01"/>
+      <property name="Datasheet_1" value="https://www.vishay.com/docs/81579/temt6000.pdf"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="TEMT6000X01"/>
+      <property name="Mouser Part Number" value="78-TEMT6000"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D"/>
+      <property name="Arrow Part Number" value="TEMT6000X01"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/temt6000x01/vishay.html?utm_currency=USD&amp;region=nac"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>6c046b01-9c82-488f-8ef1-98b9a4308447</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>2a1657ba-aee7-4c25-90b5-c9ba727f0065</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>2dedbfb6-d9d1-4900-8bc5-70b311864042</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>3b635d52-a14c-4159-af41-ad9bb5f8666e</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>a5566b72-139e-4965-bc0d-9391bc6584b6</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>2ea706cc-f327-4ee7-98d9-631fc10d43a6</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>cd06ff3e-5756-4579-8365-fad1153e59a1</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>e751b0e2-395d-415f-a5b4-5c689c769668</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>bc44d58a-62b0-4c33-a167-0e2cec5304b9</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>3f3ad5bb-64b9-438e-9a09-6f78c6663f9b</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MAX4466EXK</value>
+      <footprint>Module:SOT65P210X110-5N</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/MAX4466EXK_T_Maxim_Integrated_Products.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/MAX4466EXK_T_Maxim_Integrated_Products.pdf</field>
+        <field name="DESCRIPTION">Microphone Preamplifier Amplifier Circuit 1-Channel (Mono) SC-70-5</field>
+        <field name="MANUFACTURER">Analog Devices</field>
+        <field name="MPN">MAX4466EXK+T</field>
+        <field name="Package">SC-70-5 Maxim</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/MAX4466EXK+T/Analog+Devices/view-part/</field>
+      </fields>
+      <libsource lib="MAX4466EXK" part="MAX4466EXK" description=""/>
+      <property name="DATASHEET_URL" value="https://s3.amazonaws.com/snapeda/datasheet/MAX4466EXK_T_Maxim_Integrated_Products.pdf"/>
+      <property name="DESCRIPTION" value="Microphone Preamplifier Amplifier Circuit 1-Channel (Mono) SC-70-5"/>
+      <property name="MANUFACTURER" value="Analog Devices"/>
+      <property name="MPN" value="MAX4466EXK+T"/>
+      <property name="Package" value="SC-70-5 Maxim"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/MAX4466EXK+T/Analog+Devices/view-part/"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>ff82887e-9e6d-4405-8793-b349a0f05cb0</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>BME280</value>
+      <footprint>Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</datasheet>
+      <libsource lib="Sensor" part="BME280" description="3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"/>
+      <property name="Sheetname" value="Sensor"/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/Sensor/" tstamps="/f08ccb67-97f5-49b1-9c3a-920e7abae12f/"/>
+      <tstamps>0c7e79fc-eca4-4102-85d6-abb39a0d0f3d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>0acf788f-714e-4b37-bbbb-9f672ea45ac5</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>7cd9b331-4fce-4851-94a5-0b5684cd7923</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DS1021-1X4SF162-B</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</field>
+        <field name="DESCRIPTION">4 position 2.54mm single row vertical pin header through hole</field>
+        <field name="MANUFACTURER">Connfly</field>
+        <field name="MPN">DS1021-1X4SF162-B</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/DS1021-1X4SF162-B/Connfly/view-part/</field>
+      </fields>
+      <libsource lib="DS1021-1X4SF162-B" part="DS1021-1X4SF162-B" description=""/>
+      <property name="DATASHEET_URL" value="https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf"/>
+      <property name="DESCRIPTION" value="4 position 2.54mm single row vertical pin header through hole"/>
+      <property name="MANUFACTURER" value="Connfly"/>
+      <property name="MPN" value="DS1021-1X4SF162-B"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/DS1021-1X4SF162-B/Connfly/view-part/"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>9913cab4-9bbb-4b48-b210-b53afc407f59</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>DS1021-1X5SF162-B</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</datasheet>
+      <fields>
+        <field name="DATASHEET_URL">https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</field>
+        <field name="DESCRIPTION">5 position 2.54mm single row vertical pin header through hole</field>
+        <field name="MANUFACTURER">Connfly</field>
+        <field name="MPN">DS1021-1X5SF162-B</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/DS1021-1X5SF162-B/Connfly/view-part/</field>
+      </fields>
+      <libsource lib="DS1021-1X5SF162-B" part="DS1021-1X5SF162-B" description=""/>
+      <property name="DATASHEET_URL" value="https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf"/>
+      <property name="DESCRIPTION" value="5 position 2.54mm single row vertical pin header through hole"/>
+      <property name="MANUFACTURER" value="Connfly"/>
+      <property name="MPN" value="DS1021-1X5SF162-B"/>
+      <property name="SOURCE_URL" value="https://www.snapeda.com/parts/DS1021-1X5SF162-B/Connfly/view-part/"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>60c97af3-82f6-4d6f-8480-da6494d68d6b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <libsource lib="eSim_Devices" part="BC547" description=""/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>72ad5b49-074d-4dbe-a8a8-a12782bbedb4</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <libsource lib="eSim_Devices" part="BC547" description=""/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>4c96e6e5-330e-4684-b072-d15009593500</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>eaf05356-c1c9-4593-b958-1c4509438c55</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>9bd7733f-497c-4a65-b6ed-239812b89d16</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>eb4ccd31-23f3-42e7-90d1-7785db5d40a0</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value> </value>
+      <footprint>Button_Switch_SMD:USLPT2819DT2TR</footprint>
+      <fields>
+        <field name="Arrow Part Number">USLPT2819DT2TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/uslpt2819dt2tr/te-connectivity.html?utm_currency=USD&amp;region=nac</field>
+        <field name="Datasheet_1">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2337225-1&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2337225-1&amp;DocFormat=pdf</field>
+        <field name="Footprint_1">USLPT2819DT2TR</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">USLPT2819DT2TR</field>
+        <field name="Mouser Part Number">506-USLPT2819DT2TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/USLPT2819DT2TR?qs=qSfuJ%252Bfl%2Fd7zUoyEnK5Yzg%3D%3D</field>
+        <field name="Value_1">Reset</field>
+      </fields>
+      <libsource lib="USLPT2819DT2TR" part="USLPT2819DT2TR" description="Body Features: Product Orientation Vertical | Case Color Black | Actuator Profile Extended | Actuator Material Polyimide | Actuator Force 160 G | Actuator Force 5.64 OZ | Case Material Thermoplastic | Configuration Features: Number of Actuators Single | Switch Feedback Type Tactile | Ganged Without | Operating Function NO | ESD Grounding Terminal Without | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Base Material Stainless Steel | Contact Current Rating 50 MAMP | Switch"/>
+      <property name="Reference_1" value=""/>
+      <property name="Value_1" value="Reset"/>
+      <property name="Footprint_1" value="USLPT2819DT2TR"/>
+      <property name="Datasheet_1" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2337225-1&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2337225-1&amp;DocFormat=pdf"/>
+      <property name="Height" value="0.6"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="USLPT2819DT2TR"/>
+      <property name="Mouser Part Number" value="506-USLPT2819DT2TR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/USLPT2819DT2TR?qs=qSfuJ%252Bfl%2Fd7zUoyEnK5Yzg%3D%3D"/>
+      <property name="Arrow Part Number" value="USLPT2819DT2TR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/uslpt2819dt2tr/te-connectivity.html?utm_currency=USD&amp;region=nac"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>853af6b7-2a73-4596-b98f-3fef01848037</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value> </value>
+      <footprint>Button_Switch_SMD:USLPT2819DT2TR</footprint>
+      <fields>
+        <field name="Arrow Part Number">USLPT2819DT2TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/uslpt2819dt2tr/te-connectivity.html?utm_currency=USD&amp;region=nac</field>
+        <field name="Datasheet_1">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2337225-1&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2337225-1&amp;DocFormat=pdf</field>
+        <field name="Footprint_1">USLPT2819DT2TR</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">USLPT2819DT2TR</field>
+        <field name="Mouser Part Number">506-USLPT2819DT2TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/USLPT2819DT2TR?qs=qSfuJ%252Bfl%2Fd7zUoyEnK5Yzg%3D%3D</field>
+        <field name="Value_1">Boot</field>
+      </fields>
+      <libsource lib="USLPT2819DT2TR" part="USLPT2819DT2TR" description="Body Features: Product Orientation Vertical | Case Color Black | Actuator Profile Extended | Actuator Material Polyimide | Actuator Force 160 G | Actuator Force 5.64 OZ | Case Material Thermoplastic | Configuration Features: Number of Actuators Single | Switch Feedback Type Tactile | Ganged Without | Operating Function NO | ESD Grounding Terminal Without | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Base Material Stainless Steel | Contact Current Rating 50 MAMP | Switch"/>
+      <property name="Reference_1" value=""/>
+      <property name="Value_1" value="Boot"/>
+      <property name="Footprint_1" value="USLPT2819DT2TR"/>
+      <property name="Datasheet_1" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2337225-1&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2337225-1&amp;DocFormat=pdf"/>
+      <property name="Height" value="0.6"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="USLPT2819DT2TR"/>
+      <property name="Mouser Part Number" value="506-USLPT2819DT2TR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/USLPT2819DT2TR?qs=qSfuJ%252Bfl%2Fd7zUoyEnK5Yzg%3D%3D"/>
+      <property name="Arrow Part Number" value="USLPT2819DT2TR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/uslpt2819dt2tr/te-connectivity.html?utm_currency=USD&amp;region=nac"/>
+      <property name="Sheetname" value="UI"/>
+      <property name="Sheetfile" value="UI.kicad_sch"/>
+      <sheetpath names="/UI/" tstamps="/9a997018-b160-47b1-a2cb-520f2d1e8304/"/>
+      <tstamps>826590cb-27b0-4f7a-93f5-e6e90629f75d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="C_1">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">C_1</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0ZCH0110AF2E" part="0ZCH0110AF2E">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/0ZCH0110AF2E_Bel_Fuse_Inc.pdf</docs>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">0ZCH0110AF2E</field>
+        <field name="Footprint">0ZCH0110AF2E:FUSC3225X100N</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/0ZCH0110AF2E_Bel_Fuse_Inc.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/0ZCH0110AF2E_Bel_Fuse_Inc.pdf</field>
+        <field name="DESCRIPTION">1210 SMT PPTC | 1.10 Ih | 16V</field>
+        <field name="MANUFACTURER">Bel Fuse Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.0mm</field>
+        <field name="MPN">0ZCH0110AF2E</field>
+        <field name="PARTREV">Apr2023</field>
+        <field name="Package">Package</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/0ZCH0110AF2E/Bel+Circuit+Protection/view-part/</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="B2B-PH-SM4-TB" part="B2B-PH-SM4-TB">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-SM4-TB_JST.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B2B-PH-SM4-TB</field>
+        <field name="Footprint">B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-SM4-TB_JST.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-SM4-TB_JST.pdf</field>
+        <field name="DESCRIPTION">Connector Header Surface Mount 2 position 0.079" (2.00mm)</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.6 mm</field>
+        <field name="MPN">B2B-PH-SM4-TB</field>
+        <field name="Package">NON STANDARD-2 JST</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CMC-5042PF-AC" part="CMC-5042PF-AC">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/CMC-5042PF-AC_CUI_Devices.pdf</docs>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">CMC-5042PF-AC</field>
+        <field name="Footprint">CMC-5042PF-AC:CUI_CMC-5042PF-AC</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/CMC-5042PF-AC_CUI_Devices.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/CMC-5042PF-AC_CUI_Devices.pdf</field>
+        <field name="DESCRIPTION">100 Hz ~ 20 kHz Analog Microphone Electret Condenser 2 V ~ 10 V Omnidirectional (-42dB ±3dB @ 94dB SPL) PC Pins</field>
+        <field name="MANUFACTURER">Same Sky</field>
+        <field name="MPN">CMC-5042PF-AC</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/CMC-5042PF-AC/Same+Sky/view-part/</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="" type="power_in"/>
+        <pin num="OUT" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="CP2102N-A02-GQFN20" part="CP2102N-A02-GQFN20">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/CP2102N-A02-GQFN20_Silicon_Labs.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-A02-GQFN20</field>
+        <field name="Footprint">CP2102N-A02-GQFN20:WFQFN-20</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/CP2102N-A02-GQFN20_Silicon_Labs.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/CP2102N-A02-GQFN20_Silicon_Labs.pdf</field>
+        <field name="DESCRIPTION">USB Bridge, USB to UART USB 2.0 UART Interface 20-QFN (3x3)</field>
+        <field name="MANUFACTURER">Silicon Labs</field>
+        <field name="MPN">CP2102N-A02-GQFN20</field>
+        <field name="Package">WFQFN-20 Silicon Labs</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/CP2102N-A02-GQFN20/Silicon+Labs/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO1/RS485" type="bidirectional"/>
+        <pin num="2" name="GPIO0/CLK" type="bidirectional"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="VDD" type="bidirectional"/>
+        <pin num="7" name="VREGIN" type="bidirectional"/>
+        <pin num="8" name="VBUS" type="bidirectional"/>
+        <pin num="9" name="RSTB" type="bidirectional"/>
+        <pin num="11" name="SUSPENDB" type="bidirectional"/>
+        <pin num="12" name="GND" type="bidirectional"/>
+        <pin num="13" name="WAKEUP" type="bidirectional"/>
+        <pin num="14" name="SUSPEND" type="bidirectional"/>
+        <pin num="15" name="CTS" type="bidirectional"/>
+        <pin num="16" name="RTS" type="bidirectional"/>
+        <pin num="17" name="RXD" type="bidirectional"/>
+        <pin num="18" name="TXD" type="bidirectional"/>
+        <pin num="19" name="GPIO3/RXT" type="bidirectional"/>
+        <pin num="20" name="GPIO2/TXT" type="bidirectional"/>
+        <pin num="EXP" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="DS1021-1X4SF162-B" part="DS1021-1X4SF162-B">
+      <docs>https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DS1021-1X4SF162-B</field>
+        <field name="Footprint">DS1021-1X4SF162-B:CONNFLY_DS1021-1X4SF162-B</field>
+        <field name="Datasheet">https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</field>
+        <field name="DATASHEET_URL">https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</field>
+        <field name="DESCRIPTION">4 position 2.54mm single row vertical pin header through hole</field>
+        <field name="MANUFACTURER">Connfly</field>
+        <field name="MPN">DS1021-1X4SF162-B</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/DS1021-1X4SF162-B/Connfly/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DS1021-1X5SF162-B" part="DS1021-1X5SF162-B">
+      <docs>https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DS1021-1X5SF162-B</field>
+        <field name="Footprint">DS1021-1X5SF162-B:CONNFLY_DS1021-1X5SF162-B</field>
+        <field name="Datasheet">https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</field>
+        <field name="DATASHEET_URL">https://snapeda.s3.us-east-1.amazonaws.com/datasheet/DS1021_Single_Row.pdf</field>
+        <field name="DESCRIPTION">5 position 2.54mm single row vertical pin header through hole</field>
+        <field name="MANUFACTURER">Connfly</field>
+        <field name="MPN">DS1021-1X5SF162-B</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/DS1021-1X5SF162-B/Connfly/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-C3-WROOM-02-H4" part="ESP32-C3-WROOM-02-H4">
+      <docs>https://www.lcsc.com/datasheet/C2944070.pdf</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">ESP32-C3-WROOM-02-H4</field>
+        <field name="Footprint">C2944070:WIFIM-SMD_18P-L20.0-W18.0-P1.50</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2944070.pdf</field>
+        <field name="Manufacturer">ESPRESSIF(乐鑫)</field>
+        <field name="MPN">ESP32-C3-WROOM-02-H4</field>
+        <field name="LCSC Part">C2944070</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="unspecified"/>
+        <pin num="2" name="EN" type="unspecified"/>
+        <pin num="3" name="IO4" type="unspecified"/>
+        <pin num="4" name="IO5" type="unspecified"/>
+        <pin num="5" name="IO6" type="unspecified"/>
+        <pin num="6" name="IO7" type="unspecified"/>
+        <pin num="7" name="IO8" type="unspecified"/>
+        <pin num="8" name="IO9" type="unspecified"/>
+        <pin num="9" name="GND" type="unspecified"/>
+        <pin num="10" name="IO10" type="bidirectional"/>
+        <pin num="11" name="RXD" type="unspecified"/>
+        <pin num="12" name="TXD" type="unspecified"/>
+        <pin num="13" name="IO18" type="unspecified"/>
+        <pin num="14" name="IO19" type="unspecified"/>
+        <pin num="15" name="IO3" type="unspecified"/>
+        <pin num="16" name="IO2" type="unspecified"/>
+        <pin num="17" name="IO1" type="unspecified"/>
+        <pin num="18" name="IO0" type="unspecified"/>
+        <pin num="19" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="GSD090012SEU" part="GSD090012SEU">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/GSD090012SEU_Amphenol_FCI.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GSD090012SEU</field>
+        <field name="Footprint">GSD090012SEU:AMPHENOL_GSD090012SEU</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/GSD090012SEU_Amphenol_FCI.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/GSD090012SEU_Amphenol_FCI.pdf</field>
+        <field name="DESCRIPTION">11 (9 + 2) Position Card Connector Secure Digital - SD Surface Mount, Right Angle Gold</field>
+        <field name="MANUFACTURER">Amphenol FCI</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.95mm</field>
+        <field name="MPN">GSD090012SEU</field>
+        <field name="PARTREV">E</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/GSD090012SEU/Amphenol/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CD/DAT3" type="bidirectional"/>
+        <pin num="2" name="CMD" type="bidirectional"/>
+        <pin num="3" name="VSS1" type="power_in"/>
+        <pin num="4" name="VDD1" type="power_in"/>
+        <pin num="5" name="CLK" type="bidirectional"/>
+        <pin num="6" name="VSS2" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DAT2" type="bidirectional"/>
+        <pin num="CD_IND" name="CD_IND" type="passive"/>
+        <pin num="G1" name="SHIELD_GND" type="power_in"/>
+        <pin num="G2" name="SHIELD_GND" type="power_in"/>
+        <pin num="G3" name="SHIELD_GND" type="power_in"/>
+        <pin num="G4" name="SHIELD_GND" type="power_in"/>
+        <pin num="WP" name="WP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM1117MPX-3.3_NOPB" part="LM1117MPX-3.3_NOPB">
+      <docs>http://www.ti.com/lit/gpn/lm1117</docs>
+      <fields>
+        <field name="Reference">VR1</field>
+        <field name="Value">LM1117MPX-3.3_NOPB</field>
+        <field name="Footprint">LM1117MPX-3.3_NOPB:VREG_LM1117MPX-3.3_NOPB</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/lm1117</field>
+        <field name="DATASHEET_URL">http://www.ti.com/lit/gpn/lm1117</field>
+        <field name="DESCRIPTION">800-mA 15-V linear voltage regulator</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.80 mm</field>
+        <field name="MPN">LM1117MPX-3.3/NOPB</field>
+        <field name="PARTREV">O</field>
+        <field name="Package">SOT-223-4 Texas Instruments</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LM1117MPX-3.3/NOPB/Texas+Instruments/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT_2" type="passive"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="VOUT_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTST-C170KRKT" part="LTST-C170KRKT">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LTST-C170KRKT</field>
+        <field name="Footprint">LTST-C170KRKT:DIOC200X125X110</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/LTST-C170KRKT_Lite-On_Inc..pdf</field>
+        <field name="DESCRIPTION">Red 631nm LED Indication - Discrete 2V 0805 (2012 Metric)</field>
+        <field name="MANUFACTURER">Lite-On Inc.</field>
+        <field name="MPN">LTST-C170KRKT</field>
+        <field name="Package">0805 Lite-On</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/LTST-C170KRKT/Lite-On/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="+" name="" type="passive"/>
+        <pin num="-" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTspice_sym" part="cap">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">cap</field>
+        <field name="Field5">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="B" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTspice_sym" part="polcap">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">polcap</field>
+        <field name="Field5">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="B" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX4466EXK" part="MAX4466EXK">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/MAX4466EXK_T_Maxim_Integrated_Products.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX4466EXK</field>
+        <field name="Footprint">MAX4466EXK:SOT65P210X110-5N</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/MAX4466EXK_T_Maxim_Integrated_Products.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/MAX4466EXK_T_Maxim_Integrated_Products.pdf</field>
+        <field name="DESCRIPTION">Microphone Preamplifier Amplifier Circuit 1-Channel (Mono) SC-70-5</field>
+        <field name="MANUFACTURER">Analog Devices</field>
+        <field name="MPN">MAX4466EXK+T</field>
+        <field name="Package">SC-70-5 Maxim</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/MAX4466EXK+T/Analog+Devices/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP73871-2CAI_ML" part="MCP73871-2CAI_ML">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/MCP73871-2CAI/ML_Microchip_Technology.pdf</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">MCP73871-2CAI_ML</field>
+        <field name="Footprint">MCP73871-2CAI_ML:QFN50P400X400X100-21N</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/MCP73871-2CAI/ML_Microchip_Technology.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/MCP73871-2CAI/ML_Microchip_Technology.pdf</field>
+        <field name="DESCRIPTION">Microchip MCP73871-2CAI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CAI/ML</field>
+        <field name="MANUFACTURER">Microchip Technology</field>
+        <field name="MPN">MCP73871-2CAI/ML</field>
+        <field name="PARTREV">D</field>
+        <field name="Package">QFN-20 Microchip</field>
+        <field name="SNAPEDA_PACKAGE_ID">22102</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/MCP73871-2CAI/ML/Microchip+Technology/view-part/</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="VPCC" type="input"/>
+        <pin num="3" name="SEL" type="input"/>
+        <pin num="4" name="PROG2" type="input"/>
+        <pin num="5" name="THERM" type="bidirectional"/>
+        <pin num="6" name="~{PG}" type="output"/>
+        <pin num="7" name="STAT2" type="output"/>
+        <pin num="8" name="STAT1/~{LBO}" type="output"/>
+        <pin num="9" name="~{TE}" type="input"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="VSS" type="power_in"/>
+        <pin num="12" name="PROG3" type="bidirectional"/>
+        <pin num="13" name="PROG1" type="bidirectional"/>
+        <pin num="14" name="VBAT" type="bidirectional"/>
+        <pin num="15" name="VBAT" type="bidirectional"/>
+        <pin num="16" name="VBAT_SENSE" type="bidirectional"/>
+        <pin num="17" name="CE" type="input"/>
+        <pin num="18" name="IN" type="input"/>
+        <pin num="19" name="IN" type="input"/>
+        <pin num="20" name="OUT" type="passive"/>
+        <pin num="21" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SS-52400-002" part="SS-52400-002">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/SS-52400-002_Stewart_Connector.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SS-52400-002</field>
+        <field name="Footprint">SS-52400-002:BELFUSE_SS-52400-002</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/SS-52400-002_Stewart_Connector.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/SS-52400-002_Stewart_Connector.pdf</field>
+        <field name="DESCRIPTION">USB Type-C Connector | USB 3.1 | 1 Port | Right Angle Receptacle | Shielded | 0.039 in (1.00mm) PCB Thickness</field>
+        <field name="MANUFACTURER">Stewart Connector</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.96 mm</field>
+        <field name="MPN">SS-52400-002</field>
+        <field name="PARTREV">A0</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/SS-52400-002/Stewart+Connector/view-part/</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GNDA1" type="power_in"/>
+        <pin num="A2" name="SSTXP1" type="bidirectional"/>
+        <pin num="A3" name="SSTXN1" type="bidirectional"/>
+        <pin num="A4" name="VBUSA1" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUSA2" type="power_in"/>
+        <pin num="A10" name="SSRXN2" type="bidirectional"/>
+        <pin num="A11" name="SSRXP2" type="bidirectional"/>
+        <pin num="A12" name="GNDA2" type="power_in"/>
+        <pin num="B1" name="GNDB1" type="power_in"/>
+        <pin num="B2" name="SSTXP2" type="bidirectional"/>
+        <pin num="B3" name="SSTXN2" type="bidirectional"/>
+        <pin num="B4" name="VBUSB1" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUSB2" type="power_in"/>
+        <pin num="B10" name="SSRXN1" type="bidirectional"/>
+        <pin num="B11" name="SSRXP1" type="bidirectional"/>
+        <pin num="B12" name="GNDB2" type="power_in"/>
+        <pin num="G1" name="GND/SHIELD" type="power_in"/>
+        <pin num="G2" name="GND/SHIELD" type="power_in"/>
+        <pin num="G3" name="GND/SHIELD" type="power_in"/>
+        <pin num="G4" name="GND/SHIELD" type="power_in"/>
+        <pin num="S1" name="GND/SHIELD" type="power_in"/>
+        <pin num="S2" name="GND/SHIELD" type="power_in"/>
+        <pin num="S3" name="GND/SHIELD" type="power_in"/>
+        <pin num="S4" name="GND/SHIELD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="BME280">
+      <description>3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</description>
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</docs>
+      <footprints>
+        <fp>*LGA*2.5x2.5mm*P0.65mm*Clockwise*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME280</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="bidirectional"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TEMT6000X01" part="TEMT6000X01">
+      <description>Ambient Light Sensor 570nm SMD3 Vishay TEMT6000X01 +/-60  Visible Light Phototransistor, Surface Mount 3-Pin 1206 package</description>
+      <fields>
+        <field name="Value">TEMT6000X01</field>
+        <field name="Reference_1">Q</field>
+        <field name="Value_1">TEMT6000X01</field>
+        <field name="Footprint_1">TEMT6000X01</field>
+        <field name="Datasheet_1">https://www.vishay.com/docs/81579/temt6000.pdf</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">TEMT6000X01</field>
+        <field name="Mouser Part Number">78-TEMT6000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D</field>
+        <field name="Arrow Part Number">TEMT6000X01</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/temt6000x01/vishay.html?utm_currency=USD&amp;region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E_1" type="passive"/>
+        <pin num="2" name="E_2" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USBLC6-2SC6" part="USBLC6-2SC6">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/USBLC6-2SC6_STMicroelectronics.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">USBLC6-2SC6:SOT95P280X145-6N</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/USBLC6-2SC6_STMicroelectronics.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/USBLC6-2SC6_STMicroelectronics.pdf</field>
+        <field name="DESCRIPTION">17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="PACKAGE">SOT-23-6 STMicroelectronics</field>
+        <field name="Package">SOT-23-6 STMicroelectronics</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="bidirectional"/>
+        <pin num="2" name="" type="power_in"/>
+        <pin num="3" name="" type="bidirectional"/>
+        <pin num="4" name="" type="bidirectional"/>
+        <pin num="5" name="" type="power_in"/>
+        <pin num="6" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="USLPT2819DT2TR" part="USLPT2819DT2TR">
+      <description>Body Features: Product Orientation Vertical | Case Color Black | Actuator Profile Extended | Actuator Material Polyimide | Actuator Force 160 G | Actuator Force 5.64 OZ | Case Material Thermoplastic | Configuration Features: Number of Actuators Single | Switch Feedback Type Tactile | Ganged Without | Operating Function NO | ESD Grounding Terminal Without | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Base Material Stainless Steel | Contact Current Rating 50 MAMP | Switch</description>
+      <fields>
+        <field name="Value">USLPT2819DT2TR</field>
+        <field name="Reference_1">S</field>
+        <field name="Value_1">USLPT2819DT2TR</field>
+        <field name="Footprint_1">USLPT2819DT2TR</field>
+        <field name="Datasheet_1">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2337225-1&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=2337225-1&amp;DocFormat=pdf</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">USLPT2819DT2TR</field>
+        <field name="Mouser Part Number">506-USLPT2819DT2TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/USLPT2819DT2TR?qs=qSfuJ%252Bfl%2Fd7zUoyEnK5Yzg%3D%3D</field>
+        <field name="Arrow Part Number">USLPT2819DT2TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/uslpt2819dt2tr/te-connectivity.html?utm_currency=USD&amp;region=nac</field>
+      </fields>
+      <pins>
+        <pin num="T1" name="N.O._1" type="passive"/>
+        <pin num="T2" name="N.O._2" type="passive"/>
+        <pin num="T3" name="COM_1" type="passive"/>
+        <pin num="T4" name="COM_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="W25Q32JVSSIQ" part="W25Q32JVSSIQ">
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/W25Q32JVSSIQ_Winbond.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q32JVSSIQ</field>
+        <field name="Footprint">W25Q32JVSSIQ:SOIC127P790X216-8N</field>
+        <field name="Datasheet">https://s3.amazonaws.com/snapeda/datasheet/W25Q32JVSSIQ_Winbond.pdf</field>
+        <field name="DATASHEET_URL">https://s3.amazonaws.com/snapeda/datasheet/W25Q32JVSSIQ_Winbond.pdf</field>
+        <field name="DESCRIPTION">FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC</field>
+        <field name="MANUFACTURER">Winbond</field>
+        <field name="MPN">W25Q32JVSSIQ</field>
+        <field name="M_PART_NUMBER">W25QXX</field>
+        <field name="Package">SOIC-8 Winbond</field>
+        <field name="SOURCE_URL">https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="~{WP}(IO2)" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="~{HOLD}/~{RESET}(IO3)" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="BC547">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="resistor">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0ZCH0110AF2E">
+      <uri>D:/Downloads/0ZCH0110AF2E/0ZCH0110AF2E.kicad_sym</uri>
+    </library>
+    <library logical="B2B-PH-SM4-TB">
+      <uri>D:/Downloads/B2B-PH-SM4-TB/B2B-PH-SM4-TB.kicad_sym</uri>
+    </library>
+    <library logical="CMC-5042PF-AC">
+      <uri>D:/Downloads/CMC-5042PF-AC/CMC-5042PF-AC.kicad_sym</uri>
+    </library>
+    <library logical="CP2102N-A02-GQFN20">
+      <uri>D:/Downloads/CP2102N-A02-GQFN20/CP2102N-A02-GQFN20.kicad_sym</uri>
+    </library>
+    <library logical="DS1021-1X4SF162-B">
+      <uri>D:/Downloads/DS1021-1X4SF162-B/DS1021-1X4SF162-B.kicad_sym</uri>
+    </library>
+    <library logical="DS1021-1X5SF162-B">
+      <uri>D:/Downloads/DS1021-1X5SF162-B/DS1021-1X5SF162-B.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Downloads\FOSSEE\KiCad\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-C3-WROOM-02-H4">
+      <uri>D:/Downloads/ESP32-C3-WROOM-02-H4.kicad_sym</uri>
+    </library>
+    <library logical="GSD090012SEU">
+      <uri>D:/Downloads/GSD090012SEU/GSD090012SEU.kicad_sym</uri>
+    </library>
+    <library logical="LM1117MPX-3.3_NOPB">
+      <uri>D:/Downloads/LM1117MPX-3.3_NOPB/LM1117MPX-3.3_NOPB.kicad_sym</uri>
+    </library>
+    <library logical="LTST-C170KRKT">
+      <uri>D:/Downloads/LTST-C170KRKT/LTST-C170KRKT.kicad_sym</uri>
+    </library>
+    <library logical="LTspice_sym">
+      <uri>D:\Downloads\FOSSEE\KiCad\share\kicad\symbols\/LTspice_sym.lib</uri>
+    </library>
+    <library logical="MAX4466EXK">
+      <uri>D:/Downloads/MAX4466EXK/MAX4466EXK.kicad_sym</uri>
+    </library>
+    <library logical="MCP73871-2CAI_ML">
+      <uri>D:/Downloads/LM1117MPX-3.3_NOPB/MCP73871-2CAI_ML/MCP73871-2CAI_ML.kicad_sym</uri>
+    </library>
+    <library logical="SS-52400-002">
+      <uri>D:/Downloads/SS-52400-002/SS-52400-002.kicad_sym</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>D:\Downloads\FOSSEE\KiCad\share\kicad\symbols\/Sensor.kicad_sym</uri>
+    </library>
+    <library logical="TEMT6000X01">
+      <uri>D:/Downloads/LIB_TEMT6000X01/TEMT6000X01/KiCad/TEMT6000X01.kicad_sym</uri>
+    </library>
+    <library logical="USBLC6-2SC6">
+      <uri>D:/Downloads/USBLC6-2SC6/USBLC6-2SC6.kicad_sym</uri>
+    </library>
+    <library logical="USLPT2819DT2TR">
+      <uri>D:/Downloads/LIB_USLPT2819DT2TR/USLPT2819DT2TR/KiCad/USLPT2819DT2TR.kicad_sym</uri>
+    </library>
+    <library logical="W25Q32JVSSIQ">
+      <uri>D:/Downloads/W25Q32JVSSIQ/W25Q32JVSSIQ.kicad_sym</uri>
+    </library>
+    <library logical="eSim_Devices">
+      <uri>D:\Downloads\FOSSEE\KiCad\share\kicad\symbols\/eSim_Devices.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="C2" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="D4" pin="+" pintype="passive"/>
+      <node ref="D5" pin="+" pintype="passive"/>
+      <node ref="D6" pin="+" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="VDD1" pintype="power_in"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="3V3" pintype="unspecified"/>
+      <node ref="U5" pin="3" pinfunction="~{WP}(IO2)" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="~{HOLD}/~{RESET}(IO3)" pintype="bidirectional"/>
+      <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="CSB" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="VR1" pin="2" pinfunction="VOUT_2" pintype="passive"/>
+      <node ref="VR1" pin="4" pinfunction="VOUT_4" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C4" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="OUT" pintype="passive"/>
+      <node ref="VR1" pin="3" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="3" name="/BOOT">
+      <node ref="C19" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="S2" pin="T3" pinfunction="COM_1" pintype="passive"/>
+      <node ref="S2" pin="T4" pinfunction="COM_2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="IO9" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/CD_SD">
+      <node ref="J1" pin="CD_IND" pinfunction="CD_IND" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="IO0" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/CS">
+      <node ref="U2" pin="10" pinfunction="IO10" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="6" name="/DTR">
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="CTS" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/EN">
+      <node ref="C20" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="S1" pin="T3" pinfunction="COM_1" pintype="passive"/>
+      <node ref="S1" pin="T4" pinfunction="COM_2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/GPIO8">
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="IO8" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/GPIO18">
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="IO18" pintype="unspecified"/>
+    </net>
+    <net code="10" name="/GPIO19">
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="IO19" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/MIC_OUT">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IO5" pintype="unspecified"/>
+      <node ref="U6" pin="4" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="12" name="/MISO_DO">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="IO2" pintype="unspecified"/>
+    </net>
+    <net code="13" name="/MOSI_DI">
+      <node ref="J1" pin="2" pinfunction="CMD" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/PHOTO_C">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="IO1" pintype="unspecified"/>
+    </net>
+    <net code="15" name="/RTS">
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="RTS" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/RX_TX">
+      <node ref="U2" pin="12" pinfunction="TXD" pintype="unspecified"/>
+      <node ref="U4" pin="17" pinfunction="RXD" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SCL">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="IO3" pintype="unspecified"/>
+      <node ref="U8" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="18" name="/SCLK">
+      <node ref="J1" pin="5" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="19" name="/SDA">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IO4" pintype="unspecified"/>
+      <node ref="U8" pin="3" pinfunction="SDI" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/TX_RX">
+      <node ref="U2" pin="11" pinfunction="RXD" pintype="unspecified"/>
+      <node ref="U4" pin="18" pinfunction="TXD" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/USB_DN">
+      <node ref="J2" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J2" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/USB_DP">
+      <node ref="J2" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J2" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/USB__c/+5V_USB">
+      <node ref="D1" pin="+" pintype="passive"/>
+      <node ref="D2" pin="+" pintype="passive"/>
+      <node ref="D3" pin="+" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="CE" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="PROG2" pintype="input"/>
+    </net>
+    <net code="24" name="/USB__c/VBAT">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VBAT" pintype="bidirectional"/>
+      <node ref="U1" pin="15" pinfunction="VBAT" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="VBAT_SENSE" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/VBUS">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="A4" pinfunction="VBUSA1" pintype="power_in"/>
+      <node ref="J2" pin="A9" pinfunction="VBUSA2" pintype="power_in"/>
+      <node ref="J2" pin="B4" pinfunction="VBUSB1" pintype="power_in"/>
+      <node ref="J2" pin="B9" pinfunction="VBUSB2" pintype="power_in"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="VBUS" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C19" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C2" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C20" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="J1" pin="3" pinfunction="VSS1" pintype="power_in"/>
+      <node ref="J1" pin="6" pinfunction="VSS2" pintype="power_in"/>
+      <node ref="J1" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+      <node ref="J1" pin="9" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="J1" pin="G1" pinfunction="SHIELD_GND" pintype="power_in"/>
+      <node ref="J1" pin="G2" pinfunction="SHIELD_GND" pintype="power_in"/>
+      <node ref="J1" pin="G3" pinfunction="SHIELD_GND" pintype="power_in"/>
+      <node ref="J1" pin="G4" pinfunction="SHIELD_GND" pintype="power_in"/>
+      <node ref="J2" pin="A1" pinfunction="GNDA1" pintype="power_in"/>
+      <node ref="J2" pin="A12" pinfunction="GNDA2" pintype="power_in"/>
+      <node ref="J2" pin="B1" pinfunction="GNDB1" pintype="power_in"/>
+      <node ref="J2" pin="B12" pinfunction="GNDB2" pintype="power_in"/>
+      <node ref="J2" pin="G1" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="G2" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="G3" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="G4" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="S1" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="S2" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="S3" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="S4" pinfunction="GND/SHIELD" pintype="power_in"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="MK1" pin="GND" pintype="power_in"/>
+      <node ref="Q3" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S1" pin="T1" pinfunction="N.O._1" pintype="passive"/>
+      <node ref="S1" pin="T2" pinfunction="N.O._2" pintype="passive"/>
+      <node ref="S2" pin="T1" pinfunction="N.O._1" pintype="passive"/>
+      <node ref="S2" pin="T2" pinfunction="N.O._2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U3" pin="2" pintype="power_in"/>
+      <node ref="U4" pin="12" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="EXP" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="SDO" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="VR1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="27" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="IN" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="IN" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="VPCC" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="VREGIN" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D1-Pad-)">
+      <node ref="D1" pin="-" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D2-Pad-)">
+      <node ref="D2" pin="-" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D3-Pad-)">
+      <node ref="D3" pin="-" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D4-Pad-)">
+      <node ref="D4" pin="-" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D5-Pad-)">
+      <node ref="D5" pin="-" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D6-Pad-)">
+      <node ref="D6" pin="-" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="CD/DAT3" pintype="bidirectional"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(MK1-PadOUT)">
+      <node ref="MK1" pin="OUT" pintype="output"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PROG3" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PROG1" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="THERM" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{TE}" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="STAT1/~{LBO}" pintype="output"/>
+    </net>
+    <net code="48" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="STAT2" pintype="output"/>
+    </net>
+    <net code="49" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="~{PG}" pintype="output"/>
+    </net>
+    <net code="50" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="GPIO2/TXT" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="GPIO3/RXT" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="RSTB" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IO7" pintype="unspecified"/>
+    </net>
+    <net code="54" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="IO6" pintype="unspecified"/>
+    </net>
+    <net code="56" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(J1-PadWP)">
+      <node ref="J1" pin="WP" pinfunction="WP" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J2-PadA2)">
+      <node ref="J2" pin="A2" pinfunction="SSTXP1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J2-PadA3)">
+      <node ref="J2" pin="A3" pinfunction="SSTXN1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J2-PadA8)">
+      <node ref="J2" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J2-PadA10)">
+      <node ref="J2" pin="A10" pinfunction="SSRXN2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J2-PadA11)">
+      <node ref="J2" pin="A11" pinfunction="SSRXP2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J2-PadB2)">
+      <node ref="J2" pin="B2" pinfunction="SSTXP2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J2-PadB3)">
+      <node ref="J2" pin="B3" pinfunction="SSTXN2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-PadB8)">
+      <node ref="J2" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-PadB10)">
+      <node ref="J2" pin="B10" pinfunction="SSRXN1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-PadB11)">
+      <node ref="J2" pin="B11" pinfunction="SSRXP1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="SEL" pintype="input+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="GPIO1/RS485" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="GPIO0/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U4-Pad11)">
+      <node ref="U4" pin="11" pinfunction="SUSPENDB" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U4-Pad13)">
+      <node ref="U4" pin="13" pinfunction="WAKEUP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U4-Pad14)">
+      <node ref="U4" pin="14" pinfunction="SUSPEND" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
