@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2-slide-switch")(type "KiCad")(uri "${KIPRJMOD}/libs/2-slide-switch.kicad_sym")(options "")(descr "DS01-254-L-02BE 2-position DIP switch"))
+  (lib (name "BNO085")(type "KiCad")(uri "${KIPRJMOD}/libs/BNO085.kicad_sym")(options "")(descr "Adafruit 4754 BNO085 9-DoF IMU breakout"))
+  (lib (name "MTS-102")(type "KiCad")(uri "${KIPRJMOD}/libs/MTS-102.kicad_sym")(options "")(descr "MTS-102 SPDT toggle switch"))
+)

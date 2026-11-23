@@ -1,0 +1,5151 @@
+(export
+	(version "E")
+	(design
+		(source "RnA_Flight_Computer.kicad_sch")
+		(date "2026-11-23T23:28:02")
+		(tool "Eeschema 10.0.7-10.0.7~ubuntu24.04.1")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "RnA Rocket Flight Computer - ESP32 Avionics Carrier Board")
+				(company "Rocketry and Aviation Club (RnA), IIT Patna")
+				(rev "1.1")
+				(date "2026-11-23")
+				(source "RnA_Flight_Computer.kicad_sch")
+				(comment
+					(number "1")
+					(value "Designer: Adi Singh")
+				)
+				(comment
+					(number "2")
+					(value "eSim Semester Long Internship Autumn 2026 - Task 7")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "10uF")
+			(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ccb552ef-7ca5-4ca4-94f9-ed4ca881c6f6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7fff5cc-9c4a-47de-a530-dddf191a5dce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10uF")
+			(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c3063608-930b-42e8-b558-88bce8dc49fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "1000uF")
+			(footprint "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "03b3acb0-837e-4553-806e-bb2225bbd4c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "D_Schottky")
+			(footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
+			(description "Schottky diode")
+			(fields
+				(field
+					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4185f467-bc64-41f3-82cb-48dff8a0819e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Conn_01x15_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x15, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x15, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x15_Socket")
+				(description "Generic connector, single row, 01x15, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ddfb31df-884a-478f-b453-e22aa59cdcde")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_01x15_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x15, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x15, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x15_Socket")
+				(description "Generic connector, single row, 01x15, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9cd97a5d-f80f-4a40-a6ba-e2bb0d6d6d82")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Conn_01x08_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x08, script generated")
+			(fields
+				(field
+					(name "Name") "MPU6050")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x08_Socket")
+				(description "Generic connector, single row, 01x08, script generated")
+			)
+			(property
+				(name "Name")
+				(value "MPU6050")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "08d15e1f-dda1-49ef-b11d-270465b3e63e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Name") "BMP180/BMP280")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Name")
+				(value "BMP180/BMP280")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cf56d875-6d1f-42c5-b5d7-9d31b36072e3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "Conn_01x08_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x08, script generated")
+			(fields
+				(field
+					(name "Field") "Micro SD reader")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated")
+			)
+			(libsource
+				(lib "")
+				(part "Conn_01x08_Socket_1")
+				(description "Generic connector, single row, 01x08, script generated")
+			)
+			(property
+				(name "Field")
+				(value "Micro SD reader")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "520a4cac-abf6-4489-b178-7177c7e7a270")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Field") "NRF24")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Field")
+				(value "NRF24")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3e6eefc2-c083-48bf-a02f-462a32851106")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "Conn_01x03_Pin")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Name") "S1")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Name")
+				(value "S1")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71f1e49d-cbae-4e86-9994-3282ca4c5158")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J8")
+			(value "Conn_01x03_Pin")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Name") "S2")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Name")
+				(value "S2")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "69de92b3-96f1-4d95-9811-9587dedd7b97")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J9")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ef462962-9a6a-42e2-8ff0-c56d0b3bfa60")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J10")
+			(value "Conn_01x03_Pin")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Name") "S3")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Name")
+				(value "S3")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c0f14318-a74e-4305-804d-5ccb07870207")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J11")
+			(value "Conn_01x03_Pin")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Name") "S4")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Name")
+				(value "S4")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0ea668db-b08f-4921-a279-d51fe21bc834")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J12")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Field") "VCC")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Field")
+				(value "VCC")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c2b106b-853f-4700-b048-0c2060e68441")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J13")
+			(value "Conn_01x08_Socket")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x08, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x08_Socket")
+				(description "Generic connector, single row, 01x08, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c392a8f3-9d56-4c7c-b6c2-d9d3a42d30e3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J14")
+			(value "Conn_01x03_Pin")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Name") "S5")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Name")
+				(value "S5")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bf07332e-bb88-46ff-b832-8fd750680e65")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J15")
+			(value "Conn_01x08_Socket")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x08, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x08_Socket")
+				(description "Generic connector, single row, 01x08, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "204d96bb-a530-43e7-842c-e8aa67a2ed70")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J16")
+			(value "Screw_Terminal_01x02")
+			(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm")
+			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x02")
+				(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "01f46144-3be7-433e-ae50-817da27f86c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J17")
+			(value "Conn_01x10_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x10, script generated")
+			(fields
+				(field
+					(name "Name") "MPU6500")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x10, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x10_Socket")
+				(description "Generic connector, single row, 01x10, script generated")
+			)
+			(property
+				(name "Name")
+				(value "MPU6500")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e591d89c-9807-446f-8bb9-6ee4458399b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J18")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Field") "GND")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Field")
+				(value "GND")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a544c95-fbe5-4d38-bb4e-a974321bfbc2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J19")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Field") "SDA")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Field")
+				(value "SDA")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad17e570-ec8f-43c6-9706-2db8117de327")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J20")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Field") "SCL")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Field")
+				(value "SCL")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6dec32a3-87ef-4f2a-80f4-bdedc3bf05fe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J21")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c5cf4cd2-4155-489b-9ebd-bb2a78f5edd4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J22")
+			(value "GPI")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Socket")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d976342b-8242-47f7-b266-19fe281d2b77")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J23")
+			(value "GPIO")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x05, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x05_Socket")
+				(description "Generic connector, single row, 01x05, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6e32cc3e-05e8-4b5a-91f9-bd83aa556fc1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J24")
+			(value "Conn_01x02_Socket")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Socket")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "78f4bddc-ed7f-42c4-84ff-0e1539a33d49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J25")
+			(value "Conn_01x02_Socket")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Socket")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "550412dc-29c4-4735-88d1-8c63f769422f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J26")
+			(value "Conn_01x02_Socket")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Socket")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd31b068-7521-4b4f-8a8b-ff96018ea039")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J29")
+			(value "Conn_01x02_Socket")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Socket")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b992f11b-7572-4ce4-a771-55d9b198286c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J30")
+			(value "Conn_01x02_Socket")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Socket")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "160c52a6-a6d2-4ab0-8e02-a384d1b87ff4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a38c6f8-9e3d-4163-b48e-a9963f2799b8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "55aee9e4-e7c6-4433-b32c-ee8bb2871b11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6d588812-6286-4617-afb3-f49dc7a60eda")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2e8717eb-4834-448a-b1be-872351732fae")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5942bbb7-578b-490c-84c5-34d364f91e7c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "88e9d495-e134-4dd9-87a4-19e423395182")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "R")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c9c351d7-dc5a-46ce-a735-027c4585637c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "S1")
+			(value "DS01-254-L-02BE")
+			(footprint "two-way-slide-switch:SW_DS01-254-L-02BE")
+			(description "2 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch")
+			(fields
+				(field
+					(name "MF") "Same Sky")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "7.0mm")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/DS01-254-L-02BE/Same+Sky/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer recommendations")
+				(field
+					(name "PARTREV") "1.0")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/DS01-254-L-02BE/Same+Sky/view-part/?ref=snap")
+				(field
+					(name "MP") "DS01-254-L-02BE")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "CUI")
+				(field
+					(name "Footprint") "two-way-slide-switch:SW_DS01-254-L-02BE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch")
+			)
+			(libsource
+				(lib "2-slide-switch")
+				(part "DS01-254-L-02BE")
+				(description "2 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch")
+			)
+			(property
+				(name "MF")
+				(value "Same Sky")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "7.0mm")
+			)
+			(property
+				(name "Package")
+				(value "None")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/DS01-254-L-02BE/Same+Sky/view-part/?ref=eda")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "1.0")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/DS01-254-L-02BE/Same+Sky/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "DS01-254-L-02BE")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "CUI")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d87acee-9d28-4ac6-a89e-6c0f8f5ae77d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1A")
+						)
+						(pin
+							(num "2A")
+						)
+						(pin
+							(num "1B")
+						)
+						(pin
+							(num "2B")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "MTS-102")
+			(footprint "MTS-102:MTS-102")
+			(fields
+				(field
+					(name "Footprint") "MTS-102:MTS-102")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "MTS-102")
+				(part "MTS-102")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1aff9654-62db-46b2-8062-e457634a4eea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "BNO085")
+			(footprint "Adafruit-BNO085:MODULE_4754")
+			(description "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT / Qwiic")
+			(fields
+				(field
+					(name "MF") "Adafruit")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "4.6mm")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/4754/Adafruit+Industries/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "2021-03-16")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/4754/Adafruit+Industries/view-part/?ref=snap")
+				(field
+					(name "MP") "4754")
+				(field
+					(name "MANUFACTURER") "Adafruit")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "SNAPEDA_PN") "4754")
+				(field
+					(name "Footprint") "Adafruit-BNO085:MODULE_4754")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT / Qwiic")
+			)
+			(libsource
+				(lib "BNO085")
+				(part "4754")
+				(description "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT / Qwiic")
+			)
+			(property
+				(name "MF")
+				(value "Adafruit")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "4.6mm")
+			)
+			(property
+				(name "Package")
+				(value "None")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/4754/Adafruit+Industries/view-part/?ref=eda")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "2021-03-16")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/4754/Adafruit+Industries/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "4754")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Adafruit")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "SNAPEDA_PN")
+				(value "4754")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de296bd0-8979-45a6-b1c8-6e80c3e359b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "JP1_1")
+						)
+						(pin
+							(num "JP2_1")
+						)
+						(pin
+							(num "JP2_4")
+						)
+						(pin
+							(num "JP2_6")
+						)
+						(pin
+							(num "JP2_5")
+						)
+						(pin
+							(num "JP1_4")
+						)
+						(pin
+							(num "JP1_5")
+						)
+						(pin
+							(num "JP1_2")
+						)
+						(pin
+							(num "JP2_2")
+						)
+						(pin
+							(num "JP2_3")
+						)
+						(pin
+							(num "JP1_6")
+						)
+						(pin
+							(num "JP1_3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "LM1117MP-3.3")
+			(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+			(datasheet "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
+			(description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
+				(field
+					(name "Description") "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "LM1117MP-3.3")
+				(description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
+			)
+			(property
+				(name "Sheetname")
+				(value "RnA_Flight_Computer")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RnA_Flight_Computer.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "linear regulator ldo fixed positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?223*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a9401d99-c9ff-462a-82cb-258176a9e611")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "")
+			(part "Conn_01x08_Socket_1")
+			(description "Generic connector, single row, 01x08, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x08_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "2-slide-switch")
+			(part "DS01-254-L-02BE")
+			(description "2 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch")
+			(fields
+				(field
+					(name "Reference") "S")
+				(field
+					(name "Value") "DS01-254-L-02BE")
+				(field
+					(name "Footprint") "DS01-254-L-02BE:SW_DS01-254-L-02BE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch")
+				(field
+					(name "MF") "Same Sky")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "7.0mm")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/DS01-254-L-02BE/Same+Sky/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer recommendations")
+				(field
+					(name "PARTREV") "1.0")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/DS01-254-L-02BE/Same+Sky/view-part/?ref=snap")
+				(field
+					(name "MP") "DS01-254-L-02BE")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "CUI")
+			)
+			(pins
+				(pin
+					(num "1A")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "1B")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2A")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2B")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "BNO085")
+			(part "4754")
+			(description "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT / Qwiic")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "4754")
+				(field
+					(name "Footprint") "4754:MODULE_4754")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT / Qwiic")
+				(field
+					(name "MF") "Adafruit")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "4.6mm")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/4754/Adafruit+Industries/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "2021-03-16")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/4754/Adafruit+Industries/view-part/?ref=snap")
+				(field
+					(name "MP") "4754")
+				(field
+					(name "MANUFACTURER") "Adafruit")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "SNAPEDA_PN") "4754")
+			)
+			(pins
+				(pin
+					(num "JP1_1")
+					(name "VIN")
+					(type "input")
+				)
+				(pin
+					(num "JP1_2")
+					(name "3VO")
+					(type "output")
+				)
+				(pin
+					(num "JP1_3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "JP1_4")
+					(name "SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "JP1_5")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "JP1_6")
+					(name "~{INT}")
+					(type "output")
+				)
+				(pin
+					(num "JP2_1")
+					(name "BT")
+					(type "input")
+				)
+				(pin
+					(num "JP2_2")
+					(name "P0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "JP2_3")
+					(name "P1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "JP2_4")
+					(name "~{RST}")
+					(type "input")
+				)
+				(pin
+					(num "JP2_5")
+					(name "DI")
+					(type "input")
+				)
+				(pin
+					(num "JP2_6")
+					(name "CS")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x02_Socket")
+			(description "Generic connector, single row, 01x02, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x03_Pin")
+			(description "Generic connector, single row, 01x03, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x03_Socket")
+			(description "Generic connector, single row, 01x03, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x04_Socket")
+			(description "Generic connector, single row, 01x04, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x05_Socket")
+			(description "Generic connector, single row, 01x05, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x05_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x05, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x08_Socket")
+			(description "Generic connector, single row, 01x08, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x08_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x10_Socket")
+			(description "Generic connector, single row, 01x10, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x10_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x10, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x15_Socket")
+			(description "Generic connector, single row, 01x15, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x15_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x15, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "Pin_15")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Screw_Terminal_01x02")
+			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "TerminalBlock*:*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Screw_Terminal_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_Schottky")
+			(description "Schottky diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "MTS-102")
+			(part "MTS-102")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "MTS-102")
+				(field
+					(name "Footprint") "MTS-102")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "~")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "~")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "LM1117MP-3.3")
+			(description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
+			(docs "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
+			(footprints
+				(fp "SOT?223*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LM1117MP-3.3")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
+				(field
+					(name "Description") "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VO")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "VI")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "2-slide-switch")
+			(uri "${KIPRJMOD}/libs/2-slide-switch.kicad_sym")
+		)
+		(library
+			(logical "BNO085")
+			(uri "${KIPRJMOD}/libs/BNO085.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KICAD6_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD6_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "MTS-102")
+			(uri "${KIPRJMOD}/libs/MTS-102.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Linear")
+			(uri "${KICAD6_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/3V3")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J21")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "S1")
+				(pin "1B")
+				(pintype "passive")
+			)
+			(node
+				(ref "S1")
+				(pin "2B")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP1_1")
+				(pinfunction "VIN_JP1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "VO_2")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "/AD0")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/CE")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/CLK")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/CLK_2")
+			(class "Default")
+			(node
+				(ref "J15")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J30")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/CMD")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/CS")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/CSN")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP2_6")
+				(pinfunction "CS_JP2_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/D0")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/D4")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP2_4")
+				(pinfunction "~{RST}_JP2_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/D34")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J22")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/DAT1")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/DAT2")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/DIO0")
+			(class "Default")
+			(node
+				(ref "J13")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/INT")
+			(class "Default")
+			(node
+				(ref "J17")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP1_6")
+				(pinfunction "~{INT}_JP1_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "/MISO_2")
+			(class "Default")
+			(node
+				(ref "J15")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J29")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/MOSI_2")
+			(class "Default")
+			(node
+				(ref "J15")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP2_5")
+				(pinfunction "DI_JP2_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "/NSS")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/RST")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/RX0{slash}G03")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J26")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/S1")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/S2")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/S3")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/S4")
+			(class "Default")
+			(node
+				(ref "J11")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/S5")
+			(class "Default")
+			(node
+				(ref "J14")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/SCL")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J20")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J20")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J20")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/SDA")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J19")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/TX0{slash}G01")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J23")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J25")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/VCC(5V)")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J11")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J14")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "~_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/VN{slash}D39")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J22")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "/XCL")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "/XDA")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J11")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J13")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J14")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J16")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J18")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J18")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J18")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J18")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J24")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP1_3")
+				(pinfunction "GND_JP1_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(D1-K)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "VI_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(J16-Pin_1)")
+			(class "Default")
+			(node
+				(ref "J16")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J24")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "~_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(J25-Pin_2)")
+			(class "Default")
+			(node
+				(ref "J25")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J30")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP1_4")
+				(pinfunction "SCL_JP1_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(J26-Pin_2)")
+			(class "Default")
+			(node
+				(ref "J26")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J29")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP1_5")
+				(pinfunction "SDA_JP1_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(U1-P0)")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "S1")
+				(pin "1A")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP2_2")
+				(pinfunction "P0_JP2_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(U1-P1)")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "S1")
+				(pin "2A")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "JP2_3")
+				(pinfunction "P1_JP2_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(J1-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J2-Pin_15-Pad15)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J13-Pin_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J13")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J13-Pin_7-Pad7)")
+			(class "Default")
+			(node
+				(ref "J13")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J13-Pin_8-Pad8)")
+			(class "Default")
+			(node
+				(ref "J13")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J15-Pin_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J15")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J15-Pin_7-Pad7)")
+			(class "Default")
+			(node
+				(ref "J15")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J17-Pin_5-Pad5)")
+			(class "Default")
+			(node
+				(ref "J17")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J17-Pin_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J17")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(SW1-~-Pad3)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "~_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(U1-3VO-PadJP1_2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "JP1_2")
+				(pinfunction "3VO_JP1_2")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(U1-BT-PadJP2_1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "JP2_1")
+				(pinfunction "BT_JP2_1")
+				(pintype "input+no_connect")
+			)
+		)
+	)
+)
