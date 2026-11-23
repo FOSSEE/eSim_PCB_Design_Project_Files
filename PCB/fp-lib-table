@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "ESP-WROOM-32")(type "KiCad")(uri "C:/Users/irfan/Downloads/ESP-WROOM-32")(options "")(descr ""))
+  (lib (name "G5V-1")(type "KiCad")(uri "D:/RELAY_G5V-1-DC5.pretty")(options "")(descr ""))
+  (lib (name "TP4056")(type "KiCad")(uri "C:/Users/irfan/Downloads/TP4056")(options "")(descr ""))
+  (lib (name "NCU15WF104D60RC")(type "KiCad")(uri "C:/Users/irfan/Downloads/NCU15WF104D60RC")(options "")(descr ""))
+)

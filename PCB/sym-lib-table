@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "AD7606")(type "KiCad")(uri "C:/Users/irfan/Downloads/AD7606/AD7606.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP-WROOM-32")(type "KiCad")(uri "C:/Users/irfan/Downloads/ESP-WROOM-32/ESP-WROOM-32.kicad_sym")(options "")(descr ""))
+  (lib (name "J0971CS5VDC.45")(type "KiCad")(uri "C:/Users/irfan/Downloads/J0971CS5VDC.45/J0971CS5VDC.45.kicad_sym")(options "")(descr ""))
+  (lib (name "NCU15WF104D60RC")(type "KiCad")(uri "D:/NCU15WF104D60RC (1)/NCU15WF104D60RC.kicad_sym")(options "")(descr ""))
+  (lib (name "TP4056")(type "KiCad")(uri "C:/Users/irfan/Downloads/TP4056 (1)/TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "G5V-1-DC5")(type "KiCad")(uri "D:/G5V-1-DC5/G5V-1-DC5.kicad_sym")(options "")(descr ""))
+)
