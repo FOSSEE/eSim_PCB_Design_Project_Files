@@ -160,29 +160,3 @@ All libraries are inside the project folder and referenced with relative paths (
 3. If a library is reported missing: **Preferences, Manage Symbol Libraries / Manage Footprint Libraries, Project Specific Libraries**, and confirm the paths start with `${KIPRJMOD}/lib/`.
 4. In Eeschema run **Inspect, Electrical Rules Checker**. In Pcbnew run **Inspect, Design Rules Checker**.
 
-## 10. Reproducing the base project (optional)
-
-`gen_esim_project.py` can regenerate the schematic and a starting PCB placement:
-
-```
-python3 gen_esim_project.py <project_folder> environment
-```
-
-It requires `lib/footprints.pretty` to already be in the project folder, and backs up existing files as `.bak`. The routed layout in this project was completed manually.
-
-## 11. Evaluation checklist
-
-| Criterion | Where to find it |
-|---|---|
-| Complexity of the design | mixed-signal board: power, MCU, clock, I2C, ADC, switching output (Sections 2, 3) |
-| Proper footprint assignment | Section 5; Tools, Assign Footprints in Eeschema |
-| PCB layout quality | Section 6; `environment.kicad_pcb` |
-| Routing quality and PCB practice | Section 6 |
-| Successful DRC | Section 7 |
-| Compatibility with eSim 2.3 / 2.5 | Sections 8, 9 |
-| Documentation quality | this README and the PDF report |
-| Project organisation | Section 8 |
-
-## 12. License
-
-[Choose a license, e.g. MIT for the generator script and CC BY 4.0 for the design files, or "For academic use only".]
