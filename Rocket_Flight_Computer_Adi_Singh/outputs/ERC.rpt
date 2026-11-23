@@ -1,0 +1,41 @@
+ERC report (2026-11-23T23:59:41, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(165.10 mm, 185.42 mm): Symbol #PWR03 Pin 1 [Power input, Line]
+    @(252.73 mm, 133.35 mm): Label 'GND'
+[multiple_net_names]: Both CS and D3 are attached to the same items; CS will be used in the netlist
+    ; warning
+    @(227.33 mm, 77.47 mm): Label 'CS'
+    @(223.52 mm, 158.75 mm): Label 'D3'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(223.52 mm, 161.29 mm): Label 'DAT1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(223.52 mm, 163.83 mm): Label 'DAT2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(226.06 mm, 127.00 mm): Label 'AD0'
+[multiple_net_names]: Both D0 and MISO are attached to the same items; D0 will be used in the netlist
+    ; warning
+    @(223.52 mm, 153.67 mm): Label 'D0'
+    @(227.33 mm, 82.55 mm): Label 'MISO'
+[multiple_net_names]: Both CMD and MOSI are attached to the same items; CMD will be used in the netlist
+    ; warning
+    @(223.52 mm, 156.21 mm): Label 'CMD'
+    @(227.33 mm, 95.25 mm): Label 'MOSI'
+[multiple_net_names]: Both DIO0 and IRQ are attached to the same items; DIO0 will be used in the netlist
+    ; warning
+    @(262.89 mm, 85.09 mm): Label 'DIO0'
+    @(257.81 mm, 85.09 mm): Label 'IRQ'
+
+ ** ERC messages: 8  Errors 0  Warnings 8
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
