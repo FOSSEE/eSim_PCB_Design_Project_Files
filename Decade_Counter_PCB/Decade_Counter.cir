@@ -1,0 +1,39 @@
+* C:\FOSSEE\Decade_Counter\Decade_Counter.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 21-Nov-26 5:13:19 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Net-_C1-Pad1_ GND VDD Lm_7805		
+D3  Net-_D3-Pad1_ Net-_C1-Pad1_ eSim_Diode		
+D4  GND Net-_D3-Pad1_ eSim_Diode		
+D2  GND Net-_D1-Pad1_ eSim_Diode		
+D1  Net-_D1-Pad1_ Net-_C1-Pad1_ eSim_Diode		
+D5  GND VDD eSim_Diode		
+R1  VDD GND 1k		
+C2  Net-_C1-Pad1_ GND 0.1u		
+X2  GND /Trig /CLK VDD Net-_C3-Pad2_ /Trig Net-_R2-Pad2_ VDD LM555N		
+D6  Net-_D6-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D7  Net-_D7-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D8  Net-_D8-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D9  Net-_D9-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D10  Net-_D10-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D11  Net-_D11-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D14  Net-_D14-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D12  Net-_D12-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D15  Net-_D15-Pad1_ Net-_D10-Pad2_ eSim_LED		
+D13  Net-_D13-Pad1_ Net-_D10-Pad2_ eSim_LED		
+R4  Net-_D10-Pad2_ GND 220		
+R2  VDD Net-_R2-Pad2_ 22k		
+R3  Net-_R2-Pad2_ /Trig 22k		
+C3  GND Net-_C3-Pad2_ 0.1u		
+U5  Net-_D11-Pad1_ Net-_D7-Pad1_ Net-_D6-Pad1_ Net-_D8-Pad1_ Net-_D12-Pad1_ Net-_D13-Pad1_ Net-_D9-Pad1_ GND Net-_D14-Pad1_ Net-_D10-Pad1_ Net-_D15-Pad1_ ? GND /CLK GND VDD 4017		
+J2  VDD GND Conn_01x02		
+J1  Net-_D3-Pad1_ Net-_D1-Pad1_ Screw_Terminal_01x02		
+C1  Net-_C1-Pad1_ GND 1000u		
+C4  VDD GND 100u		
+C5  /Trig GND 47u		
+
+.end
