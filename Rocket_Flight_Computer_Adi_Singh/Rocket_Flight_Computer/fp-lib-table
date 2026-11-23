@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit-BNO085")(type "KiCad")(uri "${KIPRJMOD}/libs/Adafruit-BNO085.pretty")(options "")(descr "Adafruit 4754 BNO085 breakout footprint"))
+  (lib (name "MTS-102")(type "KiCad")(uri "${KIPRJMOD}/libs/MTS-102.pretty")(options "")(descr "MTS-102 toggle switch footprint"))
+  (lib (name "two-way-slide-switch")(type "KiCad")(uri "${KIPRJMOD}/libs/two-way-slide-switch.pretty")(options "")(descr "DS01-254-L-02BE DIP switch footprint"))
+)
