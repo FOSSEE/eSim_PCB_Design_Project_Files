@@ -1,0 +1,315 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3252078d-7a02-4692-b691-d227a2c61c87")
+	(paper "A4")
+	(title_block
+		(title "Master sheet")
+		(date "2026-11-23")
+		(rev "v1.0")
+		(company "IIIT NR")
+		(comment 1 "Designed by: Saurabh Sinha")
+	)
+	(lib_symbols)
+	(sheet
+		(at 69.85 59.69)
+		(size 36.83 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "184a75ad-a697-4c1f-bcc3-c2dbf39f8dc6")
+		(property "Sheetname" "bank345"
+			(at 69.85 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank345.kicad_sch"
+			(at 69.85 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 25.4)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "236924ee-4a14-45b0-8f5f-7d1b854aaff7")
+		(property "Sheetname" "ftdi_bridge"
+			(at 68.58 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ftdi_bridge.kicad_sch"
+			(at 68.58 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 58.42)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bda6c28-e21b-4ba9-8d8b-d5095cff45bb")
+		(property "Sheetname" "fpga_power"
+			(at 116.84 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_power.kicad_sch"
+			(at 116.84 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 59.69)
+		(size 36.83 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d9c5273-5c26-4185-b9c6-c543f411db6d")
+		(property "Sheetname" "bank2"
+			(at 21.59 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank2.kicad_sch"
+			(at 21.59 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 25.4)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93030492-137a-401f-b921-488dc3f6d561")
+		(property "Sheetname" "bank1"
+			(at 163.83 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank1.kicad_sch"
+			(at 163.83 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 26.67)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1ed8d8f-245c-4d32-b33e-c0947ce903e1")
+		(property "Sheetname" "bank0"
+			(at 115.57 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank0.kicad_sch"
+			(at 115.57 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 25.4)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d99f2165-6626-421d-a44a-fee53a2868e7")
+		(property "Sheetname" "power_supply"
+			(at 21.59 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 21.59 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MachX04_Canvas"
+				(path "/3252078d-7a02-4692-b691-d227a2c61c87"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
