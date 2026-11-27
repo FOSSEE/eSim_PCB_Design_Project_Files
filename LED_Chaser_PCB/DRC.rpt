@@ -1,0 +1,133 @@
+** Drc report for C:\Users\bxras\eSim-Workspace\LED_Chaser_PCB\LED_Chaser_PCB.kicad_pcb **
+** Created on 2026-11-27 12:47:47 **
+
+** Found 31 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(146.0650 mm, 80.3855 mm): Track [GND] on B.Cu, length 0.0212 mm
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(149.8600 mm, 80.4005 mm): Via [GND] on F.Cu - B.Cu
+    @(149.8600 mm, 80.4005 mm): Via [GND] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+    @(138.4300 mm, 96.5200 mm): Through hole pad 2 [+9V] of R6
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+    @(138.4300 mm, 96.5200 mm): Through hole pad 2 [+9V] of R6
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(114.3000 mm, 76.2000 mm): Via [+9V] on F.Cu - B.Cu
+    @(114.3000 mm, 76.2000 mm): Through hole pad 1 [+9V] of C1
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(113.0400 mm, 100.3600 mm): Via [+9V] on F.Cu - B.Cu
+    @(113.0400 mm, 100.3600 mm): Through hole pad 4 [+9V] of U1
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+    @(138.4300 mm, 96.5200 mm): Through hole pad 2 [+9V] of R6
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(137.8700 mm, 89.9300 mm): Via [+9V] on F.Cu - B.Cu
+    @(137.8700 mm, 89.9300 mm): Through hole pad 2 [+9V] of SW1
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(66.0450 mm, 53.3400 mm): Via [Net-(U2-Pad3)] on F.Cu - B.Cu
+    @(66.0450 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad3)] of R1
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(191.7700 mm, 53.3400 mm): Via [Net-(U2-Pad6)] on F.Cu - B.Cu
+    @(191.7700 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad6)] of R12
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(173.9900 mm, 53.3400 mm): Via [Net-(U2-Pad5)] on F.Cu - B.Cu
+    @(173.9900 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad5)] of R10
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(153.6700 mm, 53.3400 mm): Via [Net-(U2-Pad1)] on F.Cu - B.Cu
+    @(153.6700 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad1)] of R7
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(118.1100 mm, 53.3400 mm): Via [Net-(U2-Pad7)] on F.Cu - B.Cu
+    @(118.1100 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad7)] of R4
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(101.6050 mm, 53.3400 mm): Via [Net-(U2-Pad4)] on F.Cu - B.Cu
+    @(101.6050 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad4)] of R3
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(113.0400 mm, 97.8200 mm): Via [/CLK] on F.Cu - B.Cu
+    @(113.0400 mm, 97.8200 mm): Through hole pad 3 [/CLK] of U1
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(113.0400 mm, 97.8200 mm): Through hole pad 3 [/CLK] of U1
+    @(113.0400 mm, 97.8200 mm): Via [/CLK] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(113.0400 mm, 100.3600 mm): Through hole pad 4 [+9V] of U1
+    @(113.0400 mm, 100.3600 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Through hole pad 2 [+9V] of R6
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Through hole pad 2 [+9V] of R6
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(138.4300 mm, 96.5200 mm): Through hole pad 2 [+9V] of R6
+    @(138.4300 mm, 96.5200 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(118.1100 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad7)] of R4
+    @(118.1100 mm, 53.3400 mm): Via [Net-(U2-Pad7)] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(153.6700 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad1)] of R7
+    @(153.6700 mm, 53.3400 mm): Via [Net-(U2-Pad1)] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(137.8700 mm, 89.9300 mm): Through hole pad 2 [+9V] of SW1
+    @(137.8700 mm, 89.9300 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(173.9900 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad5)] of R10
+    @(173.9900 mm, 53.3400 mm): Via [Net-(U2-Pad5)] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(66.0450 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad3)] of R1
+    @(66.0450 mm, 53.3400 mm): Via [Net-(U2-Pad3)] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(101.6050 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad4)] of R3
+    @(101.6050 mm, 53.3400 mm): Via [Net-(U2-Pad4)] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(114.3000 mm, 76.2000 mm): Through hole pad 1 [+9V] of C1
+    @(114.3000 mm, 76.2000 mm): Via [+9V] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(191.7700 mm, 53.3400 mm): Through hole pad 2 [Net-(U2-Pad6)] of R12
+    @(191.7700 mm, 53.3400 mm): Via [Net-(U2-Pad6)] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

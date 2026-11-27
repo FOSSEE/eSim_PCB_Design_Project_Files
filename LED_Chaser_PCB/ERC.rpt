@@ -1,0 +1,379 @@
+ERC report (26-11-2026 19:04:17, Encoding UTF8)
+
+***** Sheet /
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(40.64 mm, 104.14 mm): Symbol RV1 [R_Potentiometer] Pin 1 [1, Passive, Line]
+    @(72.39 mm, 87.63 mm): Symbol U1 [NE555] Pin 2 [TRIG, Unspecified, Line]
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(48.26 mm, 107.95 mm): Symbol C4 [C_Polarized] Pin 1 [, Passive, Line]
+    @(72.39 mm, 87.63 mm): Symbol U1 [NE555] Pin 2 [TRIG, Unspecified, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; Severity: error (excluded)
+    @(93.98 mm, 76.20 mm): Symbol U2 [4017] Pin 14 [CLK, Input, Clock]
+[pin_to_pin]: Pins of type Unspecified and Power output are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(203.20 mm, 113.03 mm): Symbol #FLG0101 [PWR_FLAG] Pin 1 [pwr, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(93.98 mm, 59.69 mm): Symbol #PWR0110 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(106.68 mm, 68.58 mm): Symbol U2 [4017] Pin 16 [VDD, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(91.44 mm, 74.93 mm): Symbol SW1 [SW_Push] Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(213.36 mm, 90.17 mm): Symbol C2 [C] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(196.85 mm, 90.17 mm): Symbol C5 [C_Polarized] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(196.85 mm, 90.17 mm): Symbol #PWR0128 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(203.20 mm, 116.84 mm): Symbol J1 [Conn_01x02_Female] Pin 1 [Pin_1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 87.63 mm): Symbol U1 [NE555] Pin 7 [DIS, Unspecified, Line]
+    @(40.64 mm, 86.36 mm): Symbol R8 [R] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(200.66 mm, 116.84 mm): Symbol #PWR0126 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power output are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(203.20 mm, 113.03 mm): Symbol #FLG0101 [PWR_FLAG] Pin 1 [pwr, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(87.63 mm, 59.69 mm): Symbol C1 [C] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(106.68 mm, 68.58 mm): Symbol U2 [4017] Pin 16 [VDD, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 87.63 mm): Symbol U1 [NE555] Pin 7 [DIS, Unspecified, Line]
+    @(44.45 mm, 78.74 mm): Symbol R6 [R] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 92.71 mm): Symbol U1 [NE555] Pin 6 [THRS, Unspecified, Line]
+    @(40.64 mm, 104.14 mm): Symbol RV1 [R_Potentiometer] Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 92.71 mm): Symbol U1 [NE555] Pin 6 [THRS, Unspecified, Line]
+    @(48.26 mm, 107.95 mm): Symbol C4 [C_Polarized] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; Severity: warning
+    @(54.61 mm, 92.71 mm): Symbol U1 [NE555] Pin 6 [THRS, Unspecified, Line]
+    @(72.39 mm, 87.63 mm): Symbol U1 [NE555] Pin 2 [TRIG, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 92.71 mm): Symbol U1 [NE555] Pin 6 [THRS, Unspecified, Line]
+    @(36.83 mm, 100.33 mm): Symbol RV1 [R_Potentiometer] Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 97.79 mm): Symbol U1 [NE555] Pin 5 [CV, Unspecified, Line]
+    @(59.69 mm, 107.95 mm): Symbol C3 [C] Pin 1 [, Passive, Line]
+[lib_symbol_issues]: Symbol 'NE555' has been modified in library 'LTspice_Misc'.
+    ; Severity: warning
+    @(63.50 mm, 90.17 mm): Symbol U1 [NE555]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(106.68 mm, 62.23 mm): Symbol #PWR0113 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(91.44 mm, 69.85 mm): Symbol #PWR0112 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Input are connected
+    ; Severity: warning
+    @(72.39 mm, 92.71 mm): Symbol U1 [NE555] Pin 3 [OUT, Unspecified, Line]
+    @(93.98 mm, 76.20 mm): Symbol U2 [4017] Pin 14 [CLK, Input, Clock]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(82.55 mm, 91.44 mm): Symbol R9 [R] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 87.63 mm): Symbol U1 [NE555] Pin 2 [TRIG, Unspecified, Line]
+    @(36.83 mm, 100.33 mm): Symbol RV1 [R_Potentiometer] Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(72.39 mm, 82.55 mm): Symbol #PWR0114 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(48.26 mm, 115.57 mm): Symbol C4 [C_Polarized] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(59.69 mm, 116.84 mm): Symbol #PWR0106 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(82.55 mm, 91.44 mm): Symbol #PWR0116 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(106.68 mm, 111.76 mm): Symbol U2 [4017] Pin 8 [VSS, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(92.71 mm, 114.30 mm): Symbol #PWR0102 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(93.98 mm, 78.74 mm): Symbol U2 [4017] Pin 13 [CKEN, Input, Inverted]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(158.75 mm, 105.41 mm): Symbol D9 [LED] Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(158.75 mm, 87.63 mm): Symbol D7 [LED] Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(167.64 mm, 105.41 mm): Symbol #PWR0122 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(167.64 mm, 87.63 mm): Symbol #PWR0109 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(158.75 mm, 96.52 mm): Symbol D8 [LED] Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(158.75 mm, 114.30 mm): Symbol D10 [LED] Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(167.64 mm, 96.52 mm): Symbol #PWR0108 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(167.64 mm, 114.30 mm): Symbol #PWR0125 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(158.75 mm, 123.19 mm): Symbol D11 [LED] Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(208.28 mm, 72.39 mm): Symbol D1 [LED] Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(203.20 mm, 119.38 mm): Symbol J1 [Conn_01x02_Female] Pin 2 [Pin_2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(80.01 mm, 59.69 mm): Symbol C1 [C] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(76.20 mm, 59.69 mm): Symbol #PWR0111 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(106.68 mm, 114.30 mm): Symbol #PWR0101 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(54.61 mm, 82.55 mm): Symbol #PWR0104 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(44.45 mm, 71.12 mm): Symbol #PWR0103 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(44.45 mm, 71.12 mm): Symbol R6 [R] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(193.04 mm, 72.39 mm): Symbol R11 [R] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(93.98 mm, 59.69 mm): Symbol #PWR0110 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(106.68 mm, 62.23 mm): Symbol #PWR0113 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(91.44 mm, 74.93 mm): Symbol SW1 [SW_Push] Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(91.44 mm, 69.85 mm): Symbol #PWR0112 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(189.23 mm, 72.39 mm): Symbol #PWR0121 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+    @(213.36 mm, 90.17 mm): Symbol #PWR0129 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(48.26 mm, 115.57 mm): Symbol #PWR0105 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(59.69 mm, 115.57 mm): Symbol C3 [C] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(167.64 mm, 123.19 mm): Symbol #PWR0124 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(212.09 mm, 72.39 mm): Symbol #PWR0130 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(196.85 mm, 97.79 mm): Symbol #PWR0123 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(213.36 mm, 97.79 mm): Symbol #PWR0131 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(196.85 mm, 97.79 mm): Symbol C5 [C_Polarized] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(213.36 mm, 97.79 mm): Symbol C2 [C] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(199.39 mm, 121.92 mm): Symbol #PWR0127 [GND] Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power output are connected
+    ; Severity: warning
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+    @(215.90 mm, 113.03 mm): Symbol #FLG0102 [PWR_FLAG] Pin 1 [pwr, Power output, Line]
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(158.75 mm, 60.96 mm): Symbol D4 [LED] Pin 1 [K, Passive, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; Severity: warning
+    @(167.64 mm, 52.07 mm): Symbol #PWR0117 [GND] Pin 1 [GND, Power input, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; Severity: warning
+    @(167.64 mm, 60.96 mm): Symbol #PWR0118 [GND] Pin 1 [GND, Power input, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(158.75 mm, 43.18 mm): Symbol D2 [LED] Pin 1 [K, Passive, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; Severity: warning
+    @(166.37 mm, 43.18 mm): Symbol #PWR0107 [GND] Pin 1 [GND, Power input, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(158.75 mm, 52.07 mm): Symbol D3 [LED] Pin 1 [K, Passive, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(158.75 mm, 78.74 mm): Symbol D6 [LED] Pin 1 [K, Passive, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; Severity: warning
+    @(167.64 mm, 78.74 mm): Symbol #PWR0120 [GND] Pin 1 [GND, Power input, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Passive and Unspecified are connected
+    ; Severity: warning
+    @(158.75 mm, 69.85 mm): Symbol D5 [LED] Pin 1 [K, Passive, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; Severity: warning
+    @(167.64 mm, 69.85 mm): Symbol #PWR0119 [GND] Pin 1 [GND, Power input, Line]
+    @(72.39 mm, 82.55 mm): Symbol U1 [NE555] Pin 1 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(54.61 mm, 82.55 mm): Symbol #PWR0104 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(72.39 mm, 97.79 mm): Symbol #PWR0115 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(44.45 mm, 71.12 mm): Symbol #PWR0103 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(44.45 mm, 71.12 mm): Symbol R6 [R] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(193.04 mm, 72.39 mm): Symbol R11 [R] Pin 2 [, Passive, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol #PWR0115 [+9V] Pin 1 [+9V, Power input, Line]
+    @(54.61 mm, 82.55 mm): Symbol U1 [NE555] Pin 8 [Vcc, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(189.23 mm, 72.39 mm): Symbol #PWR0121 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(213.36 mm, 90.17 mm): Symbol #PWR0129 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(213.36 mm, 90.17 mm): Symbol C2 [C] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(196.85 mm, 90.17 mm): Symbol #PWR0128 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(196.85 mm, 90.17 mm): Symbol C5 [C_Polarized] Pin 1 [, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(200.66 mm, 116.84 mm): Symbol #PWR0126 [+9V] Pin 1 [+9V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(203.20 mm, 116.84 mm): Symbol J1 [Conn_01x02_Female] Pin 1 [Pin_1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; Severity: warning
+    @(72.39 mm, 97.79 mm): Symbol U1 [NE555] Pin 4 [RST, Unspecified, Line]
+    @(87.63 mm, 59.69 mm): Symbol C1 [C] Pin 1 [, Passive, Line]
+
+ ** ERC messages: 94  Errors 1  Warnings 93
